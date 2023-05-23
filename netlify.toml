@@ -2,7 +2,6 @@
 
 [build]
   command = "hugo"
-  publish = "public"
 
 [build.environment]
   NODE_ENV = "production"
