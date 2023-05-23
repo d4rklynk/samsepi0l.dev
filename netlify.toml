@@ -1,7 +1,7 @@
 # netlify.toml
 
 [build]
-  command = "hugo"
+  command = "hugo --gc --minify -b $URL"
 
 [build.environment]
   NODE_ENV = "production"
