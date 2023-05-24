@@ -1,7 +1,7 @@
 # netlify.toml
 
 [build]
-  command = "hugo --gc --minify -b $URL"
+  command = "hugo --gc -b $URL"
   publish = "public"
 
 [build.environment]
@@ -10,8 +10,8 @@
   TZ = "Europe/Paris"  # Set to preferred timezone
 
 [context.production.environment]
-  HUGO_VERSION = "0.112.2"
+  HUGO_VERSION = "0.104.1"
   HUGO_ENV = "production"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.112.2"
+  HUGO_VERSION = "0.104.1"
