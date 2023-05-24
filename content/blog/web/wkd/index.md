@@ -1,7 +1,7 @@
 ---
 title: "Un bref guide sur WKD"
 date: 2023-05-11
-tags: ['WKD', 'Mail', 'Cybersec']
+tags: ['WKD', 'Mail']
 ---
 
 Super ! Vous venez de créer votre clé PGP et vous pouvez maintenant discuter par mail de Zelda Tears Of The Kingdom (qui est au passage incroyable) à votre meilleur ami. Mais voilà, vous devez lui donner votre clé publique, donc vous vous décidez de mettre votre clé publique sur votre site web pour simplifier la vie des gens qui veulent vous envoyer des mails chiffrés. Cependant, votre ami commence à en avoir marre d'aller à chaque fois chercher les clés publiques de chacun en trifouillant partout sur le web 😅️. Et c'est tout à fait compréhensible... c'est pas comme si le chiffrement des mails était déjà assez pénible comme ça... 😒️.
