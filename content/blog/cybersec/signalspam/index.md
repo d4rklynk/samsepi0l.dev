@@ -6,7 +6,7 @@ series: ["Signaler les fraudes"]
 series_order: 2
 ---
 
-Si vous souhaitez arrêter de recevoir des spam, je vous conseille d'utiliser [SimpleLogin](https://simplelogin.io/fr/) ou [https://anonaddy.com/](https://anonaddy.com/). Ce sont des services d'aliasing qui vous permettent de créer plein d'adresses mail dis "alias", c'est à dire que les tous les mails que vous recevrez sur ces alias vont en fait être redirigés vers votre boîte mail principale (Gmail, Proton Mail, Outlook, etc...).
+Si vous souhaitez arrêter de recevoir des spam, je vous conseille d'utiliser [SimpleLogin](https://simplelogin.io/fr/) ou [AnonAddy](https://anonaddy.com/). Ce sont des services d'aliasing qui vous permettent de créer plein d'adresses mail dis "alias", c'est à dire que les tous les mails que vous recevrez sur ces alias vont en fait être redirigés vers votre boîte mail principale (Gmail, Proton Mail, Outlook, etc...).
 
 L'avantage dans ces services et de pouvoir toujours protéger votre adresse mail principale en la cachant systématiquement aux sites web sur lesquels vous vous connecterez. Puisque, quand vous donnez un alias à un site web, il ne peut pas connaître votre adresse originel. Si ce site vous envoie trop de mail, vous pouvez soit bloquer le contact dans SimpleLogin, désactiver ou supprimer l'alias.
 
