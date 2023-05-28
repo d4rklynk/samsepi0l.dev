@@ -17,5 +17,9 @@ jobs:
         with:
           ruby-version: 3.1.4
 
+      - name: Install Dependencies
+        run: |
+          gem install rest-client
+
       - name: Run update_hugo.rb script
         run: ruby update_hugo.rb
