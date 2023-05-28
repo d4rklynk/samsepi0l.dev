@@ -12,7 +12,7 @@ update_hugo_version() {
   else
     if [[ $file_content =~ $pattern ]]; then
       updated_content=$(echo "$file_content" | sed "s@$pattern@HUGO_VERSION = \"$new_version\"@")
-      echo "$updated_content" > "$file_path"
+      echo "$updated_content" | tee "$file_path"
       echo "Hugo version updated to $new_version successfully!"
     else
       echo "The target line was not found in the file."
@@ -24,4 +24,3 @@ version=$(curl -sSL "https://github.com/gohugoio/hugo/releases/latest" | grep -o
 file_path="netlify.toml"
 
 update_hugo_version "$file_path" "$version"
-
