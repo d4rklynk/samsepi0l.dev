@@ -3,7 +3,7 @@ title: "Comment signaler les mails frauduleux"
 date: 2023-05-27
 tags: ["Cybersec", "Mail"]
 series: ["Signaler les fraudes"]
-series_order: 1
+series_order: 2
 ---
 
 Si vous souhaitez arrêter de recevoir des spam, je vous conseille d'utiliser [SimpleLogin](https://simplelogin.io/fr/) ou [https://anonaddy.com/](https://anonaddy.com/). Ce sont des services d'aliasing qui vous permettent de créer plein d'adresses mail dis "alias", c'est à dire que les tous les mails que vous recevrez sur ces alias vont en fait être redirigés vers votre boîte mail principale (Gmail, Proton Mail, Outlook, etc...).
