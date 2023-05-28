@@ -27,6 +27,8 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+        with:
+          node-version: '16'
 
       # Runs a single command using the runners shell
       - name: Update the netlify.toml file to the latest hugo version
