@@ -15,7 +15,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2.2
+          ruby-version: 3.1.4
 
       - name: Run update_hugo.rb script
         run: ruby update_hugo.rb
