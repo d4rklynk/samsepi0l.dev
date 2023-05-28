@@ -11,7 +11,7 @@ update_hugo_version() {
     echo "Hugo is already up to date (version $new_version)"
   else
     if [[ $file_content =~ $pattern ]]; then
-      updated_content=$(echo "$file_content" | sed "s/$pattern/HUGO_VERSION = \"$new_version\"/")
+      updated_content=$(echo "$file_content" | sed "s@$pattern@HUGO_VERSION = \"$new_version\"@")
       echo "$updated_content" > "$file_path"
       echo "Hugo version updated to $new_version successfully!"
     else
