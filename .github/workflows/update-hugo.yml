@@ -16,7 +16,7 @@ jobs:
       - name: Get Latest Hugo Release
         id: get-hugo-release
         run: |
-          echo "::set-env name=HUGO_VERSION::$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r '.tag_name' | cut -d 'v' -f 2)"
+          echo "HUGO_VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r '.tag_name' | cut -d 'v' -f 2)" >> $GITHUB_ENV
 
       - name: Read netlify.toml
         id: read-netlify-toml
@@ -38,4 +38,3 @@ jobs:
           git config --global user.email "actions@users.noreply.github.com"
           git commit -am "Update Hugo version"
           git push
-
