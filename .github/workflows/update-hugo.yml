@@ -3,36 +3,39 @@ name: Update Hugo Version
 on:
   schedule:
     - cron: '0 */3 * * *'  # Schedule the workflow to run every 3 hours
-  workflow_dispatch:
+  workflow_disptach:
 
 jobs:
-  update_hugo_version:
+  update-hugo:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
-      - name: Get latest Hugo release
-        id: get_hugo_version
+      - name: Get Latest Hugo Release
+        id: get-hugo-release
         run: |
-          VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r '.tag_name' | cut -d "v" -f 2)
-          echo "::set-output name=version::$VERSION"
+          echo "::set-env name=HUGO_VERSION::$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r '.tag_name')"
 
-      - name: Check if Hugo version is up to date
-        id: check_hugo_version
+      - name: Read netlify.toml
+        id: read-netlify-toml
         run: |
-          HUGO_VERSION=$(hugo version --template="{{.Version}}")
-          if [ "$HUGO_VERSION" == "${{ steps.get_hugo_version.outputs.version }}" ]; then
-            echo "Hugo version is already up to date."
-            exit 0
-          fi
+          echo "::set-output name=hugo_version::$(grep -oP 'hugo_version\s=\s"\K[^"]+' netlify.toml)"
 
       - name: Update netlify.toml
+        id: update-netlify-toml
         run: |
-          echo "HUGO_VERSION = \"${{ steps.get_hugo_version.outputs.version }}\"" > netlify.toml
+          if [[ "${{ steps.read-netlify-toml.outputs.hugo_version }}" != "${{ env.HUGO_VERSION }}" ]]; then
+            sed -i "s/hugo_version = \"[^\"]*\"/hugo_version = \"$HUGO_VERSION\"/g" netlify.toml
+            echo "Hugo version updated to ${{ env.HUGO_VERSION }}"
+          else
+            echo "Hugo version is already up to date (${HUGO_VERSION})"
+          fi
+
+      - name: Commit and Push Changes
+        run: |
           git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add netlify.toml
-          git commit -m "Update Hugo version"
+          git config --global user.email "actions@users.noreply.github.com"
+          git commit -am "Update Hugo version"
           git push
