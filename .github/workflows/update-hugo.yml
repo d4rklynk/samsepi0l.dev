@@ -1,0 +1,38 @@
+name: Update Hugo Version
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'  # Schedule the workflow to run every 3 hours
+  workflow_dispatch:
+
+jobs:
+  update_hugo_version:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Get latest Hugo release
+        id: get_hugo_version
+        run: |
+          VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r '.tag_name' | cut -d "v" -f 2)
+          echo "::set-output name=version::$VERSION"
+
+      - name: Check if Hugo version is up to date
+        id: check_hugo_version
+        run: |
+          HUGO_VERSION=$(hugo version --template="{{.Version}}")
+          if [ "$HUGO_VERSION" == "${{ steps.get_hugo_version.outputs.version }}" ]; then
+            echo "Hugo version is already up to date."
+            exit 0
+          fi
+
+      - name: Update netlify.toml
+        run: |
+          echo "HUGO_VERSION = \"${{ steps.get_hugo_version.outputs.version }}\"" > netlify.toml
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add netlify.toml
+          git commit -m "Update Hugo version"
+          git push
