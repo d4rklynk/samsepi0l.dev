@@ -16,23 +16,22 @@ jobs:
       - name: Get Latest Hugo Release
         id: get-hugo-release
         run: |
-          echo "::set-env name=HUGO_VERSION::$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r '.tag_name')"
+          echo "HUGO_VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r '.tag_name')" >> $GITHUB_ENV
 
       - name: Read netlify.toml
         id: read-netlify-toml
         run: |
-          echo "::set-output name=hugo_version::$(grep -oP 'hugo_version\s=\s"\K[^"]+' netlify.toml)"
+          echo "::set-output name=hugo_version::$(grep -oP 'HUGO_VERSION = \"\K[^"]+' netlify.toml)"
 
       - name: Update netlify.toml
         id: update-netlify-toml
         run: |
           if [[ "${{ steps.read-netlify-toml.outputs.hugo_version }}" != "${{ env.HUGO_VERSION }}" ]]; then
-            sed -i "s/hugo_version = \"[^\"]*\"/hugo_version = \"$HUGO_VERSION\"/g" netlify.toml
+            sed -i "s/HUGO_VERSION = \"[^\"]*\"/HUGO_VERSION = \"${{ env.HUGO_VERSION }}\"/g" netlify.toml
             echo "Hugo version updated to ${{ env.HUGO_VERSION }}"
           else
             echo "Hugo version is already up to date (${HUGO_VERSION})"
-          fi
-
+      
       - name: Commit and Push Changes
         run: |
           git config --global user.name "GitHub Actions"
