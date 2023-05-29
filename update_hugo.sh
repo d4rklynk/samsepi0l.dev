@@ -18,7 +18,11 @@ sed -i "s/^HUGO_VERSION = \".*\"/HUGO_VERSION = \"$latest_version\"/" netlify.to
 # Set git config
 git config --global user.email "contact@simpleprivacy.fr"
 git config --global user.name "d4rklynk"
+
 # Commit the changes
 git add netlify.toml
 git commit -m "Update Hugo version to $latest_version" --quiet
-git push origin HEAD:main
+
+# Push the changes to the remote branch
+git push https://githb.com/d4rklynk/samsepi0l.dev.git HEAD:main
+
