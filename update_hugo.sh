@@ -24,5 +24,5 @@ git add netlify.toml
 git commit -m "Update Hugo version to $latest_version" --quiet
 
 # Push the changes to the remote branch
-git push https://githb.com/d4rklynk/samsepi0l.dev.git HEAD:main
+git push https://github.com/d4rklynk/samsepi0l.dev.git HEAD:main
 
