@@ -2,39 +2,16 @@ name: Update Hugo Version
 
 on:
   schedule:
-    - cron: '0 */3 * * *'  # Schedule the workflow to run every 3 hours
+    - cron: "0 */3 * * *"
   workflow_dispatch:
 
 jobs:
-  update-hugo:
+  update_hugo_version:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Check out repository
         uses: actions/checkout@v3
 
-      - name: Get Latest Hugo Release
-        id: get-hugo-release
-        run: |
-          echo "HUGO_VERSION=$(curl -s https://api.github.com/repos/gohugoio/hugo/releases/latest | jq -r '.tag_name' | cut -d 'v' -f 2)" >> $GITHUB_ENV
-
-      - name: Read netlify.toml
-        id: read-netlify-toml
-        run: |
-          echo "hugo_version=$(grep -oP 'HUGO_VERSION = \"\K[^"]+' netlify.toml)" >> $GITHUB_ENV
-
-      - name: Update netlify.toml
-        id: update-netlify-toml
-        run: |
-          if [[ "${{ env.hugo_version }}" != "${{ env.HUGO_VERSION }}" ]]; then
-            sed -i "s/HUGO_VERSION = \"[^\"]*\"/HUGO_VERSION = \"${{ env.HUGO_VERSION }}\"/g" netlify.toml
-            echo "Hugo version updated to ${{ env.HUGO_VERSION }}"
-          else
-            echo "Hugo version is already up to date (${HUGO_VERSION})"
-
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@users.noreply.github.com"
-          git commit -am "Update Hugo version"
-          git push
+      - name: Update Hugo Version
+        run: bash update_hugo_version.sh
