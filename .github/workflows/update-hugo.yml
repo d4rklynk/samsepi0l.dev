@@ -3,7 +3,7 @@ name: Update Hugo Version
 on:
   schedule:
     - cron: '0 */3 * * *'  # Schedule the workflow to run every 3 hours
-  workflow_disptach:
+  workflow_dispatch:
 
 jobs:
   update-hugo:
