@@ -1,5 +1,7 @@
 # samsepi0l.dev
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a94ba769-bad3-4756-bda7-5cc1b7c3a574/deploy-status)](https://app.netlify.com/sites/samsepi0l/deploys)
+
 My personal blog with [Blowfish](https://github.com/nunocoracao/blowfish) Hugo theme.
 
 Some improvements:
