@@ -3,7 +3,7 @@ title: "Comment signaler les SMS frauduleux"
 date: 2023-06-13
 Tags: ["Cybersec"]
 series: ["Signaler les fraudes"]
-series_order: 1
+series_order: 3
 ---
 
 Le numéro 33700 détenu par l'[Association française du multimédia mobile](https://af2m.org/) et le numéro français pour signaler les SMS frauduleux.
