@@ -6,7 +6,7 @@ tar xvf ./*.tar.gz
 chmod u+x ./hugo
 
 if [ "$CF_PAGES_BRANCH" == "main" ]; then
-  ./hugo --gc
+  ./hugo --gc && rm -rf cache
 else
-  ./hugo --gc -b "$CF_PAGES_URL"
+  ./hugo --gc -b "$CF_PAGES_URL" && rm -rf cache
 fi
