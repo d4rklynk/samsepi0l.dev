@@ -61,7 +61,7 @@ Le mail était en réalité **tout à fait légitime**.
 
 En réalité, pour les SMS, c'est exactement la même procédure que pour les mails, je vais donc pas m'attarder là-dessus car de toute façon, vous devriez suivre la méthode que je vais ci-dessous vous expliquer.
 
-Cependant, je vous invite à regarder cette vidéo qui m'a donné envie d'écrire cette suite d'articles :
+Cependant, je vous invite à regarder cette vidéo qui m'a donné envie d'écrire cette suite d'articles, elle est excellente et vous permettra de comprendre comment les fraudeurs si prennent pour vous extorquer :
 
 {{< youtube id="6Jv0EzXdQbk" >}}
 
