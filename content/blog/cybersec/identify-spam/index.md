@@ -63,11 +63,11 @@ En réalité, pour les SMS, c'est exactement la même procédure que pour les ma
 
 Cependant, je vous invite à regarder cette vidéo qui m'a donné envie d'écrire cette suite d'articles :
 
-{{% youtube id="6Jv0EzXdQbk" /%}}
+{{< youtube id="6Jv0EzXdQbk" >}}
 
 Voici une règle de base à respecter :
 
-- S'il est écrit "*ne partagez pas ce code avec personne*" pour les codes de vérification, ne le partagez à **PERSONNE**.
+- S'il est écrit "*ne partagez ce code avec personne*" pour les codes de vérification, ne le partagez à **PERSONNE**.
 
 # Comment ne plus se faire avoir
 
