@@ -61,13 +61,13 @@ Le mail était en réalité **tout à fait légitime**.
 
 En réalité, pour les SMS, c'est exactement la même procédure que pour les mails, je vais donc pas m'attarder là-dessus car de toute façon, vous devriez suivre la méthode que je vais ci-dessous vous expliquer.
 
-Cependant, je vous invite à regarder cette vidéo qui m'a donné envie d'écrire cette suite d'articles, elle est excellente et vous permettra de comprendre comment les fraudeurs si prennent pour vous extorquer :
+Cependant, je vous invite à regarder cette vidéo qui m'a donné envie d'écrire cette suite d'articles :
 
-{{< youtube id="6Jv0EzXdQbk" >}}
+{{% youtube id="6Jv0EzXdQbk" /%}}
 
 Voici une règle de base à respecter :
 
-- Si il est écris "*ne partagez pas ce code à personne*" pour les codes de vérification, ne le partagez à **PERSONNE**.
+- S'il est écrit "*ne partagez pas ce code avec personne*" pour les codes de vérification, ne le partagez à **PERSONNE**.
 
 # Comment ne plus se faire avoir
 
