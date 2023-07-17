@@ -63,7 +63,7 @@ En réalité, pour les SMS, c'est exactement la même procédure que pour les ma
 
 Cependant, je vous invite à regarder cette vidéo qui m'a donné envie d'écrire cette suite d'articles :
 
-{{% youtube id="6Jv0EzXdQbk" /%}}
+{{< youtube id="6Jv0EzXdQbk" >}}
 
 Voici une règle de base à respecter :
 
