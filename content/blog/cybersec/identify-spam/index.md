@@ -1,6 +1,6 @@
 ---
 title: "Identifier les mails, les appels et les SMS frauduleux"
-date: 2023-06-27
+date: 2023-07-17
 tags: ["Cybersec", "Mail", "SMS"]
 series: ["Signaler les fraudes"]
 series_order: 1
@@ -20,7 +20,7 @@ Voici l'exemple d'un mail qui me parait très louche.
 
 Le fameux problème des frais de port.
 
-Premièrement, vous ne devez pas vous fier à la légitimité d'un mail uniquement via les logos/images ou les fautes d'orthographe. Typiquement, j'ai déjà vu plusieurs fois des mails de La Poste qui ressemblent très fortement à des arnaques (adresse mail bizarre, fautes d'orthographe, etc.) et qui étaient pourtant bien légitime !
+Premièrement, vous ne devez pas vous fier à la légitimité d'un mail uniquement via les logos/images ou les fautes d'orthographe. Typiquement, j'ai déjà vu plusieurs fois des mails de La Poste qui ressemblent très fortement à des arnaques (adresse mail bizarre, fautes d'orthographe, etc.) et qui étaient pourtant bien légitimes !
 
 Le mail me parait légitime mais je ne l'ai jamais vu auparavant.
 
