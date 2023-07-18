@@ -47,19 +47,19 @@ Je tape donc `notif-laposte.info` (le nom de domaine étant tout ce qui suit le 
 
 ---
 
-Ce qui nous intéresse ici, c'est la **date de création** du nom de domaine (aussi appelé date d'enregistrement) qui est une information systématiquement disponible au public, car un nom de domaine créé en vue d'une arnaque est souvent très jeune (n'a souvent pas plus d'un mois), si nous somme en Juillet, un nom de domaine pour une arnaque a de fortes chances d'avoir été créé en Juin. Les noms de domaine qui servent pour les arnaques sont souvent bloqués rapidement par la suite, ces noms de domaines ont généralement une vie très brève.
+Ce qui nous intéresse ici, c'est la **date de création** du nom de domaine (aussi appelé date d'enregistrement) qui est une information systématiquement disponible au public. Un nom de domaine créé en vue d'une arnaque est souvent très jeune (n'a souvent pas plus d'un mois), si nous somme en Juillet, un nom de domaine pour une arnaque a de fortes chances d'avoir été créé en Juin. Les noms de domaine qui servent pour les arnaques sont souvent bloqués rapidement par la suite, ces noms de domaines ont généralement une vie très brève.
 
 `notif-laposte.info` existe depuis Février 2020, c'est probablement un nom de domaine légitime, la probabilité qu'un nom de domaine pour une arnaque existe encore au bout de 3 ans est extrêmement infime.
 
 Je reprends mon numéro de colis, pas celui noté dans le mail mais bien celui qui est noté sur le site **original** où j'ai effectué mon achat (Amazon, Fnac, etc.).
 
-Je vais sur le site de La Poste, puis j'accède au service de suivi de colis. Et là, je remarque en effet que je dois payer des frais de port (car oui je l'avais acheté aux États-Unis).
+Je vais sur le site de La Poste, puis j'accède au service de suivi de colis. Et là, je remarque en effet que je dois payer des frais de port (car oui j'avais acheté un produit venant des États-Unis).
 
 Le mail était en réalité **tout à fait légitime**.
 
 ## SMS
 
-En réalité, pour les SMS, c'est exactement la même procédure que pour les mails, je vais donc pas m'attarder là-dessus car de toute façon, vous devriez suivre la méthode que je vais ci-dessous vous expliquer.
+En réalité, pour les SMS, c'est exactement la même procédure que pour les mails, je ne vais donc pas m'attarder dessus puisque de toute façon, vous devriez suivre la méthode que je vais ci-dessous vous expliquer.
 
 Cependant, je vous invite à regarder cette vidéo qui m'a donné envie d'écrire cette suite d'articles :
 
@@ -71,9 +71,9 @@ Voici une règle de base à respecter :
 
 # Comment ne plus se faire avoir
 
-Alors, la technique que personnellement j'utilise est assez simple, elle est basé sur le modèle [Zero Trust](https://wonderfall.space/evidence-based-security/#le-mod-le-id-al-zero-trust-security).
+Alors, la technique que j'utilise personnellement est assez simple, elle est basé sur le modèle [Zero Trust](https://wonderfall.space/evidence-based-security/#le-mod-le-id-al-zero-trust-security).
 
-Voici les règles à respecter QUELQUE soit le mail ou le SMS :
+Voici les règles à respecter **QUELQUE** soit le mail ou le SMS :
 
 - Ne cliquez **JAMAIS** sur aucun lien.
 - Allez sur le site présumé via votre canal **HABITUEL** (via la barre de favori de votre navigateur, via votre application, etc.) et vérifiez les informations sur le dit-site.
