@@ -24,7 +24,7 @@ Attention, cela reste de l’**atténuation** de bruit et non du silence complet
 
 J'avais pas d'autres termes pour définir ça, mais je vous conseille d'acheter ou de prendre un objet (si possible silencieux pour ne pas déranger les autres) qui vous permettra de déstresser et de faire ces fameux gestes répétitifs qu'on aime tant !
 
-Voici un petit ensemble d'objet sympas que j'ai ou que je connais (qui sont l'inverse de silencieux 😅️).
+Voici quelques totems que je vous suggère (qui sont l'inverse de silencieux 😅️).
 
 - [Fidget Cube](https://www.amazon.fr/VAPIAO-FidgetCube-Noir/dp/B07T97VR3N/ref=sr_1_4?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=cube+bouton+autiste&sr=8-4)
 - [Infinity Cube](https://www.amazon.fr/dp/B07V43JNZ7/ref=twister_B081GBCVLV)
