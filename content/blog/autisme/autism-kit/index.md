@@ -40,8 +40,12 @@ Quelques bouquins excellents :
 - [Guide de survie de la personne autiste](https://www.fnac.com/a13019480/Jean-Philippe-Piat-Guide-de-survie-de-la-personne-autiste)
 - [La Différence invisible](https://www.fnac.com/a9693143/Julie-Dachez-La-Difference-invisible) (BD)
 
-## Vidéos
+## Cinéma et télévision
 
-Vidéos à regarder !
+### Vidéos !
 
 {{< youtube id="joucXLKXbO8" >}}
+
+### Cinéma
+
+- [Atypical - Netflix](https://www.netflix.com/fr/title/80117540)
