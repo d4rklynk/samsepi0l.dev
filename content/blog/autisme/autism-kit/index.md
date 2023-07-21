@@ -42,7 +42,7 @@ Quelques bouquins excellents :
 
 ## Cinéma et télévision
 
-### Vidéos !
+### Vidéos
 
 {{< youtube id="joucXLKXbO8" >}}
 
