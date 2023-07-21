@@ -10,9 +10,9 @@ Comment identifier un spam ? Faut-il douter de tous les mails ou uniquement de c
 
 Je vais ici vous expliquer comment identifier un mail frauduleux. Mais au-delà de l'identification, je vais vous montrer comment faire pour ne plus jamais se faire avoir.
 
-# Identification
+## Identification
 
-## Mails
+### Mails
 
 Voici l'exemple d'un mail qui me parait très louche.
 
@@ -57,7 +57,7 @@ Je vais sur le site de La Poste, puis j'accède au service de suivi de colis. Et
 
 Le mail était en réalité **tout à fait légitime**.
 
-## SMS
+### SMS
 
 En réalité, pour les SMS, c'est exactement la même procédure que pour les mails, je ne vais donc pas m'attarder dessus puisque de toute façon, vous devriez suivre la méthode que je vais ci-dessous vous expliquer.
 
@@ -69,7 +69,7 @@ Voici une règle de base à respecter :
 
 - S'il est écrit "*ne partagez ce code avec personne*" pour les codes de vérification, ne le partagez à **PERSONNE**.
 
-# Comment ne plus se faire avoir
+## Comment ne plus se faire avoir
 
 Alors, la technique que j'utilise personnellement est assez simple, elle est basé sur le modèle [Zero Trust](https://wonderfall.space/evidence-based-security/#le-mod-le-id-al-zero-trust-security).
 
