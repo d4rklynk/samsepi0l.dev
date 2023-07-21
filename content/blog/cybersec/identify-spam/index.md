@@ -1,6 +1,6 @@
 ---
 title: "Identifier les mails, les appels et les SMS frauduleux"
-date: 2023-07-17
+#date: 2023-07-17
 tags: ["Cybersec", "Mail", "SMS"]
 series: ["Signaler les fraudes"]
 series_order: 1
