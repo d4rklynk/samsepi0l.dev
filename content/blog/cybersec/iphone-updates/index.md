@@ -110,8 +110,8 @@ Puis, concernant la puce A13, donc l'iPhone 11, 11 Pro & 11 Pro Max et iPhone SE
 Oui, les iPhones sont chers, on sera d'accord. Cependant, regardons un peu les prix par rapport à la durée de vie des iPhones.
 
 Prenons l'iPhone 15 pour exemple qui est actuellement à 969€ sur le site marchand à l'heure où j'écris ces lignes (septembre 2023). Si vous l'achetez à ce prix au mois de septembre 2023, vous payez 969€ sur les 6 années (potentielles) de support qui reste à l'iPhone puisqu'on nous avons déduit plus tôt que la moyenne se situait à 6 ans.
-{{< katex >}}
-Vous payez donc \\(969€/(6*12)=**13.45€/mois**\\) pour l'iPhone 15.
+
+Vous payez donc 969€/(6*12)=**13.45€/mois** pour l'iPhone 15.
 
 Si nous comparons maintenant avec Samsung, la marque propose [5 années de mises à jour](https://security.samsungmobile.com/securityPost.smsb) de sécurité à partir des Samsung S22. On peut actuellement trouver le Samsung S23 à 850€ sur Amazon (donc ~170€ moins cher que l'iPhone 15). Si vous achetez le Samsung S23 en septembre 2023, vous payerez 850€ sur 4 ans et demi (car le S23 est sorti en février 2023, cela fait donc 7 mois).
 
@@ -119,13 +119,13 @@ Vous garderez votre téléphone 4 ans et 5 mois.
 
 Vous payez donc :
 
-\\(850€/(4*12+5) = **16.03€/mois**\\) pour le Samsung S23.
+850€/(4*12+5) = **16.03€/mois** pour le Samsung S23.
 
 Oui, vous payez plus cher votre Samsung sur ces 5 ans comparé à l'iPhone 15 car il ne fournit des mises à jour que pendant 5 ans.
 
 Et encore, si on fait une comparaison plus juste par rapport à l'iPhone 15 qui vient tout juste de sortir, le S23 à sa sortie coûtait 959€. On en serait donc à étaler 959€ sur 5 ans tout juste.
 
-\\(959€/(5*12) = 15.98€\\) aïe...
+959€/(5*12) = 15.98€ aïe...
 
 Le Samsung S23 reste plus cher que l'iPhone 15.
 
