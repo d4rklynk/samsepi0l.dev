@@ -111,7 +111,7 @@ Oui, les iPhones sont chers, on sera d'accord. Cependant, regardons un peu les p
 
 Prenons l'iPhone 15 pour exemple qui est actuellement à 969€ sur le site marchand à l'heure où j'écris ces lignes (septembre 2023). Si vous l'achetez à ce prix au mois de septembre 2023, vous payez 969€ sur les 6 années (potentielles) de support qui reste à l'iPhone puisqu'on nous avons déduit plus tôt que la moyenne se situait à 6 ans.
 {{< katex >}}
-Vous payez donc \\(969€/(6x12)=**13.45€/mois**\\) pour l'iPhone 15.
+Vous payez donc \\(969€/(6*12)=**13.45€/mois**\\) pour l'iPhone 15.
 
 Si nous comparons maintenant avec Samsung, la marque propose [5 années de mises à jour](https://security.samsungmobile.com/securityPost.smsb) de sécurité à partir des Samsung S22. On peut actuellement trouver le Samsung S23 à 850€ sur Amazon (donc ~170€ moins cher que l'iPhone 15). Si vous achetez le Samsung S23 en septembre 2023, vous payerez 850€ sur 4 ans et demi (car le S23 est sorti en février 2023, cela fait donc 7 mois).
 
