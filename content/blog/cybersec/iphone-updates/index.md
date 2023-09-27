@@ -117,13 +117,17 @@ Si nous comparons maintenant avec Samsung, la marque propose [5 années de mises
 
 Vous garderez votre téléphone 4 ans et 5 mois.
 
-Vous payez donc 850€/(4x12+5)=**16.03€/mois** pour le Samsung S23
+Vous payez donc :
+
+{{< katex >}}
+850€/(4*12+5) = **16.03€/mois** pour le Samsung S23.
 
 Oui, vous payez plus cher votre Samsung sur ces 5 ans comparé à l'iPhone 15 car il ne fournit des mises à jour que pendant 5 ans.
 
 Et encore, si on fait une comparaison plus juste par rapport à l'iPhone 15 qui vient tout juste de sortir, le S23 à sa sortie coûtait 959€. On en serait donc à étaler 959€ sur 5 ans tout juste.
 
-959€/(5x12)=15.98€ aïe...
+{{< katex >}}
+959€/(5*12) = 15.98€ aïe...
 
 Le Samsung S23 reste plus cher que l'iPhone 15.
 
