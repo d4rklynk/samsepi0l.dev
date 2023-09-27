@@ -1,6 +1,6 @@
 ---
 title: "La durée de vie cachée des iPhones"
-date: 2023-07-17
+date: 2023-09-27
 tags: ["Cybersec", "Mises à jour", "Apple"]
 ---
 
@@ -139,4 +139,4 @@ Avec ces raisons, tous ces petits calculs que je vous ai montré prennent tous l
 
 Voici l'extrait d'un interview (en anglais) entre un Youtubeur et un membre du projet GrapheneOS portant sur les firmwares et pourquoi changer de téléphone même si le vôtre fonctionne.
 
-{{< youtube id="WkQ_OCzuLNg?t=4603" >}}
+{{< youtube id="WkQ_OCzuLNg?start=4603" >}}
