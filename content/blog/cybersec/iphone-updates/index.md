@@ -123,9 +123,14 @@ Oui, vous payez plus cher votre Samsung sur ces 5 ans comparé à l'iPhone 15 ca
 
 Et encore, si on fait une comparaison plus juste par rapport à l'iPhone 15 qui vient tout juste de sortir, le S23 à sa sortie coûtait 959€. On en serait donc à étaler 959€ sur 5 ans tout juste.
 
-959€/(5x12)=15.98€ ouch...
+959€/(5x12)=15.98€ aïe...
 
 Le Samsung S23 reste plus cher que l'iPhone 15.
+
+{{< alert icon="fire" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
+Attention, le résultat dépend des prix des téléphones, de l'instant T où vous l'achetez et de la fin de vie de chaque produit. Ne concluez pas trop vite que Samsung est systématiquement plus cher qu'iPhone, ce n'est pas ce que j'essaye de montrer ici. (Et de toute façon, je n'aime aucune de ces deux marques.)
+{{< /alert >}}
+
 
 ## Conclusion
 
