@@ -4,7 +4,7 @@ date: 2023-09-27
 tags: ["Cybersec", "Mises à jour", "Apple"]
 ---
 
-Je voudrais m'attarder sur cette histoire de durée de vie des iPhones qui commençait à me trotter à la tête depuis un certain temps.
+Je souhaiterais m'attarder sur cette histoire de durée de vie des iPhones qui commençait à me trotter à la tête depuis un certain temps.
 
 Je vais ici, discuter de la durée pendant laquelle Apple propose des mises à jour de sécurité pour ses smartphones (le support logiciel), plutôt que de la longévité physique du téléphone ou de la fréquence de bug au fil du temps.
 
@@ -16,7 +16,7 @@ Apple ne donne pas de date concernant l'EOL (End Of Life, autrement appelé la "
 
 Dans une [page de la documentation](https://support.apple.com/fr-fr/guide/deployment/depc4c80847a/web) d'Apple, on retrouve cette remarque :
 
-> Remarque : en raison de la dépendance vis-à-vis des changements au niveau de l’architecture et du système apportés à une version actuelle du système dʼexploitation dʼApple (par exemple, macOS 13, iOS 16, ainsi de suite), les problèmes de sécurité connus ne sont pas tous corrigés dans les versions antérieures (par exemple, macOS 12, iOS 15, ainsi de suite).
+> Remarque : en raison de la dépendance vis-à-vis des changements au niveau de l’architecture et du système apportés à une version actuelle du système d’exploitation dʼApple (par exemple, macOS 13, iOS 16, ainsi de suite), les problèmes de sécurité connus ne sont pas tous corrigés dans les versions antérieures (par exemple, macOS 12, iOS 15, ainsi de suite).
 
 Apple donc arrête le support régulier des corrections de sécurité (ce qui est le plus important) après la sortie d'une nouvelle version iOS. C'est donc pour cela que l'iPhone 6 qui n'est plus mis à jour pendant des années se retrouve quand même avec une correction par-[ci](https://support.apple.com/en-us/HT212341), par-[là](https://support.apple.com/en-us/HT212548) et encore [là](https://support.apple.com/en-us/HT213597) (et j'en passe), avec des semaines voire des mois d'écart.
 
