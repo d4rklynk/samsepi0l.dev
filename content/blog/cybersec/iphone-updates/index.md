@@ -140,8 +140,8 @@ Vous vous dites peut-être que vous pouvez de toute façon garder votre smartpho
 
 Je vous conseille personnellement de changer votre téléphone pour deux raisons.
 
-	- Votre téléphone est tellement cassé ou inutilisable qu'il est plus cher à réparer que le prix du téléphone lui-même.
-	- Votre téléphone est en fin de support et ne recevra plus de mise à jour de **sécurité**.
+- Votre téléphone est tellement cassé ou inutilisable qu'il est plus cher à réparer que le prix du téléphone lui-même.
+- Votre téléphone est en fin de support et ne recevra plus de mise à jour de **sécurité**.
 
 Avec ces raisons, tous ces petits calculs que je vous ai montré prennent tous leurs sens.
 
