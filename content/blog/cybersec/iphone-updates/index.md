@@ -22,7 +22,7 @@ Apple donc arrête le support régulier des corrections de sécurité (ce qui es
 
 Si votre iPhone est compatible avec la nouvelle version iOS, vous êtes tranquille. Mais le jour où votre iPhone ne peut plus être mis à niveau vers une version supérieure (exemple : de iOS 16 vers iOS 17) alors vous êtes fichu, car vous ne pouvez pas compter sur des futures mises à jour hypothétiques tandis que les failles de sécurité seront rapidement révélées au grand jour.
 
-Je pense qu'il est donc raisonnable d'admettre qu'un iPhone se voit son support arrêté le jour où il ne peut plus passer à une version supérieure d'iOS.
+Je pense qu'il est donc raisonnable d'admettre qu'un iPhone voit son support s'arrêter le jour où il ne peut plus passer à une version supérieure d'iOS.
 
 ## System on Chip
 
@@ -58,7 +58,7 @@ On peut également noter qu'iOS 16 était supporté pour l'iPhone 8/8 Plus et l'
 
 L'arrêt du support de ces deux téléphones coïncident avec la puce utilisée.
 
-Les iPhones 6s, 6s Plus et le SE de 1ère génération utilisaient la puce A9 et l'iPhone 7 et 7 Plus utilisaient la puce A10. Les iPhone 6s et 7 ont toux deux été abandonnés en même temps à partir d'[iOS 16](https://support.apple.com/fr-fr/guide/iphone/iphe3fa5df43/16.0/ios/16.0).
+Les iPhones 6s, 6s Plus et le SE de 1ère génération utilisaient la puce A9 et l'iPhone 7 et 7 Plus utilisaient la puce A10. Les iPhone 6s et 7 ont tous deux été abandonnés en même temps à partir d'[iOS 16](https://support.apple.com/fr-fr/guide/iphone/iphe3fa5df43/16.0/ios/16.0).
 
 Il n'y a pas grand à chose de retenir de ça à part que l'on peut remarquer que les mises à jour s'arrêtent pour tous les appareils utilisant la même puce. Apple arrête le support par génération de puce et non par smartphone. L'exemple typique est justement celui de l'iPhone 8 et de l'iPhone X, pas le même téléphone, mais la même puce.
 
@@ -71,16 +71,16 @@ Cela veut dire que les smartphones utilisant la puce A12 ont de fortes chances d
 
 ## Mais combien de temps pourrais-je garder mon précieux ?
 
-J'ai surtout exposé deux ou trois informations que j'ai réussi à trouver sur le site d'Apple, mais aucune information sur combien de temps sont supportés leurs téléphones.
+Je viens surtout de vous exposer quelques informations que j'ai réussi à trouver sur le site d'Apple, mais aucune information sur combien de temps sont supportés leurs téléphones.
 
-Basé sur les informations que j'ai réussi à récolter, c'est à dire :
+Basé sur les informations que j'ai réussi à récolter, on peut dire que :
 
-- On considère que le smartphone est EOL lorsqu’il ne peut plus être mis à niveau vers une version supérieur d'iOS puisque les mises à jour de sécurité sont uniquement partielles.
+- Le smartphone est EOL lorsqu’il ne peut plus être mis à niveau vers une version supérieure d'iOS puisque les mises à jour de sécurité sont uniquement partielles.
 - Les arrêts de support des iPhones coïncident avec la puce utilisée. Ce qui veut dire que tous les appareils utilisant la même puce sont EOL.
 
 Si on reprend les iPhones à partir du 6 (choix arbitraire), voici les durées de vie de chacun :
 
-- iPhone 6 et 6 Plus sont actuellement bloqué à la version 12.5.7, ils ne sont pas passés à iOS 13.
+- iPhone 6 et 6 Plus sont actuellement bloqués à la version 12.5.7, ils ne sont pas passés à iOS 13.
 
 **Durée de vie :** septembre 2014 à [septembre 2019](https://www.apple.com/newsroom/2019/06/apple-previews-ios-13/) (date de sortie d'iOS 13). Soit **5 ans** de support.
 
@@ -103,11 +103,11 @@ Si nous considérons que les iPhones encore supportés suivent cette tendance, t
 - iPhone XS Max
 - iPhone XR
 
-Puis, concernant la puce A13, donc l'iPhone 11, 11 Pro & 11 Pro Max et iPhone SE (2nd Gen). Ils seront potentiellement abandonnés en septembre 2025, ce qui leur feront un total de 6 ans de durée de vie puisque ces iPhone sont sortis en septembre 2019.
+Puis, concernant la puce A13, donc l'iPhone 11, 11 Pro & 11 Pro Max et iPhone SE (2nd Gen), is seront potentiellement abandonnés en septembre 2025, ce qui cumulera 6 ans de support puisque ces iPhone sont sortis en septembre 2019.
 
 ## Prix réels
 
-Oui, les iPhones sont chers, on sera d'accord. Cependant, regardons un peu les prix par rapport à la durée de vie des iPhones.
+En effet, les iPhones sont chers. Cependant, regardons un peu les prix par rapport à la durée de vie des iPhones.
 
 Prenons l'iPhone 15 pour exemple qui est actuellement à 969€ sur le site marchand à l'heure où j'écris ces lignes (septembre 2023). Si vous l'achetez à ce prix au mois de septembre 2023, vous payez 969€ sur les 6 années (potentielles) de support qui reste à l'iPhone puisqu'on nous avons déduit plus tôt que la moyenne se situait à 6 ans.
 
@@ -136,9 +136,10 @@ Attention, le résultat dépend des prix des téléphones, de l'instant T où vo
 
 ## Conclusion
 
-Vous vous dites peut-être que vous pouvez de toute façon garder votre smartphone plus longtemps (bien après son support arrêté). Mais rappelez-vous une chose : une fois le support des mises à jour de sécurité terminé, les prochaines failles publiques ne seront pas corrigé !
+Vous vous dites peut-être que vous pouvez de toute façon garder votre smartphone plus longtemps (bien après son support arrêté). Mais rappelez-vous une chose : une fois le support des mises à jour de sécurité terminé, les prochaines failles publiques ne seront pas corrigées !
 
-Je vous conseille personnellement de changer votre téléphone sous deux raisons.
+Je vous conseille personnellement de changer votre téléphone pour deux raisons.
+
 	- Votre téléphone est tellement cassé ou inutilisable qu'il est plus cher à réparer que le prix du téléphone lui-même.
 	- Votre téléphone est en fin de support et ne recevra plus de mise à jour de **sécurité**.
 
