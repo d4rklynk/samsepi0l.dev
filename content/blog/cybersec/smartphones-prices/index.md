@@ -64,13 +64,13 @@ En savoir plus sur mon autre [site web](https://simpleprivacy.fr/basiques/smartp
 
 Si nous voulons calculer le prix d'un smartphone par rapport à sa durée de vie, voici le calcul :
 
-***Prix du smartphone à l'achat / le nombre de mois total***
+***Prix du smartphone à l'achat / le nombre de mois total de support***
 
 {{< alert icon="circle-info" cardColor="#22A3E6" iconColor="#1d3557" textColor="#f1faee" >}}
 Exemple : 500€/(5 années x 12 mois) = 8.33€/mois
 {{< /alert >}}
 
-Je vais prendre quelques téléphones de l'année 2023 pour estimer une fourchette de prix (tous les prix sont et les durées de vie sont considéré à partir d'Octobre 2023) :
+Je vais prendre quelques téléphones de l'année 2023 pour estimer une fourchette de prix en fin d'article (tous les prix sont et les durées de vie sont considérés à partir d'Octobre 2023) :
 
 #### iPhone 14 Pro Max (256Go)
 
