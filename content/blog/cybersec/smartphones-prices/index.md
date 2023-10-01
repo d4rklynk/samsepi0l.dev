@@ -8,7 +8,7 @@ tags: ["Cybersec", "Mises à jour"]
 Vous souhaitez un nouveau téléphone ? Mais vous êtes complètement perdu ? C'est normal, c'est le bordel.
 {{< /lead >}}
 
-Depuis 3~4 ans, les smartphones ont des performances similaires, quelque soit le prix, ils ont plus ou moins la même qualité photo et vidéo. Cela va de soi, chaque smartphone possède sa petite différence comparé à un autre. Mais j'ai rien de probant. Fini l'époque où vous aviez le choix entre un iPhone fluide ou un Samsung lent.
+Depuis 3~4 ans, les smartphones ont des performances similaires, quelque soit le prix, ils ont plus ou moins la même qualité photo et vidéo. Cela va de soi, chaque smartphone possède sa petite différence comparé à un autre, mais rien de probant. Finis l'époque où vous aviez le choix entre un iPhone fluide et un Samsung lent.
 
 Si vous souhaitez un iPhone car vous voulez montrer au monde votre richesse, grand bien vous en fasse. Mais dans cet article, on préférera l'utile à l'agréable.
 
@@ -27,7 +27,7 @@ Les deux seules marques que je vous recommande sont Apple et Google pour deux ra
 - Ils proposent tous les deux un long support pour leurs smartphones.
 - Ils ont une sécurité décente comparé à d'autres marques.
 
-Je fais abstraction des performances qui est devenu de plus en plus futile dans la mesure où tous les smartphones se valent plus ou moins. Mais sachez tout de même que les iPhone et les Google Pixel sont performants.
+Je fais abstraction des performances qui sont devenues de plus en plus futiles dans la mesure où tous les smartphones se valent plus ou moins. Mais sachez tout de même que les iPhone et les Google Pixel sont performants.
 
 > Pour votre vie privée, c'est mieux de prendre un téléphone de chez Google plutôt qu'une autre marque, car de toute façon les applications Google sont pré-installées et ont accès à beaucoup d'informations sur les téléphones des autres marques. Pour simplifier, quand vous achetez un Samsung par exemple, vous laissez vos données à Samsung **ET** Google. Alors qu'en achetant un smartphone de chez Google, vous ne faites confiance qu'à Google pour vos données. Il préférable de faire confiance à une seule entité plutôt que deux. [Plus d'informations](https://simpleprivacy.fr/basiques/smartphones/) sur mon autre site web dédié à la vie privée sur Internet.
 
@@ -40,8 +40,8 @@ Argument en faveur du **Google Pixel** (Android) :
 - Liberté d'utilisation
 - Possibilité d'installer [GrapheneOS](https://grapheneos.org/install/web) (l'android le plus sécurisé aujourd'hui)
 - Prix plus abordable
-- Mise à jour de sécurité mensuelles
-- 5 ans de support. (Le maximum actuel chez Android.)
+- Mises à jour de sécurité mensuelles
+- 5 ans de support (le maximum actuel chez Android)
 
 Argument en faveur d'**iPhone** :
 
@@ -51,7 +51,7 @@ Argument en faveur d'**iPhone** :
 - 6 ans de support (et c'est pas négligeable)
 
 {{< alert icon="fire" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
-Il est important de noter que je suis biaisé. J'ai un Google Pixel avec GrapheneOS que j'adore. Je n'ai jamais aimé les iPhones car je les trouve contre-intuitif en terme d'utilisation, qui plus est que je ne peux rien faire dessus. Notez aussi que certains trouvent Android plus facile d'utilisation que iPhone. Faites votre propre avis sur la question. 
+Il est important de noter que je suis biaisé. J'ai un Google Pixel avec GrapheneOS que j'adore. Je n'ai jamais aimé les iPhones car je les trouve contre-intuitif en terme d'utilisation, qui plus est que je ne peux rien faire dessus. Notez aussi que certains trouvent Android plus facile d'utilisation que iPhone. À vous de vous faire votre propre avis sur la question. 
 {{< /alert >}}
 
 ## Le cas de Fairphone
@@ -144,7 +144,7 @@ Voici une fourchette de prix qui peut vous permettre de mieux gérer votre budge
 
 - **Bas de gamme** : smartphone fonctionnel = 6€/mois et moins.
 - **Moyen de gamme** : smartphone décent, bonne longévité, convient à tout le monde = Entre 6€/mois et ~10€/mois.
-- **Haut de gamme** : smartphone de malade, meilleur photo, meilleure batterie, meilleur écran, ostentatoire à fond = Entre ~10€/mois et ~15€/mois ou ~17€/mois.
+- **Haut de gamme** : smartphone de malade, meilleur appareil photo, meilleure batterie, meilleur écran, ostentatoire à fond = Entre ~10€/mois et ~15€/mois ou ~17€/mois.
 - **Je fais ce que je veux de mon fric** : comme "haut de gamme", mais juste en plus cher = 17€/mois et plus.
 
 Je pense que le moyen de gamme est la tranche de prix la plus abordable et la plus suffisante pour la majorité des gens. Au delà, je considère ça comme de la masturbation intellectuelle (en général).
