@@ -49,7 +49,7 @@ Argument en faveur d'**iPhone** :
 - Mises à jour de sécurité régulières
 - 6 ans de support (et c'est pas négligeable)
 
-{{< alert icon="fire" cardColor="#22A3E6" iconColor="#1d3557" textColor="#f1faee" >}}
+{{< alert icon="fire" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
 Il est important de noter que je suis biaisé. J'ai un Google Pixel avec GrapheneOS que j'adore. Je n'ai jamais aimé les iPhones car je les trouve contre-intuitif en terme d'utilisation, de plus que je peux rien faire dessus. Notez aussi que certains trouvent Android plus facile d'utilisation que iPhone. Faites votre propre avis sur la question. 
 {{< /alert >}}
 
@@ -59,7 +59,7 @@ Si nous voulons calculer le prix d'un smartphone par rapport à sa durée de vie
 
 ***Prix du smartphone à l'achat / le nombre de mois total***
 
-{{< alert icon="circleinfo" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
+{{< alert icon="circleinfo" cardColor="#22A3E6" iconColor="#1d3557" textColor="#f1faee" >}}
 Exemple : 500€/(5 années x 12 mois) = 8.33€/mois
 {{< /alert >}}
 
