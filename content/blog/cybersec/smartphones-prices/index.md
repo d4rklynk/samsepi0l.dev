@@ -59,7 +59,7 @@ Si nous voulons calculer le prix d'un smartphone par rapport à sa durée de vie
 
 ***Prix du smartphone à l'achat / le nombre de mois total***
 
-{{< alert icon="circleinfo" cardColor="#22A3E6" iconColor="#1d3557" textColor="#f1faee" >}}
+{{< alert icon="circle-info" cardColor="#22A3E6" iconColor="#1d3557" textColor="#f1faee" >}}
 Exemple : 500€/(5 années x 12 mois) = 8.33€/mois
 {{< /alert >}}
 
