@@ -56,7 +56,7 @@ Il est important de noter que je suis biaisé. J'ai un Google Pixel avec Graphen
 
 ## Le cas de Fairphone
 
-Non, le Fairphone ne peut aps correctement fournir des mises à jour de sécurité. Ils utilisent un [SoC](https://fr.wikipedia.org/wiki/Syst%C3%A8me_sur_une_puce) qui est souvent en fin de vie. La durée des mises à jour de sécurité chez Fairphone est d'environ 2 ans.
+Le Fairphone ne peut pas correctement fournir des mises à jour de sécurité. Ils utilisent un [SoC](https://fr.wikipedia.org/wiki/Syst%C3%A8me_sur_une_puce) qui est souvent en fin de vie. La durée des mises à jour de sécurité chez Fairphone est d'environ 2 ans.
 
 En savoir plus sur mon autre [site web](https://simpleprivacy.fr/basiques/smartphones/) et également sur [ce site](https://privsec.dev/posts/android/android-tips/#phones-to-avoid) en anglais.
 
