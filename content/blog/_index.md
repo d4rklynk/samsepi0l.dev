@@ -3,6 +3,7 @@ title: "Thèmes"
 ShowReadingTime: false
 ShowWordCount: false
 showDate: false
+showDateUpdated: false
 
 cascade:
   invertPagination: true
