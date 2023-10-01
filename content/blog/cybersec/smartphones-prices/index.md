@@ -41,6 +41,7 @@ Argument en faveur du **Google Pixel** (Android) :
 - Possibilité d'installer [GrapheneOS](https://grapheneos.org/install/web) (l'android le plus sécurisé aujourd'hui)
 - Prix plus abordable
 - Mise à jour de sécurité mensuelles
+- 5 ans de support. (Le maximum actuel chez Android.)
 
 Argument en faveur d'**iPhone** :
 
@@ -50,8 +51,14 @@ Argument en faveur d'**iPhone** :
 - 6 ans de support (et c'est pas négligeable)
 
 {{< alert icon="fire" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
-Il est important de noter que je suis biaisé. J'ai un Google Pixel avec GrapheneOS que j'adore. Je n'ai jamais aimé les iPhones car je les trouve contre-intuitif en terme d'utilisation, de plus que je peux rien faire dessus. Notez aussi que certains trouvent Android plus facile d'utilisation que iPhone. Faites votre propre avis sur la question. 
+Il est important de noter que je suis biaisé. J'ai un Google Pixel avec GrapheneOS que j'adore. Je n'ai jamais aimé les iPhones car je les trouve contre-intuitif en terme d'utilisation, qui plus est que je ne peux rien faire dessus. Notez aussi que certains trouvent Android plus facile d'utilisation que iPhone. Faites votre propre avis sur la question. 
 {{< /alert >}}
+
+## Le cas de Fairphone
+
+Non, le Fairphone ne peut aps correctement fournir des mises à jour de sécurité. Ils utilisent un [SoC](https://fr.wikipedia.org/wiki/Syst%C3%A8me_sur_une_puce) qui est souvent en fin de vie. La durée des mises à jour de sécurité chez Fairphone est d'environ 2 ans.
+
+En savoir plus sur mon autre [site web](https://simpleprivacy.fr/basiques/smartphones/) et également sur [ce site](https://privsec.dev/posts/android/android-tips/#phones-to-avoid) en anglais.
 
 ## Prix moyens des smartphones de l'année
 
@@ -123,7 +130,7 @@ Je vais prendre quelques téléphones de l'année 2023 pour estimer une fourchet
 - **Durée de support :** [3 ans](https://trust.mi.com/misrc/updates/phone?tab=policy)
 - **Prix par mois :** 150/(2*12+6) = **5€/mois**
 
-> Note pour Xiaomi : L'entreprise est très floue sur le support de ses téléphones, il [précise](https://trust.mi.com/misrc/updates/phone?tab=policy) tout de même qu'il publie des mises à jour de sécurité pendant au moins 2 ans, et 3 and et plus selon les modèles... mouais, c'est flou. Si on prend exemple sur le Redmi Note 9, il est sorti en Mai 2020 et sa dernière mise à jour a été fournie en Mai 2023. On considère donc que les Redmi Note sont supportés pendant 3 ans.
+> Note pour Xiaomi : L'entreprise est très floue sur le support de ses téléphones, elle [précise](https://trust.mi.com/misrc/updates/phone?tab=policy) tout de même qu'elle publie des mises à jour de sécurité pendant au moins 2 ans, et 3 ans et plus selon les modèles... mouais, c'est flou. Si on prend exemple sur le Redmi Note 9 sorti en Mai 2020, sa dernière mise à jour a été fournie en Mai 2023. On considère donc que les Redmi Note sont supportés pendant 3 ans.
 
 Remarquez le Google Pixel 7 Pro à 849€ et l'iPhone 14 à 819€, vous payez respectivement 17.68€/mois et 13.65€/mois, l'iPhone 14 dans ce cas est bien moins cher. Le prix mensuel du Google Pixel 7 Pro est **29.52%** plus cher (calculs ci-dessous) que l'iPhone 14. Tandis que, si nous considérons uniquement le prix d'achat du smartphone (819€ et 849€), Le Google Pixel 7 Pro n'est que **3.66%** plus cher que l'iPhone 14 ! Une sacré différence. Voilà pourquoi il est important de calculer le prix mensuel d'un téléphone par rapport à sa durée de support.
 
@@ -133,7 +140,7 @@ Remarquez le Google Pixel 7 Pro à 849€ et l'iPhone 14 à 819€, vous payez r
 
 ## Conclusion
 
-Je vais vous donner une fourchette de prix qui peut vous permettre de mieux gérer votre budget pour les smartphones.
+Voici une fourchette de prix qui peut vous permettre de mieux gérer votre budget pour les smartphones. *(Fourchettes indicatives subjectives à ne pas prendre comme règle absolue.)*
 
 - **Bas de gamme** : smartphone fonctionnel = 6€/mois et moins.
 - **Moyen de gamme** : smartphone décent, bonne longévité, convient à tout le monde = Entre 6€/mois et ~10€/mois.
