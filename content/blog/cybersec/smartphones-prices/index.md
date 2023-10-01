@@ -14,7 +14,7 @@ Si vous souhaitez un iPhone car vous voulez montrer au monde votre richesse, gra
 
 Dans un précédent article, je vous ai démontré la durée de vie moyenne d'un iPhone :
 
-{{< article link="/blog/cybersec/smartphones-prices" >}}
+{{< article link="/blog/cybersec/iphone-updates/" >}}
 
 En réalité, les iPhones sont les seuls smartphones proposant **6 ans** de mise à jour. Google propose, depuis les Google Pixel 6 et plus, **5 ans** de mise à jour. Ce qui est en fait la seule marque Android proposant un support aussi long.
 
