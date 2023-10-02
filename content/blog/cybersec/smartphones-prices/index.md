@@ -29,7 +29,7 @@ Les deux seules marques que je vous recommande sont Apple et Google pour deux ra
 
 Je fais abstraction des performances qui sont devenues de plus en plus futiles dans la mesure où tous les smartphones se valent plus ou moins. Mais sachez tout de même que les iPhone et les Google Pixel sont performants.
 
-> Pour votre vie privée, c'est mieux de prendre un téléphone de chez Google plutôt qu'une autre marque, car de toute façon les applications Google sont pré-installées et ont accès à beaucoup d'informations sur les téléphones des autres marques. Pour simplifier, quand vous achetez un Samsung par exemple, vous laissez vos données à Samsung **ET** Google. Alors qu'en achetant un smartphone de chez Google, vous ne faites confiance qu'à Google pour vos données. Il préférable de faire confiance à une seule entité plutôt que deux. [Plus d'informations](https://simpleprivacy.fr/basiques/smartphones/) sur mon autre site web dédié à la vie privée sur Internet.
+> Pour votre vie privée concernant Android, c'est mieux de prendre un téléphone de chez Google plutôt qu'une autre marque, car de toute façon les applications Google sont pré-installées et ont accès à beaucoup d'informations sur les téléphones des autres marques. Pour simplifier, quand vous achetez un Samsung par exemple, vous laissez vos données à Samsung **ET** Google. Alors qu'en achetant un smartphone de chez Google, vous ne faites confiance qu'à Google pour vos données. Il préférable de faire confiance à une seule entité plutôt que deux. [Plus d'informations](https://simpleprivacy.fr/basiques/smartphones/) sur mon autre site web dédié à la vie privée sur Internet.
 
 ## Apple ou Google
 
@@ -70,7 +70,7 @@ Si nous voulons calculer le prix d'un smartphone par rapport à sa durée de vie
 Exemple : 500€/(5 années x 12 mois) = 8.33€/mois
 {{< /alert >}}
 
-Je vais prendre quelques téléphones de l'année 2023 pour estimer une fourchette de prix en fin d'article (tous les prix sont et les durées de vie sont considérés à partir d'Octobre 2023) :
+Je vais prendre quelques téléphones de l'année 2023 pour estimer une fourchette de prix en fin d'article (tous les prix et les durées de vie sont considérés à partir d'Octobre 2023) :
 
 #### iPhone 14 Pro Max (256Go)
 
@@ -137,6 +137,28 @@ Remarquez le Google Pixel 7 Pro à 849€ et l'iPhone 14 à 819€, vous payez r
 > ((17.68-13.65)/13.65)*100 = 29.52%
 > 
 > ((849-819)/819)*100 = 3.66%
+
+## Extension du calcul
+
+Vous pouvez également comparer les prix entre un téléphone neuf sorti l'année précédente, un téléphone d'occasion et un téléphone neuf grâce à ces calculs.
+
+Prenons l'exemple avec un iPhone 14 :
+
+J'ai trouvé des iPhone 14 environnant les 650€ en moyenne sur leboncoin pour éta "comme neuf" ou "très bon état". Il coûte 869€ neuf. Le smartphone étant sorti en Septembre 2022, il est déjà vieux d'1 an, il lui reste donc 5 ans de support.
+
+**Occasion :** 650/(5*12) = **10.83€**
+
+**Neuf** : 869/(5*12) = **14.48**
+
+L'iPhone 14 d'occasion est clairement une affaire. Vous le gardez en 5 ans, et pour pas cher.
+
+Prenons maintenant exemple avec l'iPhone 15 qui coûte actuellement 969€, soit, 100€ plus cher que l'iPhone 14 neuf. Vous allez payer 969€ étalé sur 6 ans (puisqu'il vient tout juste de sortir).
+
+**Neuf** : 969/(6*12) = **13.45**
+
+Ah tiens ! l'iPhone 15 coûte en fait moins cher que l'iPhone 14 neuf 🙃.
+
+De toute évidence, vous devez faire ces calcul le mois de l'achat, car si vous faites ces calculs aujourd'hui, mais que vous l'achetez dans 3 mois, les prix auront changé et vous aurez déjà épuisé 3 mois de support sur le téléphone choisi. Il est donc probable que vous payerez plus cher ce smartphone (ou moins cher).
 
 ## Conclusion
 
