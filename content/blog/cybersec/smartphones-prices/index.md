@@ -144,25 +144,35 @@ Vous pouvez également comparer les prix entre un téléphone neuf sorti l'anné
 
 Prenons l'exemple avec un iPhone 14 :
 
-J'ai trouvé des iPhone 14 environnant les 650€ en moyenne sur leboncoin pour éta "comme neuf" ou "très bon état". Il coûte 869€ neuf. Le smartphone étant sorti en Septembre 2022, il est déjà vieux d'1 an, il lui reste donc 5 ans de support.
+J'ai trouvé des iPhone 14 environnant les 650€ en moyenne sur leboncoin en état "comme neuf" ou "très bon état". Il coûte 869€ neuf. Le smartphone étant sorti en Septembre 2022, il est déjà vieux d'1 an, il lui reste donc 5 ans de support.
 
-**Occasion :** 650/(5*12) = **10.83€**
+**Occasion :** 650/(5*12) = **10.83€/mois**
 
-**Neuf** : 869/(5*12) = **14.48**
+**Neuf** : 869/(5*12) = **14.48/mois**
 
-L'iPhone 14 d'occasion est clairement une affaire. Vous le gardez en 5 ans, et pour pas cher.
+L'iPhone 14 d'occasion est clairement une affaire. Vous le gardez 5 ans, et pour pas cher.
 
-Prenons maintenant exemple avec l'iPhone 15 qui coûte actuellement 969€, soit, 100€ plus cher que l'iPhone 14 neuf. Vous allez payer 969€ étalé sur 6 ans (puisqu'il vient tout juste de sortir).
+Prenons maintenant exemple avec l'iPhone 15 qui coûte actuellement 969€ neuf, soit, 100€ plus cher que l'iPhone 14 neuf. Vous allez payer 969€ étalé sur 6 ans (puisqu'il vient tout juste de sortir).
 
-**Neuf** : 969/(6*12) = **13.45**
+**Neuf** : 969/(6*12) = **13.45/mois**
 
-Ah tiens ! l'iPhone 15 coûte en fait moins cher que l'iPhone 14 neuf 🙃.
+Ah tiens ! L'iPhone 15 coûte en fait moins cher que l'iPhone 14 neuf 🙃.
 
-De toute évidence, vous devez faire ces calcul le mois de l'achat, car si vous faites ces calculs aujourd'hui, mais que vous l'achetez dans 3 mois, les prix auront changé et vous aurez déjà épuisé 3 mois de support sur le téléphone choisi. Il est donc probable que vous payerez plus cher ce smartphone (ou moins cher).
+De toute évidence, vous devez faire ces calculs le mois de l'achat, car si vous faites les faites aujourd'hui, mais que vous l'achetez dans 3 mois, les prix auront changé et vous aurez déjà épuisé 3 mois de support sur le téléphone choisi. Il est donc probable que vous payerez plus cher ce smartphone (ou moins cher).
+
+De plus, si vous payez votre smartphone moins cher grâce à des promos ou des codes de réduction, c'est encore plus avantageux.
+
+{{< alert icon="circle-info" cardColor="#22A3E6" iconColor="#1d3557" textColor="#f1faee" >}}
+Exemple : Vous avez un code promo qui vous octroie 15% de réduction sur le Google Pixel 7a. Le prix neuf étant à 479€, si on réduit le prix de 15%, on obtient 403.75.
+
+403.75/(4*12+8) = 7.20€/mois au lieu de 8.55€/mois.
+{{< /alert >}}
+
+Si en plus, un proche vous offre une carte cadeau de 100€, vous payez le smartphone 303.75€, et je vous laisse faire le calcul 🙃.
 
 ## Conclusion
 
-Voici une fourchette de prix qui peut vous permettre de mieux gérer votre budget pour les smartphones. *(Fourchettes indicatives subjectives à ne pas prendre comme règle absolue.)*
+Voici une fourchette de prix qui peut vous permettre de mieux gérer votre budget pour les smartphones (on considère les smartphones neuf et acheté au prix fort). *(Fourchettes indicatives subjectives à ne pas prendre comme règle absolue.)*
 
 - **Bas de gamme** : smartphone fonctionnel = 6€/mois et moins.
 - **Moyen de gamme** : smartphone décent, bonne longévité, convient à tout le monde = Entre 6€/mois et ~10€/mois.
