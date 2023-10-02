@@ -15,12 +15,12 @@ dateFormat = "2 January 2006"
 
 [author]
   name = "samsepi0l"
-  image = "img/mikasa.jpg"
+  image = "img/mikasa-round.jpg"
   headline = "Le blog d'un fan (abusif) de Mr. Robot"
   bio = "Le blog d'un fan (abusif) de Mr. Robot"
   links = [
     { envelope = "mailto:contact@samsepi0l.dev" },
-    { email = "https://matrix.to/#/@samsepi0l:projectsegfau.lt" },
+    { email = "https://matrix.to/#/@samsepi0l:arcticfoxes.net" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },
 #     { blogger = "https://username.blogspot.com/" },
