@@ -169,6 +169,8 @@ Si on compare le Pixel 7a et le Pixel 8, qui sont respectivement à 509€ et 79
 
 C'est la première fois qu'un smartphone sous Android propose 7 ans de mises à jour (firmware inclus).
 
+Vous pouvez également remarquer que le Pixel 8 Pro à 13.08€/mois (1099€ à l'achat) et **moins cher** que l'iPhone 14 à 13.65€/mois (819€ à l'achat).
+
 ## Extension du calcul
 
 Vous pouvez également comparer les prix entre un téléphone neuf sorti l'année précédente, un téléphone d'occasion et un téléphone neuf grâce à ces calculs.
