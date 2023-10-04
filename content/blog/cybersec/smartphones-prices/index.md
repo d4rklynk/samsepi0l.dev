@@ -4,6 +4,10 @@ date: 2023-10-01
 tags: ["Cybersec", "Mises à jour"]
 ---
 
+{{< badge >}}
+7 ans de mise à jour pour le Pixel 8 ! (Ajouté le 04/10/2023)
+{{< /badge >}}
+
 {{< lead >}}
 Vous souhaitez un nouveau téléphone ? Mais vous êtes complètement perdu ? C'est normal, c'est le bordel.
 {{< /lead >}}
@@ -113,15 +117,30 @@ Je vais prendre quelques téléphones de l'année 2023 pour estimer une fourchet
 
 - **Commercialisé :** Octobre 2022
 - **Prix :** 849€ (Fnac)
-- **Durée de support :** [5 ans](https://support.google.com/pixelphone/answer/4457705?hl=en#zippy=%2Cpixel-later-including-fold)
+- **Durée de support :** [5 ans](https://support.google.com/pixelphone/answer/4457705?hl=fr&sjid=6017058967323563850-EU#zippy=%2Cpixel-later-including-fold%2Cpixel-et-mod%C3%A8les-ult%C3%A9rieurs-y-compris-le-pixel-fold)
 - **Prix par mois :** 849/(4*12) = **17.68€/mois**
 
 #### Google Pixel 7a
 
 - **Commercialisé :** Mai 2023
-- **Prix :** 479€ (Amazon)
-- **Durée de support :** [5 ans](https://support.google.com/pixelphone/answer/4457705?hl=en#zippy=%2Cpixel-later-including-fold)
-- **Prix par mois :** 479/(4*12+8) = **8.55€/mois**
+- **Prix :** 509€ (Amazon)
+- **Durée de support :** [5 ans](https://support.google.com/pixelphone/answer/4457705?hl=fr&sjid=6017058967323563850-EU#zippy=%2Cpixel-later-including-fold%2Cpixel-et-mod%C3%A8les-ult%C3%A9rieurs-y-compris-le-pixel-fold)
+- **Prix par mois :** 509/(4*12+8) = **9.08€/mois**
+
+#### Google Pixel 8
+
+- **Commercialisé :** Octobre 2023
+- **Prix :** 799€ (Google Store)
+- **Durée de support :** [7 ans](https://support.google.com/pixelphone/answer/4457705?hl=fr&sjid=6017058967323563850-EU#zippy=%2Cpixel-later-including-fold%2Cpixel-et-mod%C3%A8les-ult%C3%A9rieurs-y-compris-le-pixel-fold)
+- **Prix par mois :** 799/(7*12) = **9.51€/mois**
+
+
+#### Google Pixel 8 Pro
+
+- **Commercialisé :** Octobre 2023
+- **Prix :** 1099€ (Google Store)
+- **Durée de support :** [7 ans](https://support.google.com/pixelphone/answer/4457705?hl=fr&sjid=6017058967323563850-EU#zippy=%2Cpixel-later-including-fold%2Cpixel-et-mod%C3%A8les-ult%C3%A9rieurs-y-compris-le-pixel-fold)
+- **Prix par mois :** 1099/(7*12) = **13.08€/mois**
 
 #### Xiaomi Redmi Note 12
 
@@ -137,6 +156,18 @@ Remarquez le Google Pixel 7 Pro à 849€ et l'iPhone 14 à 819€, vous payez r
 > ((17.68-13.65)/13.65)*100 = 29.52%
 > 
 > ((849-819)/819)*100 = 3.66%
+
+**[Ajout 04/10/2023] :** Google vient d'annoncer la sortie des Google Pixel 8 & 8 Pro, ils recevront 7 ans de mises à jour de sécurité (mais aussi des versions Android), ce qui les rend bien plus attractifs en termes de prix.
+
+Si on compare le Pixel 7a et le Pixel 8, qui sont respectivement à 509€ et 799€, vous payerez 9.08€/mois pour le Pixel 7a et 9.51€/mois pour le Pixel 8.
+
+À l'achat, le Pixel 8 est **57%** plus cher que le Pixel 7a (calculs ci-dessous). Mais si l'on calcule le prix par mois en comptant la nouvelle durée de vie de 7 ans du Pixel 8, le Pixel 8 est plus cher que le Pixel 7a que de **5%**.
+
+> ((799-509)/509)*100 = 56.97% arrondi à 57%
+> 
+> ((9.51-9.08)/9.08)*100 = 4.73% arrondi à 5%
+
+C'est la première fois qu'un smartphone sous Android propose 7 ans de mises à jour (firmware inclus).
 
 ## Extension du calcul
 
@@ -163,12 +194,12 @@ De toute évidence, vous devez faire ces calculs le mois de l'achat, car si vous
 De plus, si vous payez votre smartphone moins cher grâce à des promos ou des codes de réduction, c'est encore plus avantageux.
 
 {{< alert icon="circle-info" cardColor="#22A3E6" iconColor="#1d3557" textColor="#f1faee" >}}
-Exemple : Vous avez un code promo qui vous octroie 15% de réduction sur le Google Pixel 7a. Le prix neuf étant à 479€, si on réduit le prix de 15%, on obtient 403.75.
+Exemple : Vous avez un code promo qui vous octroie 15% de réduction sur le Google Pixel 7a. Le prix neuf étant à 509€, si on réduit le prix de 15%, on obtient 432.65.
 
-403.75/(4*12+8) = 7.20€/mois au lieu de 8.55€/mois.
+432.65/(4*12+8) = 7.72€/mois au lieu de 9.08€/mois.
 {{< /alert >}}
 
-Si en plus, un proche vous offre une carte cadeau de 100€, vous payez le smartphone 303.75€, et je vous laisse faire le calcul 🙃.
+Si en plus, un proche vous offre une carte cadeau de 100€, vous payez le smartphone 332.65€, et je vous laisse faire le calcul 🙃.
 
 ## Conclusion
 
