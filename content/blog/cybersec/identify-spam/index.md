@@ -20,7 +20,7 @@ Voici l'exemple d'un mail qui me parait très louche.
 
 Le fameux problème des frais de port.
 
-Premièrement, vous ne devez pas vous fier à la légitimité d'un mail uniquement via les logos/images ou les fautes d'orthographe. Typiquement, j'ai déjà vu plusieurs fois des mails de La Poste qui ressemblent très fortement à des arnaques (adresse mail bizarre, fautes d'orthographe, etc.) et qui étaient pourtant bien légitimes !
+Premièrement, vous ne devez pas vous fier à la légitimité d'un mail uniquement via les logos/images ou les fautes d'orthographe. J'ai déjà vu plusieurs fois des mails de La Poste qui ressemblaient très fortement à des arnaques (adresse mail bizarre, fautes d'orthographe, etc.) et qui étaient pourtant bien légitimes !
 
 Le mail me parait légitime mais je ne l'ai jamais vu auparavant.
 
@@ -32,7 +32,7 @@ Et puis franchement, `notif-laposte.info@notif-laposte.info`, dans le mail, le n
 
 Une adresse mail pareille, c'est sûrement une arnaque.
 
-Premier réflexe, ne cliquez sur aucun bouton ou lien en cas de doute, accédez au site La Poste comme vous le faites d'habitude (un lien en favori ou via le recherche Google).
+Premier réflexe, ne cliquez sur **aucun** bouton ou lien en cas de doute, accédez au site La Poste comme vous le faites d'habitude (un lien en favori ou via la recherche Google).
 
 Deuxième réflexe, accédez à [ce site](https://lookup.icann.org/en) de l'ICANN pour vérifier le nom de domaine.
 
@@ -70,6 +70,8 @@ Voici une règle de base à respecter :
 - S'il est écrit "*ne partagez ce code avec personne*" pour les codes de vérification, ne le partagez à **PERSONNE**.
 
 ## Comment ne plus se faire avoir
+
+C'est bien beau tout ça, mais on va pas vérifier les noms de domaines ou avoir des doutes sur tous les mails. C'est trop de temps et d'énergie.
 
 Alors, la technique que j'utilise personnellement est assez simple, elle est basé sur le modèle [Zero Trust](https://wonderfall.space/evidence-based-security/#le-mod-le-id-al-zero-trust-security).
 
