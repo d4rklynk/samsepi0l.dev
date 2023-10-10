@@ -71,7 +71,7 @@ Voici une règle de base à respecter :
 
 ## Comment ne plus se faire avoir
 
-C'est bien beau tout ça, mais on va pas vérifier les noms de domaines ou avoir des doutes sur tous les mails. C'est trop de temps et d'énergie.
+C'est bien beau tout ça, mais on ne va quand même pas douter et vérifier les noms de domaines de chaque mail que l'on reçoit, si ? Non, c'est perdre trop de temps et d'énergie.
 
 Alors, la technique que j'utilise personnellement est assez simple, elle est basé sur le modèle [Zero Trust](https://wonderfall.space/evidence-based-security/#le-mod-le-id-al-zero-trust-security).
 
@@ -81,3 +81,5 @@ Voici les règles à respecter **QUELQUE** soit le mail ou le SMS :
 - Allez sur le site présumé via votre canal **HABITUEL** (via la barre de favori de votre navigateur, via votre application, etc.) et vérifiez les informations sur le dit-site.
 - Plus le mail montre un aspect d'urgence (qu'il soit positif ou négatif), plus vous devez vous montrer prudent.
 - Si c'est trop beau pour être vrai, c'est que c'est trop beau pour être vrai. Sauf rares exceptions, dans ce cas, vérifiez et revérifiez une infinité de fois avant de faire quoique ce soit.
+
+Si vous suivez ces 4 conseils, vous serez tranquille.
