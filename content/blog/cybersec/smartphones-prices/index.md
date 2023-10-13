@@ -20,7 +20,7 @@ Dans un précédent article, je vous ai démontré la durée de vie moyenne d'un
 
 {{< article link="/blog/cybersec/iphone-updates/" >}}
 
-En réalité, les iPhones sont les seuls smartphones proposant **6 ans** de mise à jour. Google propose, depuis les Google Pixel 6 et plus, **5 ans** de mise à jour. Ce qui est en fait la seule marque Android proposant un support aussi long.
+En réalité, les Google Pixels sont maintenant les seuls smartphones proposant **7 ans** de mise à jour, suivi de près par Apple qui propose 6 ans de mises à jour en moyenne.
 
 Il est important de noter que pour des raisons de sécurité, je considère que vous allez changer votre smartphone une fois le support de celui-ci arrêté. 
 
@@ -191,7 +191,7 @@ Prenons maintenant exemple avec l'iPhone 15 qui coûte actuellement 969€ neuf,
 
 Ah tiens ! L'iPhone 15 coûte en fait moins cher que l'iPhone 14 neuf 🙃.
 
-De toute évidence, vous devez faire ces calculs le mois de l'achat, car si vous faites les faites aujourd'hui, mais que vous l'achetez dans 3 mois, les prix auront changé et vous aurez déjà épuisé 3 mois de support sur le téléphone choisi. Il est donc probable que vous payerez plus cher ce smartphone (ou moins cher).
+De toute évidence, vous devez faire ces calculs le mois de l'achat, car si vous les faites aujourd'hui, mais que vous l'achetez dans 3 mois, les prix auront changé et vous aurez déjà épuisé 3 mois de support sur le téléphone choisi. Il est donc probable que vous payerez ce smartphone à un prix différent.
 
 De plus, si vous payez votre smartphone moins cher grâce à des promos ou des codes de réduction, c'est encore plus avantageux.
 
