@@ -6,17 +6,16 @@ date: 2023-05-23
 
 ## Version simple :
 
-Rien n'est collecté.
+J'utilise [Umami](https://umami.is/) pour collecter quelques données qui me permettent principalement de savoir combien il y a de visiteurs sur mon site.
 
-## Version longue :
+J'ai choisi Umami car il est bien plus respectueux de la vie privée des visiteurs (vous) que Google Analytics, il ne collecte que les données suffisantes pour mon site.
 
-Je me fiche de qui vous êtes, ou de ce que vous faites sur mon site web.
-Je suis là pour partager mes connaissances, et non vos données.
+Vous pouvez voir toutes les données collectées [ici](https://analytics.eu.umami.is/share/r0mSIPXoGmKTmBvJ/samsepi0l.dev).
 
 ## Version plus longue :
 
 ### Hébergeur web
-J'utilise Google Domains pour le nom de domaine et les serveurs DNS. J'utilise Netlify pour héberger le site web.
+J'utilise [Porkbun](https://porkbun.com/) pour le nom de domaine et les [deSEC.io](https://desec.io/) pour serveurs DNS. J'utilise Netlify pour héberger le site web.
 
 Vous pouvez consulter l'application de la RGPD par Netlify en visitant ce [lien](https://www.netlify.com/gdpr-ccpa/). Leur politique de vie privée peut se trouver [ici](https://www.netlify.com/privacy/).
 
@@ -25,8 +24,8 @@ J'utilise [hugo](https://gohugo.io/) pour la génération du site. Hugo possède
 
 Tous les services intégrés à Hugo sont [désactivés](https://github.com/d4rklynk/samsepi0l.dev/blob/main/config/_default/config.toml#L67).
 
-### Dépot Git
-J'utilise GitHub afin d'héberger [mon dépot](https://github.com/d4rklynk/samsepi0l.dev). Si vous souhaitez contribuer à mon site web, vous devrez créer un compte GitHub.
+### Dépôt Git
+J'utilise GitHub afin d'héberger [mon dépôt](https://github.com/d4rklynk/samsepi0l.dev). Si vous souhaitez contribuer à mon site web, vous devrez créer un compte GitHub.
 Vous pouvez lire leur politique de vie privée [ici](https://docs.github.com/fr/site-policy/privacy-policies/github-privacy-statement).
 
 ### Historique
