@@ -18,7 +18,7 @@ Dans une [page de la documentation](https://support.apple.com/fr-fr/guide/deploy
 
 > Remarque : en raison de la dépendance vis-à-vis des changements au niveau de l’architecture et du système apportés à une version actuelle du système d’exploitation dʼApple (par exemple, macOS 13, iOS 16, ainsi de suite), les problèmes de sécurité connus ne sont pas tous corrigés dans les versions antérieures (par exemple, macOS 12, iOS 15, ainsi de suite).
 
-Apple donc arrête le support régulier des corrections de sécurité (ce qui est le plus important) après la sortie d'une nouvelle version iOS. C'est donc pour cela que l'iPhone 6 qui n'est plus mis à jour pendant des années se retrouve quand même avec une correction par-[ci](https://support.apple.com/en-us/HT212341), par-[là](https://support.apple.com/en-us/HT212548) et encore [là](https://support.apple.com/en-us/HT213597) (et j'en passe), avec des semaines voire des mois d'écart.
+Apple arrête donc le support régulier des corrections de sécurité (ce qui est le plus important) après la sortie d'une nouvelle version iOS. C'est donc pour cela que l'iPhone 6 qui n'est plus mis à jour pendant des années se retrouve quand même avec une correction par-[ci](https://support.apple.com/en-us/HT212341), par-[là](https://support.apple.com/en-us/HT212548) et encore [là](https://support.apple.com/en-us/HT213597) (et j'en passe), avec des semaines voire des mois d'écart.
 
 Si votre iPhone est compatible avec la nouvelle version iOS, vous êtes tranquille. Mais le jour où votre iPhone ne peut plus être mis à niveau vers une version supérieure (exemple : de iOS 16 vers iOS 17) alors vous êtes fichu, car vous ne pouvez pas compter sur des futures mises à jour hypothétiques tandis que les failles de sécurité seront rapidement révélées au grand jour.
 
@@ -82,18 +82,18 @@ Si on reprend les iPhones à partir du 6 (choix arbitraire), voici les durées d
 
 - iPhone 6 et 6 Plus sont actuellement bloqués à la version 12.5.7, ils ne sont pas passés à iOS 13.
 
-**Durée de vie :** septembre 2014 à [septembre 2019](https://www.apple.com/newsroom/2019/06/apple-previews-ios-13/) (date de sortie d'iOS 13). Soit **5 ans** de support.
-
+  - **Durée de vie :** septembre 2014 à [septembre 2019](https://www.apple.com/newsroom/2019/06/apple-previews-ios-13/) (date de sortie d'iOS 13). Soit **5 ans** de support.
 
 - iPhone 6s, 6s Plus et SE 1ère génération sont actuellement bloqués à la version 15.7.9, ils ne sont pas passés à iOS 16.
 
-**Durée de vie :** septembre 2015 à [septembre 2022](https://www.apple.com/fr/newsroom/2022/09/ios-16-is-available-today/) (date de sortie d'iOS 16). Soit **7 ans** de support.
+  - **Durée de vie :** septembre 2015 à [septembre 2022](https://www.apple.com/fr/newsroom/2022/09/ios-16-is-available-today/) (date de sortie d'iOS 16). Soit **7 ans** de support.
 - iPhone 7 et 7 Plus sont actuellement bloqués à la version 15.7.9.
 
-**Durée de vie :** septembre 2016 à [septembre 2022](https://www.apple.com/fr/newsroom/2022/09/ios-16-is-available-today/) (date de sortie d'iOS 16). Soit **6 ans** de support.
+  - **Durée de vie :** septembre 2016 à [septembre 2022](https://www.apple.com/fr/newsroom/2022/09/ios-16-is-available-today/) (date de sortie d'iOS 16). Soit **6 ans** de support.
+
 - iPhone 8, 8 Plus et iPhone X sont actuellement bloqués à 16.7 (mise à jour en septembre 2023) mais [ne passeront pas à iOS 17](https://support.apple.com/fr-fr/guide/iphone/iphe3fa5df43/17.0/ios/17.0)
 
-**Durée de vie :** septembre 2017 à [septembre 2023](https://www.apple.com/fr/newsroom/2023/09/ios-17-is-available-today/) (date de sortie d'iOS 17). Soit **6 ans** de support.
+  - **Durée de vie :** septembre 2017 à [septembre 2023](https://www.apple.com/fr/newsroom/2023/09/ios-17-is-available-today/) (date de sortie d'iOS 17). Soit **6 ans** de support.
 
 > Actuellement, nous sommes plutôt sur un [mode](https://fr.wikipedia.org/wiki/Mode_(statistiques)) (valeur dominante en statistique) de 6 ans.
 
