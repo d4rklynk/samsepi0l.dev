@@ -173,6 +173,8 @@ Vous pouvez également remarquer que le Pixel 8 Pro à 13.08€/mois (1099€ à
 
 ## Extension du calcul
 
+### L'occasion
+
 Vous pouvez également comparer les prix entre un téléphone neuf sorti l'année précédente, un téléphone d'occasion et un téléphone neuf grâce à ces calculs.
 
 Prenons l'exemple avec un iPhone 14 :
@@ -202,6 +204,58 @@ Exemple : Vous avez un code promo qui vous octroie 15% de réduction sur le Goo
 {{< /alert >}}
 
 Si en plus, un proche vous offre une carte cadeau de 100€, vous payez le smartphone 332.65€, et je vous laisse faire le calcul 🙃.
+
+### Le coût des réparations
+
+Dois-je changer l'écran de mon actuel smartphone ou en acheter un nouveau ?
+
+L'ultime question, auquel je n'ai pas de réponses 😁.
+
+Cependant, vous pouvez calculer le prix de votre smartphone plus sa réparation jusqu'à sa fin de vie. Mais le résultat dépendra de votre budget.
+
+**Prenons un exemple concret :**
+
+Vous avez un Pixel 6a que vous avez acheté à sa sortie en Juillet 2022, vous l'avez payé au prix fort, 459€. Donc, 459/(5*12) = **7.65€/mois**.
+
+L'écran d'origine coûte [102.95€](https://store.ifixit.fr/products/google-pixel-6a-screen-genuine?variant=41000452259891).
+
+Je vais calculer uniquement le prix de l'écran à réparer (dans le cas où vous souhaitez le faire tout seul, d'ailleurs voici le [guide officiel](https://fr.ifixit.com/Tutoriel/Changement+%C3%A9cran+Google+Pixel+6a/152304) (approuvé par Google))
+
+**Cas 1 : Vous cassez l'écran au bout d'un an (en Juillet 2023)**
+
+Votre smartphone vous coûte toujours 7.65€/mois, mais vous venez de changer l'écran, donc vous allez payer cet écran sur les 4 années restantes.
+
+102.95/(4*12) = **2.14€/mois**
+
+Vous ajoutez maintenant le prix de votre téléphone :
+
+7.65 + 2.14 = **9.79€/mois**
+
+Vous avez payé 7.65€/mois la première année et vous payerez 9.79€/mois.
+
+Si vous voulez, on peut faire une moyenne du prix qui tombe à ((9.79*12*4)+(7.65*12))/(5*12) = **9.36€/mois**
+
+**Cas 2 : Vous cassez l'écran au bout de 3 ans (en Juillet 2025)**
+
+Cette fois-ci vous payerez l'écran sur les deux années qui restent, soit :
+
+102.95/(2*12) = **4.28€/mois**
+
+C'est tout de suite plus cher, calculons le prix du téléphone sur ses deux dernières années.
+
+7.65 + 4.28 = **11.93€/mois**
+
+De toute évidence, la moyenne ne va pas changer :
+
+((11.93*12*2)+(7.65*12*3))/(5*12) = **9.36€/mois**
+
+Je pense quand même que la moyenne est vite trompeuse, car changer son écran la première année versus le changer le tout dernier mois de support est quand même radicalement différent. À vous de voir ce qui vous convient le mieux. Cela dit, si vous souhaitez changer votre téléphone car il vous reste un peu moins d'un an de support par exemple, je vous conseille - dans une logique budgétaire - d'acheter un smartphone qui vous coûtera moins cher que ce que la réparation aurait du vous coûter. Si on reprends l'exemple ci-dessus, si vous cassez votre smartphone au bout de 3 ans et que vous souhaitez le changer, il serait avisé d'acheter un téléphone qui vous coûtera moins de 11.93€/mois.
+
+In fine, vous devez voir selon votre budget et vos principes si vous souhaitez ou non changer votre smartphone.
+
+> Personnellement, pour des raisons d'écologie, je changerai l'écran de mon Google Pixel dans la limite de 4 ans et 6 mois (si il est vraiment éclaté), au-delà de cette limite, je changerai de téléphone.
+
+> Après, le mieux est d'investir dans une bonne coque comme Rhinoshield ou Spigen et des écrans de protection (pas besoin de dépenser une fortune pour les écrans de protections par contre). Si vous fissurez votre écran de protection, changez-le immédiatement, car il n'assurera plus du tout une protection optimale contre les chocs, et donc le risque de casser l'écran de votre téléphone sera beaucoup plus grand. Ayez toujours un ou deux écrans de protection de rechange en avance afin de pouvoir le changer le plus rapidement possible.
 
 ## Conclusion
 
