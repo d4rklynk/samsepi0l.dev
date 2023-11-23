@@ -209,7 +209,7 @@ Si en plus, un proche vous offre une carte cadeau de 100€, vous payez le smart
 
 Dois-je changer l'écran de mon actuel smartphone ou en acheter un nouveau ?
 
-L'ultime question, auquel je n'ai pas de réponses 😁.
+L'ultime question, à laquelle je n'ai pas de réponses 😁.
 
 Cependant, vous pouvez calculer le prix de votre smartphone plus sa réparation jusqu'à sa fin de vie. Mais le résultat dépendra de votre budget.
 
