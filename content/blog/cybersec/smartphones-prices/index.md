@@ -45,7 +45,7 @@ Argument en faveur du **Google Pixel** (Android) :
 - Possibilité d'installer [GrapheneOS](https://grapheneos.org/install/web) (l'android le plus sécurisé aujourd'hui)
 - Prix plus abordable
 - Mises à jour de sécurité mensuelles
-- 5 ans de support (le maximum actuel chez Android)
+- 7 ans de support (le maximum actuel sur le marché des smartphones, toute marque confondue.)
 
 Argument en faveur d'**iPhone** :
 
