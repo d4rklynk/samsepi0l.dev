@@ -15,10 +15,10 @@
   pageRef = "blog"
   weight = 10
 
-[[main]]
-  name = "Mes projets"
-  pageRef = "projects"
-  weight = 20
+#[[main]]
+#  name = "Mes projets"
+#  pageRef = "projects"
+#  weight = 20
 
 [[main]]
   name = "SimplePrivacy"
@@ -26,9 +26,14 @@
   url = "https://simpleprivacy.fr"
 
 [[main]]
-  name = "Status"
+  name = "Services"
   weight = 40
-  url = "https://status.samsepi0l.dev"
+  url = "https://services.simpleprivacy.fr"
+
+[[main]]
+  name = "Status"
+  weight = 50
+  url = "https://status.simpleprivacy.fr"
 
 #[[main]]
 #  name = "Parent"
