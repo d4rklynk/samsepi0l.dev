@@ -2,7 +2,7 @@
 title: "Debloating Windows"
 date: 2023-12-06
 tags: ["Cybersec", "Windows"]
-auhtors: TommyTran732
+authors: TommyTran732
 ShowCanonicalLink: true
 canonicalURL: https://github.com/TommyTran732/Windows-Setup/tree/main/Debloat/
 ---
