@@ -5,7 +5,7 @@
 echo "Fetching and Modifying general tips posts"
 echo '---' > './content/blog/cybersec/windows-setup/general-tips/index.md'
 echo 'title: "General Tips"' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
-echo 'date: $(date '+%Y-%m-%d')' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
+echo 'date: 2023-12-06' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
 echo 'tags: ["Cybersec", "Windows"]' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
 echo 'author: TommyTran732' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
 echo 'ShowCanonicalLink: true' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
@@ -13,38 +13,42 @@ echo 'canonicalURL: https://github.com/TommyTran732/Windows-Setup' >> './content
 echo '---' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
 echo '' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
 
-curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Getting%20an%20ISO.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
-curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Account%20Creation.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
-curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Microsoft%20Defender%20Sandbox.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
-curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Microsoft%20Defender%20Application%20Guard.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
+curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Getting%20an%20ISO.md >> './content/blog/cybersec/windows-setup/general-tips/index.md'
+curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Account%20Creation.md >> './content/blog/cybersec/windows-setup/general-tips/index.md'
+curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Microsoft%20Defender%20Sandbox.md >> './content/blog/cybersec/windows-setup/general-tips/index.md'
+curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Microsoft%20Defender%20Application%20Guard.md >> './content/blog/cybersec/windows-setup/general-tips/index.md'
 
 #Download Debloat post
-echo "Fetching and Modifying the debloat post"
-rm -rf './content/blog/cybersec/windows-setup/debloat/index.md'
+echo "Fetching and Modifying debloat posts"
+
 rm -rf './content/blog/cybersec/windows-setup/debloat/parallels.txt'
-curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Debloat/README.md -o './content/blog/cybersec/windows-setup/debloat/index.md'
+
+echo '---' > './content/blog/cybersec/windows-setup/debloat/index.md'
+echo 'title: "Debloating Windows"' >> './content/blog/cybersec/windows-setup/debloat/index.md'
+echo 'date: 2023-12-06' >> './content/blog/cybersec/windows-setup/debloat/index.md'
+echo 'tags: ["Cybersec", "Windows"]' >> './content/blog/cybersec/windows-setup/debloat/index.md'
+echo 'author: TommyTran732' >> './content/blog/cybersec/windows-setup/debloat/index.md'
+echo 'ShowCanonicalLink: true' >> './content/blog/cybersec/windows-setup/debloat/index.md'
+echo 'canonicalURL: https://github.com/TommyTran732/Windows-Setup/tree/main/Debloat/' >> './content/blog/cybersec/windows-setup/debloat/index.md'
+echo '---' >> './content/blog/cybersec/windows-setup/debloat/index.md'
+echo '' >> './content/blog/cybersec/windows-setup/debloat/index.md'
+
+curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Debloat/README.md >> './content/blog/cybersec/windows-setup/debloat/index.md'
 curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Debloat/Parallels.txt -o './content/blog/cybersec/windows-setup/debloat/parallels.txt'
-sed -i '1s/^/---/' './content/blog/cybersec/windows-setup/debloat/index.md'
-sed -i '2s/^/title: "Debloating Windows"/' './content/blog/cybersec/windows-setup/debloat/index.md'
-sed -i '3s/^/date: $(date '+%Y-%m-%d')/' './content/blog/cybersec/windows-setup/debloat/index.md'
-sed -i '4s/^/tags: ["Cybersec", "Windows"]/' './content/blog/cybersec/windows-setup/debloat/index.md'
-sed -i '5s/^/author: TommyTran732/' './content/blog/cybersec/windows-setup/debloat/index.md'
-sed -i '6s/^/ShowCanonicalLink: true/' './content/blog/cybersec/windows-setup/debloat/index.md'
-sed -i '7s/^/canonicalURL: https://github.com/TommyTran732/Windows-Setup/tree/main/Debloat/' './content/blog/cybersec/windows-setup/debloat/index.md'
-sed -i '8s/^/---/' './content/blog/cybersec/windows-setup/debloat/index.md'
+
 sed -i 's/'Parallels.txt'/[Parallels.txt](./parallels.txt)/' './content/blog/cybersec/windows-setup/debloat/index.md'
 
 #Download group policies post
 echo "Fetching and Modifying the group policies post"
 echo '---' > './content/blog/cybersec/windows-setup/group-policies/index.md'
 echo 'title: "Group Policies"' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
-echo 'date: $(date '+%Y-%m-%d')' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
+echo 'date: 2023-12-06' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 echo 'tags: ["Cybersec", "Windows"]' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 echo 'author: TommyTran732' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 echo 'ShowCanonicalLink: true' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 echo 'canonicalURL: https://github.com/TommyTran732/Windows-Setup/tree/main/Group%20Policies' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 echo '---' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
-echo '' >> './content/blog/cybersec/windows-setup/windows-settings/index.md'
+echo '' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 
 ### Computer configuration
 echo '# Computer Configuration' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
@@ -161,7 +165,7 @@ sed -i 's/# Windows Copilot/### Windows Copilot/' './content/blog/cybersec/windo
 echo "Fetching and Modifying Windows Settings post"
 echo '---' > './content/blog/cybersec/windows-setup/windows-settings/index.md'
 echo 'title: "Windows Settings"' >> './content/blog/cybersec/windows-setup/windows-settings/index.md'
-echo 'date: $(date '+%Y-%m-%d')' >> './content/blog/cybersec/windows-setup/windows-settings/index.md'
+echo 'date: 2023-12-06' >> './content/blog/cybersec/windows-setup/windows-settings/index.md'
 echo 'tags: ["Cybersec", "Windows"]' >> './content/blog/cybersec/windows-setup/windows-settings/index.md'
 echo 'author: TommyTran732' >> './content/blog/cybersec/windows-setup/windows-settings/index.md'
 echo 'ShowCanonicalLink: true' >> './content/blog/cybersec/windows-setup/windows-settings/index.md'
@@ -169,7 +173,7 @@ echo 'canonicalURL: https://github.com/TommyTran732/Windows-Setup/tree/main/Wind
 echo '---' >> './content/blog/cybersec/windows-setup/windows-settings/index.md'
 echo '' >> './content/blog/cybersec/windows-setup/windows-settings/index.md'
 
-curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Windows%20Settings/Date%20%26%20Time.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
-curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Windows%20Settings/Privacy%20%26%20security.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
-curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Windows%20Settings/Windows%20Security.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
-curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Windows%20Settings/Windows%20Update.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
+curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Windows%20Settings/Date%20%26%20Time.md >> './content/blog/cybersec/windows-setup/windows-settings/index.md'
+curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Windows%20Settings/Privacy%20%26%20security.md >> './content/blog/cybersec/windows-setup/windows-settings/index.md'
+curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Windows%20Settings/Windows%20Security.md >> './content/blog/cybersec/windows-setup/windows-settings/index.md'
+curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Windows%20Settings/Windows%20Update.md >> './content/blog/cybersec/windows-setup/windows-settings/index.md'
