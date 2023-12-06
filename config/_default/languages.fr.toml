@@ -1,17 +1,18 @@
-languageCode = "fr"
-languageName = "Francais"
-displayName = "FR"
-isoCode = "fr"
-weight = 1
-rtl = false
+[params]
+    languageCode = "fr"
+    languageName = "Francais"
+    displayName = "FR"
+    isoCode = "fr"
+    weight = 1
+    rtl = false
 
-title = "samsepi0l"
-logo = "img/mikasa-round.png"
-# secondaryLogo = "img/secondary-logo.png"
-description = "Le blog d'un fan (abusif) de Mr. Robot"
-copyright = "CC BY-SA 4.0 { year }"
+    title = "samsepi0l"
+    logo = "img/mikasa-round.png"
+    # secondaryLogo = "img/secondary-logo.png"
+    description = "Le blog d'un fan (abusif) de Mr. Robot"
+    copyright = "CC BY-SA 4.0 { year }"
 
-dateFormat = "2 January 2006"
+    dateFormat = "2 January 2006"
 
 [author]
   name = "samsepi0l"
