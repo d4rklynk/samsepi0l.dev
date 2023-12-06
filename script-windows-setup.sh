@@ -8,7 +8,7 @@ echo 'title: "General Tips"' >> './content/blog/cybersec/windows-setup/general-t
 echo 'date: 2023-12-06' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
 echo 'tags: ["Cybersec", "Windows"]' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
 echo 'showAuthor: false' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
-echo -e 'authors: \n\t "tommy"' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
+echo -e 'authors: \n\t- "tommy"' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
 echo 'ShowCanonicalLink: true' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
 echo 'canonicalURL: https://github.com/TommyTran732/Windows-Setup' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
 echo '---' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
