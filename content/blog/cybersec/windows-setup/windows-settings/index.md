@@ -2,7 +2,7 @@
 title: "Windows Settings"
 date: 2023-12-06
 tags: ["Cybersec", "Windows"]
-auhtors: TommyTran732
+authors: TommyTran732
 ShowCanonicalLink: true
 canonicalURL: https://github.com/TommyTran732/Windows-Setup/tree/main/Windows%20Settings
 ---
@@ -54,7 +54,7 @@ This sends hashes and file paths to Microsoft. It will also sends the URL of whe
 
 ### SmartScreen for Microsoft Edge
 
-This setting is independent from Smart App Control. Extremely privacy invasive. Sends **FULL URLs** to Microsoft. Whether to keep this on or not depends on the threat model, though it probably should be off in most cases.
+This setting is independant from Smart App Control. Extremely privacy invasive. Sends **FULL URLs** to Microsoft. Whether to keep this on or not depends on the threat model, though it probably should be off in most cases.
 
 Consider scenarios where you use Proton Drive/Mega/PrivateBin which append the encryption key in the URL. Now you are sending both the URL and the key to Microsoft. Something that's supposed to be private / end-to-end encrypted now gets leaked just like that. Or if you use PHPMyAdmin with the username & password appended for logins - now you are leaking access to your database.
 
@@ -93,7 +93,7 @@ If you sign in with a Microsoft account, "Data Encryption" will submit the key p
 Make sure the followings are selected:
 
 - Uncheck update as soon as possible (this is essentially the same as auto update with gradual release - we will configure the group pol to be auto update without gradual release)
-- Advanced option -> Receive updates for other Microsoft products
+- Advanced option -> Recieve updates for other Microsoft products
 - Notify when restart is required to finish updating
 - Install optional updates
 
