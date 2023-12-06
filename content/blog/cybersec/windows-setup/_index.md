@@ -4,7 +4,8 @@ ShowReadingTime: false
 ShowWordCount: false
 showDate: false
 showDateUpdated: false
-author: TommyTran732
+authors:
+    - "tommy"
 ---
 
 Setup your Windows like Tommy!
