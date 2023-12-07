@@ -19,7 +19,7 @@ canonicalURL: https://github.com/TommyTran732/Windows-Setup/tree/main/Group%20Po
 
 `Computer Configuration\Administrative Templates\Start Menu and Taskbar`
 
-This is not strictly problematic, though I get quite irritated with most used apps/recently added apps/recently opened documents/etc showing up on my start menu. Someone may iadvertedly see something when I show them my screen.
+This is not strictly problematic, though I get quite irritated with most used apps/recently added apps/recently opened documents/etc showing up on my start menu. Someone may inadvertently see something when I show them my screen.
 
 - Remove "Recently added" list from Start Menu -> Enabled
 - Remove Personalized Website Recommendation section in the Start Menu -> Enabled
@@ -28,6 +28,7 @@ This is not strictly problematic, though I get quite irritated with most used ap
 - Do not keep history of recently opened documents -> Enabled
 - Show or hide "Most used" list from Start menu -> Enabled -> Hide
 - Pin Apps to Start when installed -> Disabled
+
 ### User Account Control
 
 Documentation: https://learn.microsoft.com/en-us/windows/security/application-security/application-control/user-account-control/settings-and-configuration?tabs=gpo
@@ -57,9 +58,10 @@ Documentation: https://learn.microsoft.com/en-us/windows/security/application-se
 
 ### Credentials Delegation
 
-`Computer Configuration\Administrative Templates\System\Credentials Delegration`
+`Computer Configuration\Administrative Templates\System\Credentials Delegation`
 
 - Encryption Oracle Remediation -> Enabled -> Force Updated Clients
+
 ### Device Guard
 
 `Computer Configuration\Administrative Templates\System\Device Guard`
@@ -83,13 +85,14 @@ Probably doesn't do anything unless you use a 3rd party Antimalware with this fe
 
 **Old and very likely to be obsolete.**
 
-- Turn off Windows Customer Experience mprovement Program -> Enabled
+- Turn off Windows Customer Experience Improvement Program -> Enabled
 - Turn off downloading of print drivers over HTTP -> Enabled
 Turn off printing over HTTP -> Enabled
 - Turn off Help and Support Center "Did you know?" content -> Enabled (These are probably not that useful and will just be annoying)
 - Turn off Windows Error Reporting -> Enabled
 - turn off Search Companion content file updates -> Enabled
 - Turn off Windows Messenger Customer Experience Improvement Program -> Enabled
+
 ### Kernel DMA Protection
 
 `Computer Configuration\Administrative Templates\System\Kernel DMA Protection`
@@ -124,7 +127,8 @@ Turn off printing over HTTP -> Enabled
 `Computer Configuration\Administrative Templates\System\User Profiles`
 
 - Turn off the advertising ID -> Enabled
-- Only allow local user profiles -> Enabled (You probably aren't going to use roaming profiles unless you are in some niche environment like a univeristy, are you? Might as well just disable them because why not?)
+- Only allow local user profiles -> Enabled (You probably aren't going to use roaming profiles unless you are in some niche environment like a university, are you? Might as well just disable them because why not?)
+
 ### Windows Time Service
 
 `Computer Configuration\Administrative Templates\System\Windows Time Service`
@@ -168,9 +172,10 @@ These contains some settings that are not in the Settings app (and vice versa). 
 - Turn off Application Telemetry -> Enabled
 ### AutoPlay Policies
 
-`Computer Configuration\Administrative Templates\Windows Components\AutoPlay {p;ocoesy`
+`Computer Configuration\Administrative Templates\Windows Components\AutoPlay`
 
 - Turn off Autoplay -> Enabled
+
 ### Bitlocker Drive Encryption
 
 `Computer Configuration\Administrative Templates\Windows Components\Bitlocker Drive Encryption`
@@ -224,9 +229,10 @@ I mostly disable all cloud content because they are way too annoying. There are 
 
 I do not see these ever being used on my system, therefore they are disabled. Obviously, you don't have to apply them if you want to use location and sensors.
 
-- Turn off location scription -> Enabled
+- Turn off location scripting -> Enabled
 - Turn off location -> Enabled
 - Turn off sensors -> Enabled
+
 ### MAPS
 
 `Computer Configuration\Administrative Templates\Windows Components\Microsoft Defender Antivirus\MAPS`
@@ -241,7 +247,8 @@ Microsoft Defender Antivirus MAPS is an interesting case. You should configure i
 Unless you run your own MDM system or something, this probably should not be on with a personal computer.
 
 - Enable automatic MDM enrollment using default Azure AD credentials -> Disabled (Probably redundant because of the next policy, but it will also **unenroll** you from Azure AD)
-- Disable MDM enrollment -> Enabled (This will not unenroll you though)
+- Disable MDM enrollment -> Enabled (This will not disenroll you though)
+
 ### Messaging
 
 `Computer Configuration\Administrative Templates\Windows Components\Messaging`
@@ -326,14 +333,15 @@ Probably not a huge privacy/security issue. I just disable it because I do not w
 
 `Computer Configuration\Administrative Templates\Windows Components\Windows Defender SmartScreen`
 
-- Enhanced Phising Protection -> Service Enabled -> Disabled
+- Enhanced Phishing Protection -> Service Enabled -> Disabled
 
 **For a corporate scenario or when you cannot trust the user you are configuring it for and you choose to have SmartScreen enabled, do the followings:**,
 
 - Explorer -> Configure Windows Defender SmartScreen -> Enabled -> Warn and prevent bypass
-- Microsoft Edge -> Prevent bypassing Windws Defender SmartScreen prompts for sites -> Enabled
+- Microsoft Edge -> Prevent bypassing Windows Defender SmartScreen prompts for sites -> Enabled
 
 There is also Explorer -> Configure App Install Control that you might want to look into. Probably theatre though, it doesn't appear to block anything, or anything meaningful at least.
+
 ### Windows Error Reporting
 
 `Computer Configuration\Administrative Templates\Windows Components\Windows Error Reporting`
@@ -343,7 +351,7 @@ There is also Explorer -> Configure App Install Control that you might want to l
 
 `Computer Configuration\Administrative Templates\Windows Components\Windows Game Recording and Broadcasting`
 
-If you wanna record your screen and stuff, don't apply this. Otherwise, why not just disable it? Unnecesary stuff.
+If you wanna record your screen and stuff, don't apply this. Otherwise, why not just disable it? Unnecessary stuff.
 
 - Enables or disables Windows Game Windows Game Recording and Broadcasting -> Disabled
 
@@ -366,8 +374,8 @@ Obviously do not set this if you need Windows Media DRM, but I have never seen t
 
 `Computer Configuration\Administrative Templates\Windows Components\Windows Update`
 
-- Manage updates offered from Windows Update -> Enable optional updates -> Enabled -> Automatically recieve optional updates
-- Manage updates offered from Windows Update -> Select when Quality Updates are recieved -> Enabled -> Defer for 0 days
+- Manage updates offered from Windows Update -> Enable optional updates -> Enabled -> Automatically receive optional updates
+- Manage updates offered from Windows Update -> Select when Quality Updates are received -> Enabled -> Defer for 0 days
 # User Configuration
 
 ### Cloud Content
