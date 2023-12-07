@@ -2,6 +2,8 @@
 title: "Group Policies"
 date: 2023-09-01
 tags: ["Cybersec", "Windows"]
+series: ["Windows Setup"]
+series_order: 3
 showAuthor: false
 authors: 
   - "tommy"
