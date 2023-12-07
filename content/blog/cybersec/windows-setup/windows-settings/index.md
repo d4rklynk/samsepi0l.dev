@@ -1,6 +1,6 @@
 ---
 title: "Windows Settings"
-date: 2023-11-05
+date: 2023-09-01
 tags: ["Cybersec", "Windows"]
 showAuthor: false
 authors: 
