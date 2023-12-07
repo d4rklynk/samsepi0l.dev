@@ -11,3 +11,5 @@ authors:
 Setup your Windows like Tommy!
 
 These articles are automatically fetched from [TommyTran732's repo](https://github.com/TommyTran732/Windows-Setup) on GitHub.
+
+{{< github repo="TommyTran732/Windows-Setup" >}}
