@@ -190,7 +190,6 @@ Choose drive encryption method and cipher strength (Windows 10 [Version 1511] an
 - Require additional authentication at startup -> Enabled -> Do not allow TPM, Allow startup PIN with TPM, Do not allow startup key with TPM, Allow startup key and PIN with TPM. (**This is especially important as we do not want the TPM to automatically release the encryption key at boot.**)
 - Allow enhanced PINs for startup -> Enabled.
 - Configure TPM platform validation profile for native UEFI firmware configurations -> Enabled -> PCR 0,1,2,3,3,4,5,6,7,11
-##
 ### Cloud Content
 
 `Computer Configuration\Administrative Templates\Windows Components\Cloud Content`
@@ -200,20 +199,18 @@ I mostly disable all cloud content because they are way too annoying. There are 
 - Turn off cloud optimized content -> Enabled
 - Turn off cloud consumer account state content -> Enabled
 - Do not show Windows tips -> Enabled
-- Turn of Microsoft consumer experiences -> Enabled
-##
-### Controlled Folder Access
+- Turn of Microsoft consumer experiences -> Enabled# Controlled Folder Access
 
 `Computer Configuration\Administrative Templates\Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Controlled Folder Access`
 
-- Configure Controlled folder access -> Enabled -> Block# Data Collection and Preview Builds
+- Configure Controlled folder access -> Enabled -> Block
+### Data Collection and Preview Builds
 
 `Computer Configuration\Administrative Templates\Windows Components\Data Collection and Preview Builds`
 
 - Toggle user control over Insider builds -> Disabled
 - Allow Diagnostic Data -> Enabled -> Diagnostic Data off (Only affects Enterprise, Education, and Server)
 - Do not show feedback notification -> Enabled
-##
 ### File Explorer
 
 `Computer Configuration\Administrative Templates\Windows Components\File Explorer`
@@ -321,9 +318,7 @@ Very confusing, you need to consult https://learn.microsoft.com/en-us/windows/pr
 
 Probably not a huge privacy/security issue, it just fetches news and stuff from the internet. I disable it as it is extremely annoying.
 
-- Allow widgets -> Disabled
-##
-### Windows Calendar
+- Allow widgets -> Disabled# Windows Calendar
 
 `Computer Configuration\Administrative Templates\Windows Components\Windows Calendar`
 
@@ -362,9 +357,7 @@ If you wanna record your screen and stuff, don't apply this. Otherwise, why not 
 
 Obviously do not set this if you need Windows Media DRM, but I have never seen this being used so I don't see a reason for it to be allowed.
 
-- Prevent Windows Media DRM Internet Access -> Enabled
-##
-### Windows Calendar
+- Prevent Windows Media DRM Internet Access -> Enabled# Windows Calendar
 
 `Computer Configuration\Administrative Templates\Windows Components\Windows Messenger`
 
