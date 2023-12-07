@@ -5,7 +5,7 @@
 echo "Fetching and Modifying general tips posts"
 echo '---' > './content/blog/cybersec/windows-setup/general-tips/index.md'
 echo 'title: "General Tips"' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
-echo 'date: 2023-12-06' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
+echo 'date: 2023-09-01' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
 echo 'tags: ["Cybersec", "Windows"]' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
 echo 'showAuthor: false' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
 echo -e 'authors: \n  - "tommy"' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
@@ -26,7 +26,7 @@ rm -rf './content/blog/cybersec/windows-setup/debloat/parallels.txt'
 
 echo '---' > './content/blog/cybersec/windows-setup/debloat/index.md'
 echo 'title: "Debloating Windows"' >> './content/blog/cybersec/windows-setup/debloat/index.md'
-echo 'date: 2023-12-06' >> './content/blog/cybersec/windows-setup/debloat/index.md'
+echo 'date: 2023-09-01' >> './content/blog/cybersec/windows-setup/debloat/index.md'
 echo 'tags: ["Cybersec", "Windows"]' >> './content/blog/cybersec/windows-setup/debloat/index.md'
 echo 'showAuthor: false' >> './content/blog/cybersec/windows-setup/debloat/index.md'
 echo -e 'authors: \n  - "tommy"' >> './content/blog/cybersec/windows-setup/debloat/index.md'
@@ -44,7 +44,7 @@ sed -i 's/`Parallels.txt`/[Parallels.txt](./parallels.txt)/' './content/blog/cyb
 echo "Fetching and Modifying the group policies post"
 echo '---' > './content/blog/cybersec/windows-setup/group-policies/index.md'
 echo 'title: "Group Policies"' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
-echo 'date: 2023-12-06' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
+echo 'date: 2023-09-01' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 echo 'tags: ["Cybersec", "Windows"]' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 echo 'showAuthor: false' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 echo -e 'authors: \n  - "tommy"' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
@@ -168,7 +168,7 @@ sed -i 's/# Windows Copilot/\n### Windows Copilot/' './content/blog/cybersec/win
 echo "Fetching and Modifying Windows Settings post"
 echo '---' > './content/blog/cybersec/windows-setup/windows-settings/index.md'
 echo 'title: "Windows Settings"' >> './content/blog/cybersec/windows-setup/windows-settings/index.md'
-echo 'date: 2023-12-06' >> './content/blog/cybersec/windows-setup/windows-settings/index.md'
+echo 'date: 2023-09-01' >> './content/blog/cybersec/windows-setup/windows-settings/index.md'
 echo 'tags: ["Cybersec", "Windows"]' >> './content/blog/cybersec/windows-setup/windows-settings/index.md'
 echo 'showAuthor: false' >> './content/blog/cybersec/windows-setup/windows-settings/index.md'
 echo -e 'authors: \n  - "tommy"' >> './content/blog/cybersec/windows-setup/windows-settings/index.md'
