@@ -26,7 +26,6 @@ enableGitInfo = true
   tag = "tags"
   category = "categories"
   author = "authors"
-  authors = "authors"
   series = "series"
 
 [sitemap]

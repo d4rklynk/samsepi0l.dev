@@ -4,7 +4,7 @@ date: 2023-12-06
 tags: ["Cybersec", "Windows"]
 showAuthor: false
 authors: 
-	- "tommy"
+  - "tommy"
 ShowCanonicalLink: true
 canonicalURL: https://github.com/TommyTran732/Windows-Setup/tree/main/Group%20Policies
 ---
