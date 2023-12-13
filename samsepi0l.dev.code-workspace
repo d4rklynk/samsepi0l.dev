@@ -5,4 +5,15 @@
 		}
 	],
 	"settings": {}
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "extensions": {
+		"recommendations": [
+			"streetsidesoftware.code-spell-checker-french",
+			"streetsidesoftware.code-spell-checker"
+		]
+	}
 }
