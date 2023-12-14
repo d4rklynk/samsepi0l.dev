@@ -12,6 +12,9 @@ J'ai choisi Umami car il est bien plus respectueux de la vie privée des visiteu
 
 Vous pouvez voir toutes les données collectées [ici](https://analytics.eu.umami.is/share/r0mSIPXoGmKTmBvJ/samsepi0l.dev).
 
+Ce site est également en conformité avec le **Do Not Track Policy**. Si celui-ci est activé sur votre navigateur, absolument aucune donnée ne sera récoltée.
+La politique Do Not Track est disponible en anglais via [ce lien](/.well-known/dnt-policy.txt).
+
 ## Version plus longue :
 
 ### Hébergeur web
