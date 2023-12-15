@@ -1,6 +1,6 @@
 /*
   Strict-Transport-Security : max-age=63072000; includeSubDomains; preload
-  Content-Security-Policy : default-src 'none'; connect-src 'self' https://analytics.eu.umami.is; img-src 'self'; script-src 'self' 'unsafe-inline' https://analytics.eu.umami.is; style-src 'self' 'unsafe-inline'; form-action 'none'; frame-ancestors 'none'; block-all-mixed-content; base-uri 'none'; manifest-src 'self'
+  Content-Security-Policy : default-src 'none'; connect-src 'self' https://analytics.eu.umami.is; img-src 'self'; script-src 'self' 'unsafe-inline' https://analytics.eu.umami.is; style-src 'self' 'unsafe-inline'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests; base-uri 'none'; manifest-src 'self'
   X-Content-Type-Options : nosniff
   Referrer-Policy : no-referrer
   X-Frame-Options : DENY
@@ -22,17 +22,17 @@ https://:samsepi0l.netlify.app/*
   Cross-Origin-Embedder-Policy : unsafe-none
   
 /blog/cybersec/iphone-updates/
-  Content-Security-Policy : default-src 'none'; connect-src 'self' https://analytics.eu.umami.is; img-src 'self'; script-src 'self' 'unsafe-inline' https://analytics.eu.umami.is; style-src 'self' 'unsafe-inline'; frame-src https://www.youtube-nocookie.com https://www.google.com; form-action 'none'; frame-ancestors 'none'; block-all-mixed-content; base-uri 'none'; manifest-src 'self'
+  Content-Security-Policy : default-src 'none'; connect-src 'self' https://analytics.eu.umami.is; img-src 'self'; script-src 'self' 'unsafe-inline' https://analytics.eu.umami.is; style-src 'self' 'unsafe-inline'; frame-src https://www.youtube-nocookie.com https://www.google.com; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests; base-uri 'none'; manifest-src 'self'
   Permissions-Policy: accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(*), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=(), clipboard-read=(), clipboard-write=(self), gamepad=(), speaker-selection=(), conversion-measurement=(), focus-without-user-activation=(), hid=(), idle-detection=(), interest-cohort=(), serial=(), sync-script=(), trust-token-redemption=(), unload=(), window-placement=(), vertical-scroll=()
   Cross-Origin-Embedder-Policy : unsafe-none
 
 /blog/autisme/autism-kit/
-  Content-Security-Policy : default-src 'none'; connect-src 'self' https://analytics.eu.umami.is; img-src 'self'; script-src 'self' 'unsafe-inline' https://analytics.eu.umami.is; style-src 'self' 'unsafe-inline'; frame-src https://www.youtube-nocookie.com https://www.google.com; form-action 'none'; frame-ancestors 'none'; block-all-mixed-content; base-uri 'none'; manifest-src 'self'
+  Content-Security-Policy : default-src 'none'; connect-src 'self' https://analytics.eu.umami.is; img-src 'self'; script-src 'self' 'unsafe-inline' https://analytics.eu.umami.is; style-src 'self' 'unsafe-inline'; frame-src https://www.youtube-nocookie.com https://www.google.com; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests; base-uri 'none'; manifest-src 'self'
   Permissions-Policy: accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(*), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=(), clipboard-read=(), clipboard-write=(self), gamepad=(), speaker-selection=(), conversion-measurement=(), focus-without-user-activation=(), hid=(), idle-detection=(), interest-cohort=(), serial=(), sync-script=(), trust-token-redemption=(), unload=(), window-placement=(), vertical-scroll=()
   Cross-Origin-Embedder-Policy : unsafe-none
 
 /*.xml
-  Content-Security-Policy : default-src 'none'; img-src 'self' data: https://www.w3.org/; style-src 'self' 'unsafe-inline'; block-all-mixed-content; base-uri 'none'
+  Content-Security-Policy : default-src 'none'; img-src 'self' data: https://www.w3.org/; style-src 'self' 'unsafe-inline'; upgrade-insecure-requests; base-uri 'none'
 
 /*.png
   Cross-Origin-Resource-Policy : cross-origin
@@ -43,3 +43,12 @@ https://:samsepi0l.netlify.app/*
 /fsociety00.dat
   Content-Type: text/plain; charset=utf-8
   Content-Disposition: inline
+  Content-Security-Policy : default-src 'none'; upgrade-insecure-requests;
+  X-Content-Type-Options : nosniff
+  Referrer-Policy : no-referrer
+  X-Frame-Options : DENY
+  X-XSS-Protection : 0
+  Permissions-Policy: accelerometer=(), ambient-light-sensor=(), autoplay=(), battery=(), camera=(), cross-origin-isolated=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), geolocation=(), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), navigation-override=(), payment=(), picture-in-picture=(), publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=(), usb=(), web-share=(), xr-spatial-tracking=(), clipboard-read=(), clipboard-write=(self), gamepad=(), speaker-selection=(), conversion-measurement=(), focus-without-user-activation=(), hid=(), idle-detection=(), interest-cohort=(), serial=(), sync-script=(), trust-token-redemption=(), unload=(), window-placement=(), vertical-scroll=()
+  Cross-Origin-Resource-Policy : same-origin
+  Cross-Origin-Embedder-Policy : require-corp
+  Cross-Origin-Opener-Policy : same-origin
