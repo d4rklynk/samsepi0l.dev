@@ -68,7 +68,7 @@ sed -i 's/# Printers/\n### Printers/' './content/blog/cybersec/windows-setup/gro
 sed -i 's/# Start Menu and Taskbar/\n### Start Menu and Taskbar/' './content/blog/cybersec/windows-setup/group-policies/index.md'
 sed -i 's/# User Account Control/\n### User Account Control/' './content/blog/cybersec/windows-setup/group-policies/index.md'
 
-echo '\n## Control Panel' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
+echo -e '\n## Control Panel' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Group%20Policies/Computer%20Configuration/Control%20Panel/Allow%20Online%20Tips.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Group%20Policies/Computer%20Configuration/Control%20Panel/Personalization.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Group%20Policies/Computer%20Configuration/Control%20Panel/Regional%20and%20Language%20options.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
@@ -76,7 +76,7 @@ sed -i 's/# Allow Online Tips/\n### Allow Online Tips/' './content/blog/cybersec
 sed -i 's/# Personalization/\n### Personalization/' './content/blog/cybersec/windows-setup/group-policies/index.md'
 sed -i 's/# Regional and Language Options/\n### Regional and Language Options/' './content/blog/cybersec/windows-setup/group-policies/index.md'
 
-echo '\n## System' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
+echo -e '\n## System' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Group%20Policies/Computer%20Configuration/System/Credentials%20Delegation.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Group%20Policies/Computer%20Configuration/System/Device%20Guard.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Group%20Policies/Computer%20Configuration/System/Device%20Health%20Attestation%20Service.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
@@ -98,11 +98,11 @@ sed -i 's/# Kernel DMA Protection/\n### Kernel DMA Protection/' './content/blog/
 sed -i 's/# Mitigation Options/\n### Mitigation Options/' './content/blog/cybersec/windows-setup/group-policies/index.md'
 sed -i 's/# OS Policies/\n### OS Policies/' './content/blog/cybersec/windows-setup/group-policies/index.md'
 sed -i 's/# Remote Assistance/\n### Remote Assistance/' './content/blog/cybersec/windows-setup/group-policies/index.md'
-sed -i 's/# Service Control Manager Settings/\n###Service Control Manager Settings/' './content/blog/cybersec/windows-setup/group-policies/index.md'
+sed -i 's/# Service Control Manager Settings/\n### Service Control Manager Settings/' './content/blog/cybersec/windows-setup/group-policies/index.md'
 sed -i 's/# User Profiles/\n### User Profiles/' './content/blog/cybersec/windows-setup/group-policies/index.md'
 sed -i 's/# Windows Time Service/\n### Windows Time Service/' './content/blog/cybersec/windows-setup/group-policies/index.md'
 
-echo '## Windows Components' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
+echo -e '## Windows Components' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Group%20Policies/Computer%20Configuration/Windows%20Components/App%20Privacy.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Group%20Policies/Computer%20Configuration/Windows%20Components/Application%20Compatibility.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Group%20Policies/Computer%20Configuration/Windows%20Components/AutoPlay%20Policies.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
@@ -162,7 +162,7 @@ sed -i 's/# Windows Update/\n### Windows Update/' './content/blog/cybersec/windo
 
 
 ### User configuration
-echo '# User Configuration' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
+echo -e '\n# User Configuration' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Group%20Policies/User%20Configuration/Cloud%20Content.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Group%20Policies/User%20Configuration/File%20Explorer.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Group%20Policies/User%20Configuration/Windows%20Copilot.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
