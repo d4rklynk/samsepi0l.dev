@@ -102,7 +102,7 @@ sed -i 's/# Service Control Manager Settings/\n### Service Control Manager Setti
 sed -i 's/# User Profiles/\n### User Profiles/' './content/blog/cybersec/windows-setup/group-policies/index.md'
 sed -i 's/# Windows Time Service/\n### Windows Time Service/' './content/blog/cybersec/windows-setup/group-policies/index.md'
 
-echo -e '## Windows Components' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
+echo -e '\n## Windows Components' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Group%20Policies/Computer%20Configuration/Windows%20Components/App%20Privacy.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Group%20Policies/Computer%20Configuration/Windows%20Components/Application%20Compatibility.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Group%20Policies/Computer%20Configuration/Windows%20Components/AutoPlay%20Policies.md >> './content/blog/cybersec/windows-setup/group-policies/index.md'
