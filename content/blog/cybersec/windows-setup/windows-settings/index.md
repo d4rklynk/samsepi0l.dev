@@ -13,11 +13,15 @@ canonicalURL: https://github.com/TommyTran732/Windows-Setup/tree/main/Windows%20
 
 # Date & Time
 
-Windows uses NTP for time synchronization, which is not secure due to the lack of encryption and authentication. If you are running bare metal, I recommend that you setup a VM to sync time using NTS, then use it as the NTP server for Windows. If you are running a VM (Parallels in my case), just disable network time synchronization and let the guest agent sync time from the host.# Privacy & security
+Windows uses NTP for time synchronization, which is not secure due to the lack of encryption and authentication. If you are running bare metal, I recommend that you setup a VM to sync time using NTS, then use it as the NTP server for Windows. If you are running a VM (Parallels in my case), just disable network time synchronization and let the guest agent sync time from the host.
+
+# Privacy & security
 
 Disable everything you can in this section. Do not neglect it just because you uncheck everything during the installation - various privacy invasive stuff are still in there.
 
-If something needs to be reenabled later for certain apps, you can always do that.# Virus & threat protection
+If something needs to be reenabled later for certain apps, you can always do that.
+
+# Virus & threat protection
 
 ## Virus & threat protection settings
 
@@ -93,6 +97,7 @@ If theres aren't on, check the firmware settings. On Parallels, both should pass
 Poor man's Bitlocker. Unless you are using Home edition, turn this off and use Bitlocker proper.
 
 If you sign in with a Microsoft account, "Data Encryption" will submit the key protector to Microsoft (which means that Microsoft can decrypt your device should they get physical access to it). Not sure what happens when you do not login with a Microsoft account, but it is worse than a proper Bitlocker setup anyways (no TPM + PIN/USB drive etc), so just disable it.
+
 # Windows Update
 
 Make sure the followings are selected:

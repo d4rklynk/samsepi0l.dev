@@ -198,6 +198,7 @@ Choose drive encryption method and cipher strength (Windows 10 [Version 1511] an
 - Require additional authentication at startup -> Enabled -> Do not allow TPM, Allow startup PIN with TPM, Do not allow startup key with TPM, Allow startup key and PIN with TPM. (**This is especially important as we do not want the TPM to automatically release the encryption key at boot.**)
 - Allow enhanced PINs for startup -> Enabled.
 - Configure TPM platform validation profile for native UEFI firmware configurations -> Enabled -> PCR 0,1,2,3,3,4,5,6,7,11
+
 ### Cloud Content
 
 `Computer Configuration\Administrative Templates\Windows Components\Cloud Content`
@@ -207,7 +208,9 @@ I mostly disable all cloud content because they are way too annoying. There are 
 - Turn off cloud optimized content -> Enabled
 - Turn off cloud consumer account state content -> Enabled
 - Do not show Windows tips -> Enabled
-- Turn of Microsoft consumer experiences -> Enabled# Controlled Folder Access
+- Turn of Microsoft consumer experiences -> Enabled
+
+### Controlled Folder Access
 
 `Computer Configuration\Administrative Templates\Windows Components\Microsoft Defender Antivirus\Microsoft Defender Exploit Guard\Controlled Folder Access`
 
@@ -219,16 +222,19 @@ I mostly disable all cloud content because they are way too annoying. There are 
 - Toggle user control over Insider builds -> Disabled
 - Allow Diagnostic Data -> Enabled -> Diagnostic Data off (Only affects Enterprise, Education, and Server)
 - Do not show feedback notification -> Enabled
+
 ### File Explorer
 
 `Computer Configuration\Administrative Templates\Windows Components\File Explorer`
 
 - Turn off account-based insights, recent, favorite, and recommended files in File Explorer -> Enabled (Not sure if this is actually privacy invasive or not, but best to keep it off anyways.)
+
 ### Find My Device
 
 `Computer Configuration\Administrative Templates\Windows Components\Find My Device`
 
 - Turn On/Off Find My Device -> Disabled
+
 ### Location and Sensors
 
 `Computer Configuration\Administrative Templates\Windows Components\Location and Sensors`
@@ -246,6 +252,7 @@ I do not see these ever being used on my system, therefore they are disabled. Ob
 Microsoft Defender Antivirus MAPS is an interesting case. You should configure it depending on your threat model, and treat it like SmartScreen. We will disable automatic sample submission regardless because that could be privacy invasive.
 
 - Send file samples when further analysis is required -> Enabled -> Never send
+
 ### MDM
 
 `Computer Configuration\Administrative Templates\Windows Components\MDM`
@@ -260,6 +267,7 @@ Unless you run your own MDM system or something, this probably should not be on 
 `Computer Configuration\Administrative Templates\Windows Components\Messaging`
 
 - Allow Message Service Cloud Sync -> Disabled
+
 ### Legacy Microsoft Edge
 
 `Computer Configuration\Administrative Templates\Windows Components\Microsoft Edge`
@@ -272,11 +280,13 @@ Unless you run your own MDM system or something, this probably should not be on 
 - Allow Adobe Flash -> Disable (Dead technology, dangerous)
 - Configure Password Manager -> Disable (**The password manager does NOT have E2EE**)
 - Prevent using Localhost IP address for WebRTC -> Enable
+
 ### Microsoft account
 
 `Computer Configuration\Administrative Templates\Windows Components\Microsoft account`
 
 - Block all consumer Microsoft account user authentication -> Enabled
+
 ### Network Protection
 
 Only relevant if SmartScreen is used.
@@ -289,6 +299,7 @@ Documentation:
 
 This settings controls whether Network protection is allowed to be configured into block or audit mode on Windows -> Enabled (Only relevant if running Windows Server)
 Prevent users and apps from accessing dangerous websites -> Enabled -> Block
+
 ### Search
 
 `Computer Configuration\Administrative Templates\Windows Components\Search`
@@ -311,11 +322,13 @@ Very confusing, you need to consult https://learn.microsoft.com/en-us/windows/pr
 `Computer Configuration\Administrative Templates\Windows Components\Software Protection Platform`
 
 - Turn off KMS Client Online AVS Validation -> Enabled
+
 ### Sync your settings
 
 `Computer Configuration\Administrative Templates\Windows Components\Sync your settings`
 
 - Do not sync -> Enabled
+
 ### Text Input
 
 `Computer Configuration\Administrative Templates\Windows Components\Widgets`
@@ -327,13 +340,16 @@ Very confusing, you need to consult https://learn.microsoft.com/en-us/windows/pr
 
 Probably not a huge privacy/security issue, it just fetches news and stuff from the internet. I disable it as it is extremely annoying.
 
-- Allow widgets -> Disabled# Windows Calendar
+- Allow widgets -> Disabled
+
+### Windows Calendar
 
 `Computer Configuration\Administrative Templates\Windows Components\Windows Calendar`
 
 Probably not a huge privacy/security issue. I just disable it because I do not want it.
 
 - Turn off Windows Calendar -> Enabled
+
 ### Windows Defender SmartScreen
 
 `Computer Configuration\Administrative Templates\Windows Components\Windows Defender SmartScreen`
@@ -352,6 +368,7 @@ There is also Explorer -> Configure App Install Control that you might want to l
 `Computer Configuration\Administrative Templates\Windows Components\Windows Error Reporting`
 
 - Disable Windows Error Reporting -> Enable
+
 ### Windows Game Recording and Broadcasting
 
 `Computer Configuration\Administrative Templates\Windows Components\Windows Game Recording and Broadcasting`
@@ -367,6 +384,7 @@ If you wanna record your screen and stuff, don't apply this. Otherwise, why not 
 Obviously do not set this if you need Windows Media DRM, but I have never seen this being used so I don't see a reason for it to be allowed.
 
 - Prevent Windows Media DRM Internet Access -> Enabled
+
 ### Windows Messenger
 
 `Computer Configuration\Administrative Templates\Windows Components\Windows Messenger`
@@ -398,6 +416,7 @@ I mostly disable all cloud content because they are way too annoying. There are 
 `User Configuration\Administrative Templates\Windows Components\File Explorer`
 
 - Turn off display of recent search entries in the File Explorer search box -> Enabled (**EXTREMELY INVASIVE**. This stores your search history in the registry according to the docs, and is also responsible for the Bing search in the Start Menu just like the policies in Search even though the description does not mention it.)
+
 ### Windows Copilot
 
 `User Configuration\Administrative Templates\Windows Components\Windows Copilot`
