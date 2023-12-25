@@ -11,7 +11,8 @@ ShowCanonicalLink: true
 canonicalURL: https://github.com/TommyTran732/Windows-Setup
 ---
 
-# Getting an ISO
+
+## Getting an ISO
 
 If you want to get an x64/x86 enterprise ISO, follow https://www.thewindowsclub.com/download-windows-10-enterprise-iso-with-media-creation-tool
 
@@ -21,7 +22,8 @@ Microsoft does not distribute Windows ARM ISOs as far as I know. The basic proce
 
 If you use Parallels, just let it create a Windows VM automatically. It will make an Windows ARM Home/Pro ISO in your Downloads Folder, and you can use that for a manual installation later.
 
-Another easy option is to use CrystalFetch on macOS to build the ISOs.# Microsoft account bypass
+Another easy option is to use CrystalFetch on macOS to build the ISOs.
+## Microsoft account bypass
 
 Follow this guide:
 
@@ -29,11 +31,14 @@ https://ghacks.net/2023/01/26/how-to-bypass-the-microsoft-account-requirement-du
 
 The easy method is to use no@thankyou.com and any password as the user.
 
-# Local account security questions bypass
 
-Use an empty password while creating a local user, then set a password after the computer is done setting up.# Microsoft Defender Sandbox
+## Local account security questions bypass
 
-Enable the sandbox for Microsoft Defender by running `setx /M MP_FORCE_USE_SANDBOX 1` as an administrator.# Microsoft Defender Application Guard
+Use an empty password while creating a local user, then set a password after the computer is done setting up.
+## Microsoft Defender Sandbox
+
+Enable the sandbox for Microsoft Defender by running `setx /M MP_FORCE_USE_SANDBOX 1` as an administrator.
+## Microsoft Defender Application Guard
 
 Only relevant if running on bare metal or with nested virtualization. Extremely handy for visiting untrusted websites (which should be all websites). This also works with Office Enterprise, but I do not have Office Enterprise so I cant't play with it.
 

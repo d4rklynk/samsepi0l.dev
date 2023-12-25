@@ -2,7 +2,7 @@
 #Based on tommy's script https://github.com/PrivSec-dev/privsec.dev/blob/main/external-blogs.sh
 
 #Download general tips posts
-echo "Fetching and Modifying general tips posts"
+echo "Fetching and editing general tips posts"
 echo '---' > './content/blog/cybersec/windows-setup/general-tips/index.md'
 echo 'title: "General Tips"' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
 echo 'date: 2023-09-01' >> './content/blog/cybersec/windows-setup/general-tips/index.md'
@@ -21,8 +21,10 @@ curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Account%2
 curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Microsoft%20Defender%20Sandbox.md >> './content/blog/cybersec/windows-setup/general-tips/index.md'
 curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Microsoft%20Defender%20Application%20Guard.md >> './content/blog/cybersec/windows-setup/general-tips/index.md'
 
+sed -i 's/# /\n## /g' './content/blog/cybersec/windows-setup/general-tips/index.md'
+
 #Download Debloat post
-echo "Fetching and Modifying debloat posts"
+echo "Fetching and editing debloat posts"
 
 rm -rf './content/blog/cybersec/windows-setup/debloat/parallels.txt'
 
@@ -45,7 +47,7 @@ curl https://raw.githubusercontent.com/TommyTran732/Windows-Setup/main/Debloat/P
 sed -i 's/`Parallels.txt`/[Parallels.txt](./parallels.txt)/' './content/blog/cybersec/windows-setup/debloat/index.md'
 
 #Download group policies post
-echo "Fetching and Modifying the group policies post"
+echo "Fetching and editing the group policies post"
 echo '---' > './content/blog/cybersec/windows-setup/group-policies/index.md'
 echo 'title: "Group Policies"' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
 echo 'date: 2023-09-01' >> './content/blog/cybersec/windows-setup/group-policies/index.md'
@@ -171,7 +173,7 @@ sed -i 's/# File Explorer/\n### File Explorer/' './content/blog/cybersec/windows
 sed -i 's/# Windows Copilot/\n### Windows Copilot/' './content/blog/cybersec/windows-setup/group-policies/index.md'
 
 #Download Windows Settings post
-echo "Fetching and Modifying Windows Settings post"
+echo "Fetching and editing Windows Settings post"
 echo '---' > './content/blog/cybersec/windows-setup/windows-settings/index.md'
 echo 'title: "Windows Settings"' >> './content/blog/cybersec/windows-setup/windows-settings/index.md'
 echo 'date: 2023-09-01' >> './content/blog/cybersec/windows-setup/windows-settings/index.md'
