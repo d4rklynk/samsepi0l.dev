@@ -40,7 +40,8 @@ Documentation: https://learn.microsoft.com/en-us/windows/security/application-se
 
 - User Account Control: Behavior of the elevation prompt for administrators in Admin Approval Mode -> Prompt for credentials
 - User Account Control: Only elevate executables that are signed and validated -> Enabled
-- User Account Control: Switch to the secure desktop when prompting for elevation -> Enabled (Docs says it is enabled by default, but it is off on my Parallels VM somehow)\n## Control Panel
+- User Account Control: Switch to the secure desktop when prompting for elevation -> Enabled (Docs says it is enabled by default, but it is off on my Parallels VM somehow)
+## Control Panel
 
 ### Allow Online Tips
 
@@ -49,15 +50,17 @@ Documentation: https://learn.microsoft.com/en-us/windows/security/application-se
 - Allow Online Tips -> Disabled (Not sure about privacy implications, but no reason for it to be on)
 ### Personalization
 
-`Computer Configuration\Administrative Templates\Control Panel\Regional and Language Options`
+`Computer Configuration\Administrative Templates\Control Panel\Personalization`
 
 - Prevent enabling lock screen camera -> Enabled (Probably not invasive, though I don't see a reason for it to be on)
+
 ### Regional and Language Options
 
 `Computer Configuration\Administrative Templates\Control Panel\Regional and Language Options`
 
 - Allow users to enable online speech recognition services -> Disabled
-- Handwriting personalization -> Turn off automatic learning -> Enabled\n## System
+- Handwriting personalization -> Turn off automatic learning -> Enabled
+## System
 
 ### Credentials Delegation
 
@@ -77,11 +80,12 @@ Documentation: https://learn.microsoft.com/en-us/windows/security/application-se
 - Enable Device Health Attestation Monitoring and Reporting -> Disabled (Not inherently bad, but unless you have access to the cloud based reporting portal, why even bother keeping it on?)
 ### Early Launch Antimalware
 
-`Computer Configuration\Administrative Templates\System\Kernel DMA Protection`
+`Computer Configuration\Administrative Templates\System\Early Launch Antimalware`
 
 Probably doesn't do anything unless you use a 3rd party Antimalware with this feature, but there is no harm in enabling it just in case you need it.
 
 - Boot-Start Driver Initialization Policy -> Enabled -> Good only
+
 ### Internet Communication settings
 
 `Computer Configuration\Administrative Templates\System\Internet Communication Management\Internet Communication settings`
@@ -90,7 +94,7 @@ Probably doesn't do anything unless you use a 3rd party Antimalware with this fe
 
 - Turn off Windows Customer Experience Improvement Program -> Enabled
 - Turn off downloading of print drivers over HTTP -> Enabled
-Turn off printing over HTTP -> Enabled
+- Turn off printing over HTTP -> Enabled
 - Turn off Help and Support Center "Did you know?" content -> Enabled (These are probably not that useful and will just be annoying)
 - Turn off Windows Error Reporting -> Enabled
 - turn off Search Companion content file updates -> Enabled
@@ -120,7 +124,7 @@ Turn off printing over HTTP -> Enabled
 `Computer Configuration\Administrative Templates\System\Remote Assistance`
 
 - Allow only Windows Vista or later connections -> Enabled
-###Service Control Manager Settings
+### Service Control Manager Settings
 
 `Computer Configuration\Administrative Templates\System\Service Control Manager Settings`
 
@@ -134,9 +138,11 @@ Turn off printing over HTTP -> Enabled
 
 ### Windows Time Service
 
-`Computer Configuration\Administrative Templates\System\Windows Time Service`
+`Computer Configuration\Administrative Templates\System\Windows Time Service\Time Providers`
 
-Enable Windows NTP Client -> Disabled (**Read my notes on Date & Time. I am disabling time sync here because it is already handled by my guest agent**.)## Windows Components
+Enable Windows NTP Client -> Disabled (**Read my notes on Date & Time. I am disabling time sync here because it is already handled by my guest agent**.)
+
+## Windows Components
 
 ### App Privacy
 
@@ -246,7 +252,7 @@ Microsoft Defender Antivirus MAPS is an interesting case. You should configure i
 
 Unless you run your own MDM system or something, this probably should not be on with a personal computer.
 
-- Enable automatic MDM enrollment using default Azure AD credentials -> Disabled (Probably redundant because of the next policy, but it will also **unenroll** you from Azure AD)
+- Enable automatic MDM enrollment using default Azure AD credentials -> Disabled (Probably redundant because of the next policy, but it will also **disenroll** you from Azure AD)
 - Disable MDM enrollment -> Enabled (This will not disenroll you though)
 
 ### Messaging
@@ -293,12 +299,13 @@ Very confusing, you need to consult https://learn.microsoft.com/en-us/windows/pr
 
 - Allow Cloud Search -> Disabled
 - Allow Cortana -> Disabled
-- ALlow search and Cortana to use location -> Disabled
+- Allow search and Cortana to use location -> Disabled
 - Configures search on the taskbar -> Enabled -> Search icon and label (Not a privacy/security issue or anything, but I hate the gigantic box)
 - Do not allow web search -> Enabled
 - Don't search the web or display web results in Search -> Enabled
 - Enable indexing of online delegate mailboxes -> Disabled
 - Prevent indexing Microsoft Office Outlook -> Enabled
+
 ### Software Protection Platform
 
 `Computer Configuration\Administrative Templates\Windows Components\Software Protection Platform`
@@ -359,19 +366,22 @@ If you wanna record your screen and stuff, don't apply this. Otherwise, why not 
 
 Obviously do not set this if you need Windows Media DRM, but I have never seen this being used so I don't see a reason for it to be allowed.
 
-- Prevent Windows Media DRM Internet Access -> Enabled# Windows Calendar
+- Prevent Windows Media DRM Internet Access -> Enabled
+### Windows Messenger
 
 `Computer Configuration\Administrative Templates\Windows Components\Windows Messenger`
 
 **Old and very likely to be obsolete.**
 
 - Do not allow Windows Messenger to be run -> Enabled
+
 ### Windows Update
 
 `Computer Configuration\Administrative Templates\Windows Components\Windows Update`
 
 - Manage updates offered from Windows Update -> Enable optional updates -> Enabled -> Automatically receive optional updates
 - Manage updates offered from Windows Update -> Select when Quality Updates are received -> Enabled -> Defer for 0 days
+
 # User Configuration
 
 ### Cloud Content
