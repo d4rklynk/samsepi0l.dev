@@ -21,17 +21,17 @@ https://:samsepi0l.ovh/*
 
 /blog/cybersec/identify-spam/
   Content-Security-Policy : default-src 'none'; connect-src 'self' https://analytics.eu.umami.is; img-src 'self' https://i.ytimg.com/; script-src 'self' 'unsafe-inline' https://analytics.eu.umami.is; font-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'none'; frame-src https://www.youtube-nocookie.com https://www.google.com; frame-ancestors 'none'; webrtc 'block'; upgrade-insecure-requests; base-uri 'none'; manifest-src 'self'; require-trusted-types-for 'script'; trusted-types 'none'
-  Permissions-Policy: fullscreen=self
+  Permissions-Policy: fullscreen=(self)
   Cross-Origin-Embedder-Policy : unsafe-none
   
 /blog/cybersec/iphone-updates/
   Content-Security-Policy : default-src 'none'; connect-src 'self' https://analytics.eu.umami.is; img-src 'self' https://i.ytimg.com/; script-src 'self' 'unsafe-inline' https://analytics.eu.umami.is; font-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'none'; frame-src https://www.youtube-nocookie.com https://www.google.com; frame-ancestors 'none'; webrtc 'block'; upgrade-insecure-requests; base-uri 'none'; manifest-src 'self'; require-trusted-types-for 'script'; trusted-types 'none'
-  Permissions-Policy: fullscreen=self
+  Permissions-Policy: fullscreen=(self)
   Cross-Origin-Embedder-Policy : unsafe-none
 
 /blog/autisme/autism-kit/
   Content-Security-Policy : default-src 'none'; connect-src 'self' https://analytics.eu.umami.is; img-src 'self' https://i.ytimg.com/; script-src 'self' 'unsafe-inline' https://analytics.eu.umami.is; font-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'none'; frame-src https://www.youtube-nocookie.com https://www.google.com; frame-ancestors 'none'; webrtc 'block'; upgrade-insecure-requests; base-uri 'none'; manifest-src 'self'; require-trusted-types-for 'script'; trusted-types 'none'
-  Permissions-Policy: fullscreen=self
+  Permissions-Policy: fullscreen=(self)
   Cross-Origin-Embedder-Policy : unsafe-none
 
 /*.xml
