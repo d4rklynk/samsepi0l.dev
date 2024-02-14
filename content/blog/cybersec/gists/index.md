@@ -99,7 +99,7 @@ La variable `p=` possède normalement la clé publique encodée en base64, si ce
 
 Dans la mesure où les tests SPF et DKIM échouent systématiquement, si un attaquant usurpe votre nom de domaine pour envoyer des mails, DMARC rejettera ces mails.
 
-## Systemd services.
+## Systemd services
 
 **Source :**
 
