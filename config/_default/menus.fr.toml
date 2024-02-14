@@ -15,6 +15,11 @@
   pageRef = "blog"
   weight = 10
 
+[[main]]
+  name = "Gists"
+  pageRef = "blog/cybersec/gists/index.md"
+  weight = 20
+
 #[[main]]
 #  name = "Mes projets"
 #  pageRef = "projects"
