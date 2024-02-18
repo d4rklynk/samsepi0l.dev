@@ -1,4 +1,6 @@
-https://samsepi0l.ovh/*                    	https://samsepi0l.dev/:splat    301!
-https://www.samsepi0l.ovh/*                	https://samsepi0l.dev/:splat    301!
-/humans.txt                                 /fsociety00.dat                 301!
-/security.txt                               /.well-known/security.txt       301!
+https://samsepi0l.ovh/*                    	https://samsepi0l.dev/:splat                301!
+https://www.samsepi0l.ovh/*                	https://samsepi0l.dev/:splat                301!
+/humans.txt                                 /fsociety00.dat                             301!
+/security.txt                               /.well-known/security.txt                   301!
+/￼                                          /                                           301!
+/bluesky                                    https://bsky.app/profile/samsepi0l.dev      301!
