@@ -8,6 +8,7 @@ date: 2024-02-20
 - <https://dns.google/>
 - <https://red.flag.domains/>
 - <https://dnschecker.org/>
+- <https://wonderfall.dev/mta-sts/>
 
 ## Linux related
 
@@ -75,6 +76,14 @@ date: 2024-02-20
 
 - <https://www.youtube.com/sideofburritos>
 - <https://youtube.com/thehatedone>
+
+## RFCs
+
+- [Null MX - RFC7505](https://www.rfc-editor.org/rfc/rfc7505)
+- [SPF - RFC7208](https://www.rfc-editor.org/rfc/rfc7208)
+- [DMARC - RFC7489](https://www.rfc-editor.org/rfc/rfc7489)
+- [Private address - RFC1918](https://www.rfc-editor.org/rfc/rfc1918)
+- [CAA - RFC8659](https://www.rfc-editor.org/rfc/rfc8659.html)
 
 ## AI
 
