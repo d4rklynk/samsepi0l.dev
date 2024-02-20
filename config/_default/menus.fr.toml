@@ -20,24 +20,29 @@
   pageRef = "blog/cybersec/gists/index.md"
   weight = 20
 
+[[main]]
+  name = "Ressources"
+  pageRef = "resources.md"
+  weight = 30
+
 #[[main]]
 #  name = "Mes projets"
 #  pageRef = "projects"
-#  weight = 20
+#  weight = 30
 
 [[main]]
   name = "SimplePrivacy"
-  weight = 30
+  weight = 40
   url = "https://simpleprivacy.fr"
 
 [[main]]
   name = "Services"
-  weight = 40
+  weight = 50
   url = "https://services.simpleprivacy.fr"
 
 [[main]]
   name = "Status"
-  weight = 50
+  weight = 60
   url = "https://status.simpleprivacy.fr"
 
 #[[main]]
