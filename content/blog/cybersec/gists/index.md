@@ -34,7 +34,7 @@ tar -cvC /var/lib mysql | zstd -9 > mysql.tar.zst
 zstd -d archiveexample.tar.zst | tar -xvf -
 ```
 
-### Lister les fichier d'une archive zst
+### Lister le contenu d'une archive zst
 
 ```bash
 zstdcat archiveexample.tar.zst | tar -tvf -
@@ -43,6 +43,10 @@ zstdcat archiveexample.tar.zst | tar -tvf -
 ## DNS
 
 ### Bloquer les mails entrants et sortants via le DNS
+
+{{< alert icon="circle-info" cardColor="#22A3E6" iconColor="#1d3557" textColor="#f1faee" >}}
+These informations about DNS also exists in english: see <https://akc3n.page/gists/#dns>
+{{< /alert >}}
 
 **Source :**
 
@@ -86,8 +90,8 @@ La seule valeur présente est `-all`, comme aucune autre valeur n'est spécifié
 
 **NULL MX :**
 
-De ce que j'ai cru comprendre, le `.` vient de la [RFC2782](https://www.rfc-editor.org/rfc/rfc2782) qui signifie que l'hôte n'est pas disponible.
-En voir plus dans la [RFC7505](https://www.rfc-editor.org/rfc/rfc7505)
+Le `.` est une valeur spéciale provenant de la [RFC2782](https://www.rfc-editor.org/rfc/rfc2782) qui signifie que l'hôte n'est pas disponible.
+En voir plus dans la [RFC7505](https://www.rfc-editor.org/rfc/rfc7505).
 
 **DKIM p= :**
 
@@ -97,7 +101,7 @@ La variable `p=` possède normalement la clé publique encodée en base64, si ce
 
 **DMARC**
 
-Dans la mesure où les tests SPF et DKIM échouent systématiquement, si un attaquant usurpe votre nom de domaine pour envoyer des mails, DMARC rejettera ces mails.
+Dans la mesure où les tests SPF et DKIM échouent systématiquement, si un attaquant usurpe votre nom de domaine pour envoyer des mails, DMARC rejettera ces mails (en imaginant que l'attaquant ait pu contourner SPF, car celui-ci rejettera les mails avant même que DMARC puisse les tester).
 
 ## Systemd services
 
