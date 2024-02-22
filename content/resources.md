@@ -93,6 +93,8 @@ date: 2024-02-20
 
 - <https://github.com/massgravel/Microsoft-Activation-Scripts>
 - <https://github.com/AveYo/MediaCreationTool.bat>
+- <https://github.com/starchturrets/windows-shenanigans>
+- <https://github.com/TommyTran732/Windows-Setup>
 
 ## Ethical hacking & CTF
 
