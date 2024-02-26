@@ -31,6 +31,14 @@ date: 2024-02-20
 - <https://github.com/hackergrrl/art-of-readme>
 - <https://github.com/github-changelog-generator/github-changelog-generator>
 
+## Instant Messengers
+
+- <https://tgrush.bearblog.dev/never-will-i-ever-recommend-telegram-again/>
+- <https://madaidans-insecurities.github.io/messengers.html>
+- [About Signal FCM](https://twitter.com/GrapheneOS/status/1752786765482446898)
+- [Molly - hardened fork of Signal](https://github.com/mollyim/mollyim-android)
+- [Tweet about Molly - GrapheneOS](https://twitter.com/GrapheneOS/status/1621371991415480322)
+
 ## Android related
 
 - <https://github.com/soupslurpr/AppVerifier>
