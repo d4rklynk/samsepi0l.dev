@@ -16,8 +16,14 @@ Petit billet de blog pas chiadé sur la forme. Compilation d'informations utiles
 
 ### Compresser un fichier avec zstd et tar
 
+Définissez la variable `timestamp` pour avoir la date ISO 8601 format UTC :
+
 ```bash
-tar -cv foldertocompress | zstd -9 > archiveexample.tar.zst
+timestamp=$(date -u +iso8601.%Y%m%dT%H%M%SZ)
+```
+
+```bash
+tar -cv foldertocompress | zstd -9 > archiveexample.$timestamp.tar.zst
 ```
 
 Vous pouvez aussi spécifier un dossier à partir duquel tar devra faire une compression.
@@ -25,19 +31,19 @@ Vous pouvez aussi spécifier un dossier à partir duquel tar devra faire une com
 Exemple avec le dossier `mysql` (qui se situe dans /var/lib) :
 
 ```bash
-tar -cvC /var/lib mysql | zstd -9 > mysql.tar.zst
+tar -cvC /var/lib mysql | zstd -9 > mysql.$timestamp.tar.zst
 ```
 
 ### Décompresser une archive zst
 
 ```bash
-zstd -d archiveexample.tar.zst | tar -xvf -
+zstd -d archiveexample.datedelabackup.tar.zst | tar -xvf -
 ```
 
 ### Lister le contenu d'une archive zst
 
 ```bash
-zstdcat archiveexample.tar.zst | tar -tvf -
+zstdcat archiveexample.datedelabackup.tar.zst | tar -tvf -
 ```
 
 ## DNS
