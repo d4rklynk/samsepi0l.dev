@@ -80,7 +80,7 @@ gpg --export contact@samsepi0l.dev > dj3498u4hyyarh35rkjfnghbjxug6b19
 
 Exemple avec le mien :
 
-`https://samsepi0l.dev/.well-known/openpgpkey/hu/dj3498u4hyyarh35rkjfnghbjxug6b19`
+<https://samsepi0l.dev/.well-known/openpgpkey/hu/dj3498u4hyyarh35rkjfnghbjxug6b19>
 
 C'est sur cette URL que les clients mail chercheront pour récupérer la clé publique de votre adresse mail. 🎯️
 
