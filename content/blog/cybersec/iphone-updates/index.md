@@ -8,7 +8,7 @@ Je souhaiterais m'attarder sur cette histoire de durée de vie des iPhones qui c
 
 Je vais ici, discuter de la durée pendant laquelle Apple propose des mises à jour de sécurité pour ses smartphones (le support logiciel), plutôt que de la longévité physique du téléphone ou de la fréquence de bug au fil du temps.
 
-Apple met à jour sur une base régulière leurs smartphones mais la question à 1 million subsiste : 
+Apple met à jour sur une base régulière leurs smartphones mais la question à 1 million subsiste :
 
 "Combien de temps Apple va supporter mon super smartphone ostentatoire ?"
 
@@ -49,10 +49,9 @@ Constatez que l'[iPhone X](https://support.apple.com/kb/SP770?locale=fr_FR) manq
 
 ![iphone-x-a11.png](img/iphone-x-a11.png)
 
-
 On peut également noter qu'iOS 16 était supporté pour l'iPhone 8/8 Plus et l'iPhone X et qu'iOS 17 [les abandonne](https://support.apple.com/fr-fr/guide/iphone/iphe3fa5df43/17.0/ios/17.0).
 
-**iOS 16**
+### iOS 16
 
 ![ios16-support.png](img/ios16-support.png)
 
@@ -67,7 +66,6 @@ Cela veut dire que les smartphones utilisant la puce A12 ont de fortes chances d
 - iPhone XS
 - iPhone XS Max
 - iPhone XR
-
 
 ## Mais combien de temps pourrais-je garder mon précieux ?
 
@@ -99,7 +97,7 @@ Si on reprend les iPhones à partir du 6 (choix arbitraire), voici les durées d
 
 Si nous considérons que les iPhones encore supportés suivent cette tendance, tout iPhone possédant la puce A12 sera potentiellement abandonné en septembre 2024. Les iPhones concernés sont donc les suivants :
 
-- iPhone XS 
+- iPhone XS
 - iPhone XS Max
 - iPhone XR
 
@@ -132,7 +130,6 @@ Le Samsung S23 reste plus cher que l'iPhone 15.
 {{< alert icon="fire" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
 Attention, le résultat dépend des prix des téléphones, de l'instant T où vous l'achetez et de la fin de vie de chaque produit. Ne concluez pas trop vite que Samsung est systématiquement plus cher qu'iPhone, ce n'est pas ce que j'essaye de montrer ici. (Et de toute façon, je n'aime aucune de ces deux marques.)
 {{< /alert >}}
-
 
 ## Conclusion
 

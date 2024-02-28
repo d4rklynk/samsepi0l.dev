@@ -22,7 +22,7 @@ Dans un précédent article, je vous ai démontré la durée de vie moyenne d'un
 
 En réalité, les Google Pixels sont maintenant les seuls smartphones proposant **7 ans** de mise à jour, suivi de près par Apple qui propose 6 ans de mises à jour en moyenne.
 
-Il est important de noter que pour des raisons de sécurité, je considère que vous allez changer votre smartphone une fois le support de celui-ci arrêté. 
+Il est important de noter que pour des raisons de sécurité, je considère que vous allez changer votre smartphone une fois le support de celui-ci arrêté.
 
 ## Quelle marque ?
 
@@ -55,7 +55,7 @@ Argument en faveur d'**iPhone** :
 - 6 ans de support (et c'est pas négligeable)
 
 {{< alert icon="fire" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
-Il est important de noter que je suis biaisé. J'ai un Google Pixel avec GrapheneOS que j'adore. Je n'ai jamais aimé les iPhones car je les trouve contre-intuitif en terme d'utilisation, qui plus est que je ne peux rien faire dessus. Notez aussi que certains trouvent Android plus facile d'utilisation que iPhone. À vous de vous faire votre propre avis sur la question. 
+Il est important de noter que je suis biaisé. J'ai un Google Pixel avec GrapheneOS que j'adore. Je n'ai jamais aimé les iPhones car je les trouve contre-intuitif en terme d'utilisation, qui plus est que je ne peux rien faire dessus. Notez aussi que certains trouvent Android plus facile d'utilisation que iPhone. À vous de vous faire votre propre avis sur la question.
 {{< /alert >}}
 
 ## Le cas de Fairphone
@@ -76,21 +76,21 @@ Exemple : 500€/(5 années x 12 mois) = 8.33€/mois
 
 Je vais prendre quelques téléphones de l'année 2023 pour estimer une fourchette de prix en fin d'article (tous les prix et les durées de vie sont considérés à partir d'Octobre 2023) :
 
-#### iPhone 14 Pro Max (256Go)
+### iPhone 14 Pro Max (256Go)
 
 - **Commercialisé :** Septembre 2022
 - **Prix :** 1349€ (Amazon)
 - **Durée de support estimé à :** 6 ans
 - **Prix par mois :** 1349/(5*12) = **22.48€/mois**
 
-#### iPhone 14 (128Go)
+### iPhone 14 (128Go)
 
 - **Commercialisé :** Septembre 2022
 - **Prix :** 819€ (Amazon)
 - **Durée de support estimé à :** 6 ans
 - **Prix par mois :** 819/(5*12) = **13.65€/mois**
 
-#### Samsung S23 Ultra (512Go)
+### Samsung S23 Ultra (512Go)
 
 - **Commercialisé :** Février 2023
 - **Prix :** 1379€ (Fnac)
@@ -99,50 +99,49 @@ Je vais prendre quelques téléphones de l'année 2023 pour estimer une fourchet
 
 ***(Le téléphone ayant déjà 7 mois, il lui reste 4 ans + 5 mois de support.)***
 
-#### Samsung A54 (128Go)
+### Samsung A54 (128Go)
 
 - **Commercialisé :** Mars 2023
 - **Prix :** 429€ (Fnac)
 - **Durée de support :** [5 ans](https://security.samsungmobile.com/securityPost.smsb)
 - **Prix par mois :** 429/(4*12+6) = **7.94€/mois**
 
-#### iPhone SE (2022) (128Go)
+### iPhone SE (2022) (128Go)
 
 - **Commercialisé :** Mars 2022
 - **Prix :** 599€ (Fnac)
 - **Durée de support estimé à :** 6 ans
 - **Prix par mois :** 599/(5*12+6) = **9.07€/mois**
 
-#### Google Pixel 7 Pro (128Go)
+### Google Pixel 7 Pro (128Go)
 
 - **Commercialisé :** Octobre 2022
 - **Prix :** 849€ (Fnac)
 - **Durée de support :** [5 ans](https://support.google.com/pixelphone/answer/4457705?hl=fr&sjid=6017058967323563850-EU#zippy=%2Cpixel-later-including-fold%2Cpixel-et-mod%C3%A8les-ult%C3%A9rieurs-y-compris-le-pixel-fold)
 - **Prix par mois :** 849/(4*12) = **17.68€/mois**
 
-#### Google Pixel 7a
+### Google Pixel 7a
 
 - **Commercialisé :** Mai 2023
 - **Prix :** 509€ (Amazon)
 - **Durée de support :** [5 ans](https://support.google.com/pixelphone/answer/4457705?hl=fr&sjid=6017058967323563850-EU#zippy=%2Cpixel-later-including-fold%2Cpixel-et-mod%C3%A8les-ult%C3%A9rieurs-y-compris-le-pixel-fold)
 - **Prix par mois :** 509/(4*12+8) = **9.08€/mois**
 
-#### Google Pixel 8
+### Google Pixel 8
 
 - **Commercialisé :** Octobre 2023
 - **Prix :** 799€ (Google Store)
 - **Durée de support :** [7 ans](https://support.google.com/pixelphone/answer/4457705?hl=fr&sjid=6017058967323563850-EU#zippy=%2Cpixel-later-including-fold%2Cpixel-et-mod%C3%A8les-ult%C3%A9rieurs-y-compris-le-pixel-fold)
 - **Prix par mois :** 799/(7*12) = **9.51€/mois**
 
-
-#### Google Pixel 8 Pro
+### Google Pixel 8 Pro
 
 - **Commercialisé :** Octobre 2023
 - **Prix :** 1099€ (Google Store)
 - **Durée de support :** [7 ans](https://support.google.com/pixelphone/answer/4457705?hl=fr&sjid=6017058967323563850-EU#zippy=%2Cpixel-later-including-fold%2Cpixel-et-mod%C3%A8les-ult%C3%A9rieurs-y-compris-le-pixel-fold)
 - **Prix par mois :** 1099/(7*12) = **13.08€/mois**
 
-#### Xiaomi Redmi Note 12
+### Xiaomi Redmi Note 12
 
 - **Commercialisé :** Mars 2023
 - **Prix :** 150€ (Amazon)
@@ -154,7 +153,7 @@ Je vais prendre quelques téléphones de l'année 2023 pour estimer une fourchet
 Remarquez le Google Pixel 7 Pro à 849€ et l'iPhone 14 à 819€, vous payez respectivement 17.68€/mois et 13.65€/mois, l'iPhone 14 dans ce cas est bien moins cher. Le prix mensuel du Google Pixel 7 Pro est **29.52%** plus cher (calculs ci-dessous) que l'iPhone 14. Tandis que, si nous considérons uniquement le prix d'achat du smartphone (819€ et 849€), Le Google Pixel 7 Pro n'est que **3.66%** plus cher que l'iPhone 14 ! Une sacré différence. Voilà pourquoi il est important de calculer le prix mensuel d'un téléphone par rapport à sa durée de support.
 
 > ((17.68-13.65)/13.65)*100 = 29.52%
-> 
+>
 > ((849-819)/819)*100 = 3.66%
 
 **[Ajout 04/10/2023] :** Google vient d'annoncer la sortie des Google Pixel 8 & 8 Pro, ils recevront 7 ans de mises à jour de sécurité (mais aussi des versions Android), ce qui les rend bien plus attractifs en termes de prix.
@@ -164,7 +163,7 @@ Si on compare le Pixel 7a et le Pixel 8, qui sont respectivement à 509€ et 79
 À l'achat, le Pixel 8 est **57%** plus cher que le Pixel 7a (calculs ci-dessous). Mais si l'on calcule le prix par mois en comptant la nouvelle durée de vie de 7 ans du Pixel 8, le Pixel 8 est plus cher que le Pixel 7a que de **5%**.
 
 > ((799-509)/509)*100 = 56.97% arrondi à 57%
-> 
+>
 > ((9.51-9.08)/9.08)*100 = 4.73% arrondi à 5%
 
 C'est la première fois qu'un smartphone sous Android propose 7 ans de mises à jour (firmware inclus).
@@ -221,7 +220,7 @@ L'écran d'origine coûte [102.95€](https://store.ifixit.fr/products/google-pi
 
 Je vais calculer uniquement le prix de l'écran à réparer (dans le cas où vous souhaitez le faire tout seul, d'ailleurs voici le [guide officiel](https://fr.ifixit.com/Tutoriel/Changement+%C3%A9cran+Google+Pixel+6a/152304) (approuvé par Google))
 
-**Cas 1 : Vous cassez l'écran au bout d'un an (en Juillet 2023)**
+#### Cas 1 : Vous cassez l'écran au bout d'un an (en Juillet 2023)
 
 Votre smartphone vous coûte toujours 7.65€/mois, mais vous venez de changer l'écran, donc vous allez payer cet écran sur les 4 années restantes.
 
@@ -235,7 +234,7 @@ Vous avez payé 7.65€/mois la première année et vous payerez 9.79€/mois.
 
 Si vous voulez, on peut faire une moyenne du prix qui tombe à ((9.79*12*4)+(7.65*12))/(5*12) = **9.36€/mois**
 
-**Cas 2 : Vous cassez l'écran au bout de 3 ans (en Juillet 2025)**
+#### Cas 2 : Vous cassez l'écran au bout de 3 ans (en Juillet 2025)
 
 Cette fois-ci vous payerez l'écran sur les deux années qui restent, soit :
 
@@ -254,7 +253,7 @@ Je pense quand même que la moyenne est vite trompeuse, car changer son écran l
 In fine, vous devez voir selon votre budget et vos principes si vous souhaitez ou non changer votre smartphone.
 
 > Personnellement, pour des raisons d'écologie, je changerai l'écran de mon Google Pixel dans la limite de 4 ans et 6 mois (si il est vraiment éclaté), au-delà de cette limite, je changerai de téléphone.
-
+>
 > Après, le mieux est d'investir dans une bonne coque comme Rhinoshield ou Spigen et des écrans de protection (pas besoin de dépenser une fortune pour les écrans de protections par contre). Si vous fissurez votre écran de protection, changez-le immédiatement, car il n'assurera plus du tout une protection optimale contre les chocs, et donc le risque de casser l'écran de votre téléphone sera beaucoup plus grand. Ayez toujours un ou deux écrans de protection de rechange en avance afin de pouvoir le changer le plus rapidement possible.
 
 ## Conclusion

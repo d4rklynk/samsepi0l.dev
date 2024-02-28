@@ -3,7 +3,7 @@ title: Politique de vie privée
 date: 2023-05-23
 ---
 
-## Version simple :
+## Version simple
 
 J'utilise [Umami](https://umami.is/) pour collecter quelques données qui me permettent principalement de savoir combien il y a de visiteurs sur mon site.
 
@@ -14,7 +14,7 @@ Vous pouvez voir toutes les données collectées [ici](https://analytics.simplep
 Ce site est également en conformité avec le **Do Not Track Policy**. Si celui-ci est activé sur votre navigateur, absolument aucune donnée ne sera récoltée.
 La politique Do Not Track est disponible en anglais via [ce lien](/.well-known/dnt-policy.txt).
 
-## Version plus longue :
+## Version plus longue
 
 ### Hébergeur web
 

@@ -10,7 +10,7 @@ Et imaginez, vous avez plusieurs mails pour le même domaine ! Non mais on est o
 
 C'est là que WKD intervient (et c'est bien pratique).
 
-WKD signifie [Web Key Directory](https://wiki.gnupg.org/WKD). Cette technologie permet de rassembler vos clés PGP publiques sur un serveur web. Vous avez deux solutions, la première est d'aller sur [https://keys.openpgp.org/](https://keys.openpgp.org/) et de téléverser votre clé. Vous pouvez ensuite gérer vos clés ou les supprimer. Simple et efficace. 
+WKD signifie [Web Key Directory](https://wiki.gnupg.org/WKD). Cette technologie permet de rassembler vos clés PGP publiques sur un serveur web. Vous avez deux solutions, la première est d'aller sur [https://keys.openpgp.org/](https://keys.openpgp.org/) et de téléverser votre clé. Vous pouvez ensuite gérer vos clés ou les supprimer. Simple et efficace.
 
 Mais dans cet article, je veux faire complexe (mais toujours efficace). On va donc implémenter notre WKD. C'est notre deuxième solution, et vous allez voir, c'est super simple.
 
@@ -86,14 +86,14 @@ C'est sur cette URL que les clients mail chercheront pour récupérer la clé pu
 
 Vous devez par contre autoriser [toutes les origines](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Access-Control-Allow-Origin) à accéder à cette ressource. Pour cela, autorisez le dossier `hu` dans les headers HTTP :
 
-```
+```text
 /.well-known/openpgpkey/hu/*
   Access-Control-Allow-Origin: *
 ```
 
 Ou sur Nginx par exemple :
 
-```
+```text
 location ^~ /.well-known/openpgpkey/hu {
         add_header Access-Control-Allow-Origin *;
     }
@@ -111,7 +111,7 @@ Cool non ? 😎️
 
 Si vous avez plusieurs adresses mail (du même nom de domaine ⚠️), vous pouvez refaire les mêmes étapes pour la nouvelle adresse, à la fin, vous devriez avoir deux fichiers hash (contenant les clés publiques respectives à chaque adresse mail).
 
-> Exemple : Si j'avais `contact@samsepi0l.dev` et `moi@samsepi0l.dev`, je referai les mêmes étapes avec `moi@samsepi0l.dev`, et inclurai le nouveau fichier hash contenant ma clé publique dans le dossier `hu`. J'aurai donc deux fichier : `dj3498u4hyyarh35rkjfnghbjxug6b19` pour contact@samsepi0l.dev et `9hjdh598gj3yux1jabbh778g43` pour moi@samsepi0l.dev.
+> Exemple : Si j'avais `contact@samsepi0l.dev` et `moi@samsepi0l.dev`, je referai les mêmes étapes avec `moi@samsepi0l.dev`, et inclurai le nouveau fichier hash contenant ma clé publique dans le dossier `hu`. J'aurai donc deux fichier : `dj3498u4hyyarh35rkjfnghbjxug6b19` pour `contact@samsepi0l.dev` et `9hjdh598gj3yux1jabbh778g43` pour `moi@samsepi0l.dev`.
 
 Vous pouvez ensuite vérifier que tout est bon en allant sur [ce site](https://metacode.biz/openpgp/web-key-directory).
 Insérez votre mail et regardez le résultat :

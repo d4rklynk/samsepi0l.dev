@@ -38,7 +38,6 @@ Deuxième réflexe, accédez à [ce site](https://lookup.icann.org/en) de l'ICAN
 
 Je tape donc `notif-laposte.info` (le nom de domaine étant tout ce qui suit le `@` d'une adresse mail) et je clique sur le bouton "`Lookup`".
 
-
 ![icann.whois.png](img/icann.whois.png)
 
 ---

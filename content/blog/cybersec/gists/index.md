@@ -10,9 +10,8 @@ Petit billet de blog pas chiadé sur la forme. Compilation d'informations utiles
 
 **Source :**
 
-> - https://github.com/GrapheneOS/mail.grapheneos.org/blob/main/remote-backup
-> - https://github.com/facebook/zstd
-
+> - <https://github.com/GrapheneOS/mail.grapheneos.org/blob/main/remote-backup>
+> - <https://github.com/facebook/zstd>
 
 ### Compresser un fichier avec zstd et tar
 
@@ -56,28 +55,27 @@ These informations about DNS also exists in english: see <https://akc3n.page/gis
 
 **Source :**
 
-> - https://akc3n.page/gists/#protect-parked-domain-without-email
-> - https://www.rfc-editor.org/rfc/rfc7505 (NULL MX)
-> - https://www.rfc-editor.org/rfc/rfc7208.html#section-10.1.2 (Set SPF to always fail)
-> - https://www.rfc-editor.org/rfc/rfc6376.html#section-3.6.1 (Voir `p=`)
-> - https://www.rfc-editor.org/rfc/rfc7489 (DMARC)
-
+> - <https://akc3n.page/gists/#protect-parked-domain-without-email>
+> - <https://www.rfc-editor.org/rfc/rfc7505> (NULL MX)
+> - <https://www.rfc-editor.org/rfc/rfc7208.html#section-10.1.2> (Set SPF to always fail)
+> - <https://www.rfc-editor.org/rfc/rfc6376.html#section-3.6.1> (Voir `p=`)
+> - <https://www.rfc-editor.org/rfc/rfc7489> (DMARC)
 
 Pour préciser que le nom de domaine ne gère pas les mails, ajoutez ceci dans votre DNS :
 
 Exemple avec le sous-domaine `www` :
 
-```
+```text
 www.example.com. IN TXT "v=spf1 -all"
 ```
 
-```
+```text
 www.example.com. IN MX "0 ."
 ```
 
 Vous devez le faire pour chaque sous-domaine et domaine sur lequel vous n'utilisez pas de mail.
 
-Pour le nom de domaine principal (appelé "apex" parfois) `example.com`, vous devez non seulement inclure les enregistrements précédents (NULL MX et SPF), mais aussi DMARC et DKIM. 
+Pour le nom de domaine principal (appelé "apex" parfois) `example.com`, vous devez non seulement inclure les enregistrements précédents (NULL MX et SPF), mais aussi DMARC et DKIM.
 
 | HOSTNAME | TYPE | TTL | DATA |
 | :--- | :--- | :--- | :--- |
@@ -88,32 +86,32 @@ Pour le nom de domaine principal (appelé "apex" parfois) `example.com`, vous de
 
 Tous les sous-domaines qui n'utilisent pas le mail devraient avoir un enregistrement NULL MX et un SPF qui est est paramétré en hardfail.
 
-#### Explication :
+#### Explication
 
-**SPF hardfail :**
+##### SPF hardfail
 
 La seule valeur présente est `-all`, comme aucune autre valeur n'est spécifié, alors le test SPF échouera systématiquement.
 
-**NULL MX :**
+##### NULL MX
 
 Le `.` est une valeur spéciale provenant de la [RFC2782](https://www.rfc-editor.org/rfc/rfc2782) qui signifie que l'hôte n'est pas disponible.
 En voir plus dans la [RFC7505](https://www.rfc-editor.org/rfc/rfc7505).
 
-**DKIM p= :**
+##### DKIM p=
 
 Voir section [3.6.1](https://www.rfc-editor.org/rfc/rfc6376.html#section-3.6.1) et [6.1.2](https://www.rfc-editor.org/rfc/rfc6376.html#section-6.1.2).
 
 La variable `p=` possède normalement la clé publique encodée en base64, si cette variable est vide, alors cela signifie que la clé est révoquée et le test DKIM échoue.
 
-**DMARC**
+##### DMARC
 
 Dans la mesure où les tests SPF et DKIM échouent systématiquement, si un attaquant usurpe votre nom de domaine pour envoyer des mails, DMARC rejettera ces mails (en imaginant que l'attaquant ait pu contourner SPF, car celui-ci rejettera les mails avant même que DMARC puisse les tester).
 
 ## Systemd services
 
-**Source :**
+*Source :*
 
-> - https://man.archlinux.org/man/systemd.exec.5.en
+> - <https://man.archlinux.org/man/systemd.exec.5.en>
 
 Template à utiliser dans un service systemd.
 

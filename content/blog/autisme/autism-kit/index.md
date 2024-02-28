@@ -30,7 +30,6 @@ Voici quelques totems que je vous suggère (qui sont l'inverse de silencieux �
 - [Infinity Cube](https://www.amazon.fr/dp/B07V43JNZ7/ref=twister_B081GBCVLV)
 - Le classique : un crayon que vous faites tourner entre vos doigts (très silencieux jusqu'à ce que vous le faites tomber 😁️).
 
-
 Personnellement, j'ai quelques totems qui font du bruit que je vais plutôt faire à la maison. Tandis que pour les totems silencieux, je vais plutôt les utiliser au travail.
 
 ## Livre

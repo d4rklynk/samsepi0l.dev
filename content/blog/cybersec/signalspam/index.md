@@ -26,7 +26,7 @@ Si vous utilisez SimpleLogin, cochez cette option (et cliquez sur "**Update**")�
 
 ---
 
-Sur votre boîte mail, vous devez cliquer sur un bouton "**Voir le mail originel**" ou "**Voir l'en-tête du mail**". Signal Spam explique comment procéder pour la plupart des clients mail [ici](https://www.signal-spam.fr/trouver-code-source/) (en bas de leur page). 
+Sur votre boîte mail, vous devez cliquer sur un bouton "**Voir le mail originel**" ou "**Voir l'en-tête du mail**". Signal Spam explique comment procéder pour la plupart des clients mail [ici](https://www.signal-spam.fr/trouver-code-source/) (en bas de leur page).
 
 {{< alert cardColor="#E67045" iconColor="#1d3557" textColor="#f1faee" >}}
 Je vous déconseille d'installer leurs extensions sur votre navigateur. Évitez d'augmenter votre surface d’attaque en installant pléthore d'extensions pour telle ou telle raison.
