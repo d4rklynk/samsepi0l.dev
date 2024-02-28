@@ -37,7 +37,7 @@ tar -cvC /var/lib mysql | zstd -9 > mysql.$timestamp.tar.zst
 ### Décompresser une archive zst
 
 ```bash
-zstd -d archiveexample.datedelabackup.tar.zst | tar -xvf -
+zstd -cd archiveexample.datedelabackup.tar.zst | tar -xvf -
 ```
 
 ### Lister le contenu d'une archive zst
