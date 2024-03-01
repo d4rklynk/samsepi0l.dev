@@ -51,6 +51,7 @@ date: 2024-02-20
 - <https://grapheneos.org/usage>
 - <https://hub.libranet.de/wiki/graphene-os/wiki/Home>
 - <https://github.com/Peter-Easton/GrapheneOS-Knowledge>
+- <https://discuss.grapheneos.org/d/8330-app-compatibility-with-grapheneos>
 
 ## Webserver/website & their security
 
