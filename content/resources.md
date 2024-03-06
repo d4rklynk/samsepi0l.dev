@@ -60,6 +60,7 @@ date: 2024-02-20
 - <https://github.com/GrapheneOS/grapheneos.org>
 - <https://github.com/theNewDynamic/awesome-hugo>
 - <https://grapheneos.org/articles/sitewide-advertising-industry-opt-out>
+- <https://ogp.me/>
 
 ## Checker and tester
 
