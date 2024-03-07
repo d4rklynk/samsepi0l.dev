@@ -138,6 +138,7 @@ date: 2024-02-20
 - <https://simpleicons.org/>
 - <https://www.favicon-generator.org/> (favicon generator)
 - <https://feathericons.com/> (good website to download awesome icons)
+- <https://github.com/majodev/google-webfonts-helper> (A Google Font alternative website - for downloading woff2 format for example -)
 
 ## Science
 
