@@ -82,6 +82,11 @@ date: 2024-02-20
 - <https://qua3k.github.io/>
 - <https://seirdy.one/posts/>
 
+## Software development
+
+- <https://google.github.io/styleguide/>
+- <https://google.github.io/eng-practices/>
+
 ## YouTube
 
 - <https://www.youtube.com/sideofburritos>
