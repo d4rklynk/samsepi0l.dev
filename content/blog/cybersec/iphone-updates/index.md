@@ -28,7 +28,7 @@ Je pense qu'il est donc raisonnable d'admettre qu'un iPhone voit son support s'a
 
 Les SoC d'Apple fournissent différents protocoles de sécurité qui sont visibles sur [leur site](https://support.apple.com/fr-fr/guide/security/sec87716a080/web). On peut facilement en déduire qu'il faut au minimum utiliser les iPhones possédant les puces A12 et plus.
 
-![table-soc.png](img/table-soc.png)
+![table-soc.png](table-soc.png)
 
 Pour savoir quel iPhone possède quel SoC, vous pouvez taper le nom de la puce sur Wikipedia, voici [le résultat](https://fr.wikipedia.org/wiki/Apple_A12_Bionic) pour la puce A12 :
 
@@ -43,17 +43,17 @@ Constatez que l'[iPhone X](https://support.apple.com/kb/SP770?locale=fr_FR) manq
 
 - iPhone 8 :
 
-![iphone-8-a11.png](img/iphone-8-a11.png)
+![iphone-8-a11.png](iphone-8-a11.png)
 
 - iPhone X :
 
-![iphone-x-a11.png](img/iphone-x-a11.png)
+![iphone-x-a11.png](iphone-x-a11.png)
 
 On peut également noter qu'iOS 16 était supporté pour l'iPhone 8/8 Plus et l'iPhone X et qu'iOS 17 [les abandonne](https://support.apple.com/fr-fr/guide/iphone/iphe3fa5df43/17.0/ios/17.0).
 
 ### iOS 16
 
-![ios16-support.png](img/ios16-support.png)
+![ios16-support.png](ios16-support.png)
 
 L'arrêt du support de ces deux téléphones coïncident avec la puce utilisée.
 

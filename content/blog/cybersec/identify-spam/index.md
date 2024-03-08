@@ -16,7 +16,7 @@ Je vais ici vous expliquer comment identifier un mail frauduleux. Mais au-delà 
 
 Voici l'exemple d'un mail qui me parait très louche.
 
-![laposte.png](img/laposte.png)
+![laposte.png](laposte.png)
 
 Le fameux problème des frais de port.
 
@@ -24,7 +24,7 @@ Premièrement, vous ne devez pas vous fier à la légitimité d'un mail uniqueme
 
 Le mail me parait légitime mais je ne l'ai jamais vu auparavant.
 
-![adressemail.laposte.png](img/adressemail.laposte.png)
+![adressemail.laposte.png](adressemail.laposte.png)
 
 Et puis franchement, `notif-laposte.info@notif-laposte.info`, dans le mail, le nom de contact est le même que le nom de domaine, c'est bizarre quand même. L'adresse mail aurait été `no-reply@notif-laposte.info`, pourquoi pas, mais là...
 
@@ -38,7 +38,7 @@ Deuxième réflexe, accédez à [ce site](https://lookup.icann.org/en) de l'ICAN
 
 Je tape donc `notif-laposte.info` (le nom de domaine étant tout ce qui suit le `@` d'une adresse mail) et je clique sur le bouton "`Lookup`".
 
-![icann.whois.png](img/icann.whois.png)
+![icann.whois.png](icann.whois.png)
 
 ---
 

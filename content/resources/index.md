@@ -59,8 +59,12 @@ date: 2024-02-20
 - <https://github.com/GrapheneOS/infrastructure>
 - <https://github.com/GrapheneOS/grapheneos.org>
 - <https://github.com/theNewDynamic/awesome-hugo>
+- <https://github.com/spech66/hugo-best-practices>
 - <https://grapheneos.org/articles/sitewide-advertising-industry-opt-out>
-- <https://ogp.me/>
+- <https://ogp.me/> (The OpenGraph Protocol to have great preview of your website when sharing it on social media)
+- <https://github.com/thedaviddias/Front-End-Checklist>
+- <https://developer.chrome.com/docs/lighthouse/performance/uses-webp-images>
+- <https://web.dev/articles/codelab-serve-images-webp> (Creating WebP Images with the Command Line)
 
 ## Checker and tester
 
