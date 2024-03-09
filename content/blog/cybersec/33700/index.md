@@ -13,23 +13,23 @@ Voici comment procéder :
 
 Faites un appui long sur le message en question :
 
-![09.png](09.png)
+![09.avif](09.avif)
 
 Une fois le message sélectionné, cliquez sur les trois petits points en haut à droite puis cliquez cliquez sur **Transférer** :
 
-![08.png](08.png)
+![08.avif](08.avif)
 
 Choisissez **Nouveau message** :
 
-![07.png](07.png)
+![07.avif](07.avif)
 
 Puis tapez le numéro [33700](tel:33700) :
 
-![06.png](06.png)
+![06.avif](06.avif)
 
 Suivez le reste de la procédure :
 
-![04.png](04.png)
+![04.avif](04.avif)
 
 Le SMS sera remonté aux autorités.
 

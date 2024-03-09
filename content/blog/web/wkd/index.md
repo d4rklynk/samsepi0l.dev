@@ -101,11 +101,11 @@ location ^~ /.well-known/openpgpkey/hu {
 
 Et voilà, si vous ouvrez "OpenPGP Key Manager" sur Mozilla Thunderbird, vous pourrez taper votre adresse mail, et Thunderbird ira chercher la clé publique correspondante à votre adresse mail pour vous !
 
-![keyserver.png](keyserver.png)
+![keyserver.avif](keyserver.avif)
 
 Sur Proton Mail par exemple, vous pourrez voir le petit cadenas vert s'afficher, ce qui signifie qu'il a réussi à trouver et télécharger votre clé publique automatiquement !
 
-![protongreenlock.png](protongreenlock.png)
+![protongreenlock.avif](protongreenlock.avif)
 
 Cool non ? 😎️
 
@@ -116,7 +116,7 @@ Si vous avez plusieurs adresses mail (du même nom de domaine ⚠️), vous pouv
 Vous pouvez ensuite vérifier que tout est bon en allant sur [ce site](https://metacode.biz/openpgp/web-key-directory).
 Insérez votre mail et regardez le résultat :
 
-![wkdchecker.png](wkdchecker.png)
+![wkdchecker.avif](wkdchecker.avif)
 
 Voilà, si vous êtes ici, c'est que vous avez probablement réussi ! 😄️
 Bravo 👏️

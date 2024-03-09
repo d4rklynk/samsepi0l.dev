@@ -17,7 +17,7 @@ enableCodeCopy = true
 
 disableImageOptimization = true
 
-defaultBackgroundImage = "img/polarbear.jpg" # used as default for background images 
+defaultBackgroundImage = "img/polarbear.avif" # used as default for background images 
 #defaultFeaturedImage = "img/zeldatotk.jpg" # used as default for featured images in all articles
 
 highlightCurrentMenuArea = true

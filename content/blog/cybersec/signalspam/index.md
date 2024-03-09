@@ -20,7 +20,7 @@ Signal Spam est une association française loi de 1901 qui a pour but d'agir con
 
 Si vous utilisez SimpleLogin, cochez cette option (et cliquez sur "**Update**") :
 
-![sender-adresss.png](sender-adresss.png)
+![sender-adresss.avif](sender-adresss.avif)
 
 > Normalement, quand vous recevez un mail venant d'un de vos alias, l'envoyeur du mail sera le dit-alias et non le mail originel. En activant cette option, vous pourrez voir qui a envoyé le mail à l'origine. Cela a pour conséquence que votre fournisseur de mail (Gmail, Outlook, Proton, etc.) sera en mesure de voir qui a envoyé le mail. Activez ou non selon votre [modèle de menace](https://simpleprivacy.fr/basiques/threat-model). Ne signalez **pas** le mail à Signal-Spam si vous avez décochez l'option !
 
@@ -38,11 +38,11 @@ Sur Proton Mail, voici les étapes à suivre :
 - **(2)** - Cliquez sur "**...**"
 - **(3)** - Cliquez sur "**Voir les en-têtes**".
 
-![mail-headers.png](mail-headers.png)
+![mail-headers.avif](mail-headers.avif)
 
 Copiez les en-têtes puis allez sur [Signal-Spam.fr](https://www.signal-spam.fr/). Créez-vous un compte et vous arriverez sur cette page (sinon cliquez sur "**Report a spam**" en haut) :
 
-![report-spam.png](report-spam.png)
+![report-spam.avif](report-spam.avif)
 
 Collez les en-têtes dans le champ de texte puis cliquez sur "**Report**"
 
