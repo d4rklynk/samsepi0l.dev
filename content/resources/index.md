@@ -42,6 +42,7 @@ date: 2024-02-20
 ## Android related
 
 - <https://github.com/soupslurpr/AppVerifier>
+- <https://googleprojectzero.blogspot.com/2023/11/first-handset-with-mte-on-market.html>
 
 ### GrapheneOS
 
@@ -85,6 +86,7 @@ date: 2024-02-20
 - <https://wanderingcomputerer.gitlab.io/>
 - <https://qua3k.github.io/>
 - <https://seirdy.one/posts/>
+- <https://googleprojectzero.blogspot.com/>
 
 ## Software development
 
