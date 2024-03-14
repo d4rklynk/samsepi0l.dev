@@ -56,7 +56,7 @@ date: 2024-02-20
 
 ## Webserver/website & their security
 
-- <https://fetch.spec.whatwg.org/> (CORP & stuff "standard")
+- <https://fetch.spec.whatwg.org/> (CORP & stuff standard)
 - <https://github.com/GrapheneOS/infrastructure>
 - <https://github.com/GrapheneOS/grapheneos.org>
 - <https://github.com/theNewDynamic/awesome-hugo>
@@ -66,6 +66,7 @@ date: 2024-02-20
 - <https://github.com/thedaviddias/Front-End-Checklist>
 - <https://developer.chrome.com/docs/lighthouse/performance/uses-webp-images>
 - <https://web.dev/articles/codelab-serve-images-webp> (Creating WebP Images with the Command Line)
+- <https://developers.google.com/search/docs> (Google docs about SEO)
 
 ## Checker and tester
 
