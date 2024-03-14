@@ -68,7 +68,7 @@ date: 2024-02-20
 - <https://web.dev/articles/codelab-serve-images-webp> (Creating WebP Images with the Command Line)
 - <https://developers.google.com/search/docs> (Google docs about SEO)
 
-## Checker and tester
+### Checker and tester
 
 - <https://www.hardenize.com/>
 - <https://internet.nl/>
