@@ -26,7 +26,7 @@
     { mastodon = "https://infosec.exchange/@samsepi0l" },
     { twitter = "https://twitter.com/samsepi0l753" },
     { bluesky = "https://bsky.app/profile/samsepi0l.dev" },
-    { pgpkey = "/public-pgp-key.asc"},
+    { pgpkey = "/pub-key.txt"},
     { rss = "https://samsepi0l.dev/index.xml"},
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },
