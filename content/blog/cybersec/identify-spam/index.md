@@ -82,3 +82,5 @@ Voici les règles à respecter **QUELQUE** soit le mail ou le SMS :
 - Si c'est trop beau pour être vrai, c'est que c'est trop beau pour être vrai. Sauf rares exceptions, dans ce cas, vérifiez et revérifiez une infinité de fois avant de faire quoique ce soit.
 
 Si vous suivez ces 4 conseils, vous serez tranquille.
+
+{{< youtube id="jsJdlUtXrA0" >}}
