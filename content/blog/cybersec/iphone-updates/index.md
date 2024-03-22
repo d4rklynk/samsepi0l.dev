@@ -26,7 +26,7 @@ Je pense qu'il est donc raisonnable d'admettre qu'un iPhone voit son support s'a
 
 ## System on Chip
 
-Les SoC d'Apple fournissent différents protocoles de sécurité qui sont visibles sur [leur site](https://support.apple.com/fr-fr/guide/security/sec87716a080/web). On peut facilement en déduire qu'il faut au minimum utiliser les iPhones possédant les puces A12 et plus.
+Les SoC (System on Chip) d'Apple fournissent différents protocoles de sécurité qui sont visibles sur [leur site](https://support.apple.com/fr-fr/guide/security/sec87716a080/web). On peut facilement en déduire qu'il faut au minimum utiliser les iPhones possédant les puces A12 et plus.
 
 ![table-soc.avif](table-soc.avif)
 
@@ -59,9 +59,9 @@ L'arrêt du support de ces deux téléphones coïncident avec la puce utilisée.
 
 Les iPhones 6s, 6s Plus et le SE de 1ère génération utilisaient la puce A9 et l'iPhone 7 et 7 Plus utilisaient la puce A10. Les iPhone 6s et 7 ont tous deux été abandonnés en même temps à partir d'[iOS 16](https://support.apple.com/fr-fr/guide/iphone/iphe3fa5df43/16.0/ios/16.0).
 
-Il n'y a pas grand à chose de retenir de ça à part que l'on peut remarquer que les mises à jour s'arrêtent pour tous les appareils utilisant la même puce. Apple arrête le support par génération de puce et non par smartphone. L'exemple typique est justement celui de l'iPhone 8 et de l'iPhone X, pas le même téléphone, mais la même puce.
+Il n'y a pas grand chose à retenir de ça à part que l'on peut remarquer que les mises à jour s'arrêtent pour tous les appareils utilisant la même puce. Apple arrête le support par génération de puce et non par smartphone. L'exemple typique est justement celui de l'iPhone 8 et de l'iPhone X : pas le même téléphone, mais la même puce.
 
-Cela veut dire que les smartphones utilisant la puce A12 ont de fortes chances d'être abandonnés d'ici les nouvelles versions d'iOS (peut-être iOS 18 ou 19 qui sait). Voici la liste des iPhones concernés :
+Cela veut dire que les smartphones utilisant la puce A12 ont de fortes chances d'être abandonnés d'ici les nouvelles versions d'iOS (peut-être iOS 18 ou 19, qui sait). Voici la liste des iPhones concernés :
 
 - iPhone XS
 - iPhone XS Max
@@ -101,11 +101,11 @@ Si nous considérons que les iPhones encore supportés suivent cette tendance, t
 - iPhone XS Max
 - iPhone XR
 
-Puis, concernant la puce A13, donc l'iPhone 11, 11 Pro & 11 Pro Max et iPhone SE (2nd Gen), is seront potentiellement abandonnés en septembre 2025, ce qui cumulera 6 ans de support puisque ces iPhone sont sortis en septembre 2019.
+Puis, concernant la puce A13, donc l'iPhone 11, 11 Pro & 11 Pro Max et iPhone SE (2nd Gen), is seront potentiellement abandonnés en septembre 2025, ce qui cumulera 6 ans de support puisque ces iPhones sont sortis en septembre 2019.
 
 ## Prix réels
 
-En effet, les iPhones sont chers. Cependant, regardons un peu les prix par rapport à la durée de vie des iPhones.
+Les iPhones sont chers, c'est un fait. Cependant, regardons un peu les prix par rapport à la durée de vie des iPhones.
 
 Prenons l'iPhone 15 pour exemple qui est actuellement à 969€ sur le site marchand à l'heure où j'écris ces lignes (septembre 2023). Si vous l'achetez à ce prix au mois de septembre 2023, vous payez 969€ sur les 6 années (potentielles) de support qui reste à l'iPhone puisqu'on nous avons déduit plus tôt que la moyenne se situait à 6 ans.
 
