@@ -43,7 +43,7 @@ Quelques bouquins excellents :
 
 ### Vidéos
 
-{{< youtube id="joucXLKXbO8" >}}
+{{< youtubeLite id="joucXLKXbO8" >}}
 
 ### Cinéma
 

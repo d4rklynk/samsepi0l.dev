@@ -144,4 +144,4 @@ Avec ces raisons, tous ces petits calculs que je vous ai montré prennent tous l
 
 Voici l'extrait d'un interview (en anglais) entre un Youtubeur et un membre du projet GrapheneOS portant sur les firmwares et pourquoi changer de téléphone même si le vôtre fonctionne.
 
-{{< youtube id="WkQ_OCzuLNg?start=4603" >}}
+{{< youtubeLite id="WkQ_OCzuLNg" params="start=4603" >}}
