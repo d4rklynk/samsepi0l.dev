@@ -148,6 +148,7 @@ docker exec minecraft mc-send-to-console whitelist add votrepseudo
 Votre serveur est maintenant opérationnel !
 
 {{< video src="goat" autoplay="true" preload="auto" loop="true" controls="false" muted="true" width="100%">}}
+*[Source de l'image](https://giphy.com/gifs/minecraft-microsoft-builder-minecraft-74oBQ5O5aJVv9t7Xuc)*
 
 ## Sources
 
