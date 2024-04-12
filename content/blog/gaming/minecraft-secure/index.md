@@ -1,6 +1,6 @@
 ---
 title: "Configurer et sécuriser un serveur Minecraft"
-date: 2024-03-24
+date: 2024-04-12
 tags: ['Gaming', 'Cybersec', 'Guide']
 ---
 
