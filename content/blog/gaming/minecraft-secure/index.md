@@ -148,3 +148,10 @@ docker exec minecraft mc-send-to-console whitelist add votrepseudo
 Votre serveur est maintenant opérationnel !
 
 {{< video src="goat" autoplay="true" preload="auto" loop="true" controls="false" muted="true" width="100%">}}
+
+## Sources
+
+- <https://docs.docker.com/engine/install/fedora/>
+- <https://docker-minecraft-server.readthedocs.io/en/latest/>
+- <https://github.com/GrapheneOS/infrastructure/tree/main/ssh>
+- <https://minecraft.wiki/w/Server.properties>
