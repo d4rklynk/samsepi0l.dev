@@ -51,6 +51,7 @@ smartTOC = true
   showLikes = false
   showDateUpdated = true
   showAuthor = true
+  showAuthorBottom = false
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
@@ -63,7 +64,7 @@ smartTOC = true
   seriesOpened = true
   showHeadingAnchors = true
   showPagination = true
-  invertPagination = false
+  invertPagination = true
   showReadingTime = true
   showTableOfContents = true
   # showRelatedContent = false
@@ -72,7 +73,11 @@ smartTOC = true
   showAuthorsBadges = true
   showWordCount = true
   showSummary = true
+  showZenMode = true
   # sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
+
+#[permalinks]
+#  posts = '/:year/:month/:day/:slugorfilename/'
 
 [list]
   showHero = true
