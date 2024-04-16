@@ -153,9 +153,9 @@ date: 2024-02-20
 - <https://sci-hub.st/>
 - <https://arxiv.org/>
 - <https://scholar.google.fr/>
-- <https://www.youtube.com/channel/UCU0FhLr6fr7U9GOn6OiQHpQ> (french)
+- <https://www.youtube.com/@DefakatorOfficiel> (french)
 - <https://www.youtube.com/@AstronoGeek> (french)
 - <https://www.youtube.com/@ggmilgram> (my favorite (french) YouTuber)
-- <https://www.youtube.com/c/scilabus> (french)
+- <https://www.youtube.com/@scilabus> (french)
 
 > Put this `javascript:((function(){var a;a=function(){var a,b,c,d,e;b=document,e=b.createElement("script"),a=b.body,d=b.location;try{if(!a)throw 0;c="d1bxh8uas1mnw7.cloudfront.net";if(typeof runInject!="function")return e.setAttribute("src",""+d.protocol+"//"+c+"/assets/content.js?cb="+Date.now()),e.setAttribute("type","text/javascript"),e.setAttribute("onload","runInject()"),a.appendChild(e)}catch(f){return console.log(f),alert("Please wait until the page has loaded.")}},a(),void 0})).call(this);` in URL field in your browser bookmark, then click on it when you are on a scientific paper to see how much influence has the paper in social media. *Source : <https://www.youtube-nocookie.com/embed/DsgI8fOG-hI>*
