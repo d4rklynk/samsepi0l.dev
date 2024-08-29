@@ -14,7 +14,7 @@
 
     dateFormat = "2 January 2006"
 
-[author]
+[params.author]
   name = "samsepi0l"
   image = "img/mikasa-round.png"
   headline = "Le blog d'un fan (abusif) de Mr. Robot"
