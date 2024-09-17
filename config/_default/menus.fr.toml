@@ -36,13 +36,8 @@
   url = "https://simpleprivacy.fr"
 
 [[main]]
-  name = "Services"
-  weight = 50
-  url = "https://services.simpleprivacy.fr"
-
-[[main]]
   name = "Status"
-  weight = 60
+  weight = 50
   url = "https://status.simpleprivacy.fr"
 
 #[[main]]
