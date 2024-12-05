@@ -5,14 +5,7 @@ date: 2023-05-23
 
 ## Version simple
 
-J'utilise [Umami](https://umami.is/) pour collecter quelques données qui me permettent principalement de savoir combien il y a de visiteurs sur mon site.
-
-J'ai choisi Umami car il est bien plus respectueux de la vie privée des visiteurs (vous) que Google Analytics, il ne collecte que les données suffisantes pour mon site.
-
-Vous pouvez voir toutes les données collectées [ici](https://analytics.simpleprivacy.fr/share/LCo2IrN1ym3mDgDw/samsepi0l.dev) (toutes les données sont hébergées sur un serveur que je gère <https://analytics.simpleprivacy.fr/>).
-
-Ce site est également en conformité avec le **Do Not Track Policy**. Si celui-ci est activé sur votre navigateur, absolument aucune donnée ne sera récoltée.
-La politique Do Not Track est disponible en anglais via [ce lien](/.well-known/dnt-policy.txt).
+Aucune information n'est collectée.
 
 ## Version plus longue
 
