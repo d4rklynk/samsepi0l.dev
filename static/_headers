@@ -1,6 +1,6 @@
 /*
   Strict-Transport-Security : max-age=63072000; includeSubDomains; preload
-  Content-Security-Policy : default-src 'none'; connect-src 'self' https://analytics.simpleprivacy.fr; img-src 'self'; media-src 'self'; font-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'none'; frame-src 'none'; frame-ancestors 'none'; webrtc 'block'; upgrade-insecure-requests; base-uri 'self'; manifest-src 'self'; script-src-elem 'self'
+  Content-Security-Policy : default-src 'none'; connect-src 'self' https://analytics.simpleprivacy.fr; img-src 'self'; media-src 'self'; font-src 'self'; style-src 'self' 'unsafe-inline'; form-action 'none'; frame-src 'none'; frame-ancestors 'none'; webrtc 'block'; upgrade-insecure-requests; base-uri 'self'; manifest-src 'self'; script-src-elem 'self' 'sha256-5GTl1LT/HgujxC+LNqqToWLC0q3W4RbxbGdKE3tU5zc=' 'sha256-f4NreiI8uGE1wdwjfXuMtccvVCHbEOiN1QK+y2uSlrg=' 'sha256-59WfUf1GrPHL/ehnyY3hEqIIn5x7GqeH9vD2RCbB5zE='
   X-Content-Type-Options : nosniff
   Referrer-Policy : no-referrer
   X-Frame-Options : DENY
