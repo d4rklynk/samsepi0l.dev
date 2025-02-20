@@ -6,12 +6,11 @@ Expires: 2026-02-19T23:00:00.000Z
 Encryption: https://samsepi0l.dev/pub-key.txt
 Preferred-Languages: fr, en
 Canonical: https://samsepi0l.dev/.well-known/security.txt
-
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQQIpAEAfEb27dbRB/gGlPQg5PmduwUCZ7bszQAKCRAGlPQg5Pmd
-u44UAP9pEF25EoBaNRgnqS7YDRBzdY9Sng0zUtcu7I+vseYbpAEApysJgxGJxSrv
-IoiV7t0h0VbAYFScOaK8MAHo2rUtFwc=
-=5Yrh
+iHUEARYKAB0WIQTogFi4p/GtNCxpie4h5Zniq5Ap9wUCZ7bvEQAKCRAh5Zniq5Ap
+9xtpAP9iNiH+uOtgeKo4qthrHRi/85M3JssQhdupQfL5vhWhcwD/VL1gnhhBy/rS
+l9QHgDEQxm9zWyewM7JBeVWr/i1+cAo=
+=4Lkr
 -----END PGP SIGNATURE-----
 
