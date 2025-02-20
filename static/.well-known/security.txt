@@ -2,14 +2,16 @@
 Hash: SHA512
 
 Contact: mailto:contact@samsepi0l.dev
-Expires: 2025-03-15T00:00:00Z
+Expires: 2026-02-19T23:00:00.000Z
 Encryption: https://samsepi0l.dev/pub-key.txt
 Preferred-Languages: fr, en
 Canonical: https://samsepi0l.dev/.well-known/security.txt
+
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQTogFi4p/GtNCxpie4h5Zniq5Ap9wUCZfRjXwAKCRAh5Zniq5Ap
-9/H4APkBy2lT3rgPdr1gL+u75ngY6+57f0dIW9l+ekoupBbBUgD9EPDf1nklLoQW
-/2x0rt5SuFFT0NDvHVQIVQXNOJsZHQw=
-=Dvzj
+iHUEARYKAB0WIQQIpAEAfEb27dbRB/gGlPQg5PmduwUCZ7bszQAKCRAGlPQg5Pmd
+u44UAP9pEF25EoBaNRgnqS7YDRBzdY9Sng0zUtcu7I+vseYbpAEApysJgxGJxSrv
+IoiV7t0h0VbAYFScOaK8MAHo2rUtFwc=
+=5Yrh
 -----END PGP SIGNATURE-----
+
