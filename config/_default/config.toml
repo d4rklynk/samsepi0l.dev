@@ -19,6 +19,9 @@ enableGitInfo = true
 
 # googleAnalytics = "G-XXXXXXXXX"
 
+[pagination]
+  pagerSize = 10
+
 [imaging]
   anchor = 'Center'
 
