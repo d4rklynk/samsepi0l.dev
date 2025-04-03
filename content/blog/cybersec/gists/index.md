@@ -60,6 +60,7 @@ These informations about DNS also exists in english: see <https://akc3n.page/gis
 > - <https://www.rfc-editor.org/rfc/rfc7208.html#section-10.1.2> (Set SPF to always fail)
 > - <https://www.rfc-editor.org/rfc/rfc6376.html#section-3.6.1> (Voir `p=`)
 > - <https://www.rfc-editor.org/rfc/rfc7489> (DMARC)
+> - <https://www.it-connect.fr/securite-messagerie-spf-dkim-dmarc-pour-les-debutants/>
 
 Pour préciser que le nom de domaine ne gère pas les mails, ajoutez ceci dans votre DNS :
 
