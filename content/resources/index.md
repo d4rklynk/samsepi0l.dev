@@ -9,6 +9,7 @@ date: 2024-02-20
 - <https://red.flag.domains/>
 - <https://dnschecker.org/>
 - <https://wonderfall.dev/mta-sts/>
+- <https://www.it-connect.fr/securite-messagerie-spf-dkim-dmarc-pour-les-debutants/>
 
 ## Linux related
 
