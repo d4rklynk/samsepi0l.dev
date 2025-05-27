@@ -29,7 +29,7 @@ En tout premier lieu, vous allez sécuriser la connexion à votre serveur.
 
 Je me suis basé sur [les configurations systèmes de GrapheneOS](https://github.com/GrapheneOS/infrastructure), parce que je sais qu'elles sont fonctionnelles, propres et sécurisées. Cela me permet de me concentrer uniquement sur la configuration de mes applications. En ce qui concerne la sécurisation du système, je fais confiance au personnes du projet qui font un travail plus que sérieux en terme de sécurité, je copie donc les configurations système que propose le projet GrapheneOS.
 
-Copiez le contenu de [ce fichier](https://github.com/GrapheneOS/infrastructure/blob/main/ssh/sshd_config) et collez-le dans `/etc/ssh/sshd_config` (remplacez la totalité du contenu par la configuration de GrapheneOS).
+Copiez le contenu de [ce fichier](https://github.com/GrapheneOS/infrastructure/blob/main/etc/ssh/sshd_config) et collez-le dans `/etc/ssh/sshd_config` (remplacez la totalité du contenu par la configuration de GrapheneOS).
 
 {{< alert icon="none" cardColor="#e63946" iconColor="#1d3557" textColor="#f1faee" >}}
 Concernant cette configuration SSH, vous devrez **impérativement** :
