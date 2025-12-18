@@ -1,5 +1,4 @@
 version: STSv1
 mode: enforce
-mx: mail.protonmail.ch
-mx: mailsec.protonmail.ch
-max_age: 31557600
+mx: mail.samsepi0l.dev
+max_age: 86400
